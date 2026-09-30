@@ -1,0 +1,43 @@
+name: tfm
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - langdetect
+      - customtkinter
+      - pymupdf
+      - pillow
+      - openai
+      - anyio==4.12.1
+      - certifi
+      - click
+      - filelock
+      - fsspec
+      - h11
+      - httpcore
+      - httpx
+      - huggingface-hub
+      - idna
+      - jinja2
+      - joblib
+      - markdown-it-py
+      - markupsafe
+      - mpmath
+      - networkx
+      - nltk
+      - numpy
+      - pygments
+      - pyyaml
+      - regex
+      - rich
+      - safetensors
+      - sympy
+      - tokenizers
+      - torch
+      - tqdm
+      - transformers
+      - typer
+      - typing-extensions

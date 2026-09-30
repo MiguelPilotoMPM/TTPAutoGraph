@@ -1,0 +1,7 @@
+customtkinter
+pymupdf
+pillow
+langdetect
+nltk
+torch
+transformers
