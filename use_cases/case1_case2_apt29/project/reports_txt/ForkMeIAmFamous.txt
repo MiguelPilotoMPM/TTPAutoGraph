@@ -1,0 +1,256 @@
+
+0
+
+0
+
+ (https://web.archive.org/web/20181008161627/http://en-us.reddit.com/submit?
+url=http://www.symantec.com/connect/blogs/forkmeiamfamous-seaduke-latest-weapon-duke-
+armory)
+ (/web/20181008161626mp_/https://www.symantec.com/connect/forward?path=node/3453861)
+The Wayback Machine - https://web.archive.org/web/20181008161626/https://www.symantec.com/connect/bl…
+ (/web/20181008161626mp_/https://www.symantec.com/connect/)
+ Blogs (/web/20181008161626mp_/https://www.symantec.com/connect/blogs)
+ Security Response (/web/20181008161626mp_/https://www.symantec.com/connect/symantec-blogs/symantec-security-
+response)
+Help us spread the word about SEP
+(https://web.archive.org/web/20181008161626mp_/http://www.symantec.com/connect/articles/help-
+us-spread-word-about-sep-and-get-25-amazon-gift-card) and get a $25 Amazon gift card! 
+“Forkmeiamfamous”: Seaduke, latest weapon in the Duke armory
+Low-pro"le information-stealing Trojan is used only against high-value targets.
+By:
+Symantec Security Response (/web/20181008161626mp_/https://www.symantec.com/connect/user/symantec-
+security-response)
+ 
+Created 13 Jul 2015
+ 0 Comments
+: ⽇本語 (/web/20181008161626mp_/https://www.symantec.com/connect/ja/blogs/forkmeiamfamous-duke-seaduke)
+
+
+Security Response
+
+(https://web.archive.org/web/20181008161626mp_/https://twitter.com/threatintel)
+
+(https://web.archive.org/web/20181008161626mp_/http://www.symantec.com/connect/item-
+feeds/blog/2261/feed/all/en/all)
+Symantec O#cial Blog
+SYMANTEC EMPLOYEE
++1
+1 Votes
+
+Symantec has uncovered an elusive Trojan used by the cyberespionage group behind the “Duke” family of
+malware. Seaduke (detected by Symantec as Trojan.Seaduke
+(https://web.archive.org/web/20181008161626mp_/http://www.symantec.com/security_response/writeup.jsp?
+docid=2015-031915-4935-99&tabid=2)) is a low-pro!le information-stealing Trojan which appears to be
+reserved for attacks against a small number of high-value targets. 
+Seaduke has been used in attacks against a number of major, government-level targets. The malware hides
+behind numerous layers of encryption and obfuscation and is capable of quietly stealing and ex!ltrating
+sensitive information such as email from the victim’s computer. Seaduke has a highly con!gurable
+framework and Symantec has already found hundreds of di#erent con!gurations on compromised
+networks. Its creators are likely to have spent a considerable amount of time and resources in preparing
+these attacks and the malware has been deployed against a number of high-level government targets.
+While the Duke group began to distribute Cozyduke in an increasingly aggressive manner, Seaduke
+installations were reserved only for select targets. Seaduke victims are generally !rst infected with
+Cozyduke and, if the computer appears to be a target of interest, the operators will install Seaduke. 
+Background
+The group behind Seaduke is a cyberespionage operation that is responsible for a series of attacks against
+high-pro!le individuals and organizations in government, international policy and private research in the
+United States and Europe. It has a range of malware tools at its disposal, known as the Dukes, including
+Cozyduke (Trojan.Cozer
+(https://web.archive.org/web/20181008161626mp_/http://www.symantec.com/security_response/writeup.jsp?
+docid=2015-030500-0430-99&tabid=2)), Miniduke (Backdoor.Miniduke
+(https://web.archive.org/web/20181008161626mp_/http://www.symantec.com/security_response/writeup.jsp?
+docid=2013-030119-2820-99http://www.symantec.com/security_response/writeup.jsp?docid=2013-030119-
+2820-99)) and Cosmicduke (Backdoor.Tinybaron
+(https://web.archive.org/web/20181008161626mp_/http://www.symantec.com/security_response/writeup.jsp?
+docid=2014-052717-4610-99&tabid=2)). 
+News of the Duke group !rst emerged in  March and April of 2015, when reports detailing attacks involving
+a sophisticated threat actor variously called O$ce Monkeys, EuroAPT
+(https://web.archive.org/web/20181008161626mp_/http://malware.prevenity.com/2015/03/euroapt.html),
+Cozy Bear
+
+(https://web.archive.org/web/20181008161626mp_/http://zaufanatrzeciastrona.pl/post/przytulny-mis-w-
+natarciu-kampania-cozy-bear-atakuje-takze-polske/), and Cozyduke
+(https://web.archive.org/web/20181008161626mp_/http://securelist.com/blog/69731/the-cozyduke-apt/)
+were published (https://web.archive.org/web/20181008161626mp_/https://www.f-
+secure.com/documents/996508/1030745/CozyDuke). Symantec believes that this group has a history of
+compromising governmental and diplomatic organizations since at least 2010.
+The group began its current campaign as early as March 2014, when Trojan.Cozer
+(https://web.archive.org/web/20181008161626mp_/http://www.symantec.com/security_response/writeup.jsp?
+docid=2015-030500-0430-99&tabid=2) (aka Cozyduke) was identi!ed on the network of a private research
+institute in Washington, D.C. In the months that followed, the Duke group began to target victims with
+“O$ce Monkeys”- and “eFax”-themed emails, booby-trapped with a Cozyduke payload. These tactics were
+atypical of a cyberespionage group. It’s quite likely these themes were deliberately chosen to act as a
+smokescreen, hiding the true intent of the adversary.
+Figure 1. Cozyduke campaign used an “O$ce Monkeys” video as a lure–July 2014
+The Duke group has mounted an extended campaign targeting high-pro!le networks over extended
+periods, something which is far beyond the reach of the majority of threat actors. Its capabilities include:
+Attack infrastructure leveraging hundreds of compromised websites
+Rapidly developed malware frameworks in concurrent use
+Sophisticated operators with !ne-tuned computer network exploitation (CNE) skills
+Although Cozyduke activity was !rst identi!ed in March 2014, it wasn’t until July that the group managed to
+successfully compromise high-pro!le government networks. Cozyduke was used throughout these attacks
+to harvest and ex!ltrate sensitive information to the attackers. 
+In parallel, the Duke group was also installing separate malware onto these networks, namely
+Backdoor.Miniduke
+(https://web.archive.org/web/20181008161626mp_/http://www.symantec.com/security_response/writeup.jsp?
+docid=2013-030119-2820-99http://www.symantec.com/security_response/writeup.jsp?docid=2013-030119-
+2820-99) and the more elusive Trojan.Seaduke
+(https://web.archive.org/web/20181008161626mp_/http://www.symantec.com/security_response/writeup.jsp?
+docid=2015-031915-4935-99&tabid=2). It could use these payloads to exploit networks on multiple fronts
+and providing it with additional persistence mechanisms.
+
+The Miniduke payload
+In July of 2014, the group instructed Cozyduke-infected computers to install Backdoor.Miniduke
+(https://web.archive.org/web/20181008161626mp_/http://www.symantec.com/security_response/writeup.jsp?
+docid=2013-030119-2820-99http://www.symantec.com/security_response/writeup.jsp?docid=2013-030119-
+2820-99) onto a compromised network. Miniduke has been the group’s tool of choice for a number of years
+in espionage operations predominantly targeting government and diplomatic entities in Eastern Europe
+and ex-Soviet states.  “Nemesis Gemina” appears to be the internal name for the framework used by the
+group to identify the project, previously reported by Kaspersky
+(https://web.archive.org/web/20181008161626mp_/https://securelist.com/blog/incidents/64107/miniduke-
+is-back-nemesis-gemina-and-the-botgen-studio/).
+The following debug string was present in the sample used in these attacks:
+C:\Projects\nemesis-gemina\nemesis\bin\carriers\ezlzma_x86_exe.pdb
+This project name has been seen in Backdoor.Tinybaron
+(https://web.archive.org/web/20181008161626mp_/http://www.symantec.com/security_response/writeup.jsp?
+docid=2014-052717-4610-99&tabid=2) (aka Cosmicduke) samples, which Symantec also attributes to the
+Duke group. This deployment of Miniduke and the technical similarities with Cozyduke provided strong
+indicators as to who was behind the attacks. 
+The Seaduke payload
+These attacks were already well underway when another group began to deploy a previously unknown
+piece of malware. In October 2014, the Seaduke payload began to appear within target networks. Although
+Seaduke was developed in Python, the overall framework bears a striking resemblance to Cozyduke in
+terms of operation.  It’s unclear why the attackers waited until October to deploy Seaduke. Was it reserved
+for a more speci!c attack? Was part of their cover blown, necessitating the use of an alternative
+framework?
+The Seaduke framework was designed to be highly con!gurable. Hundreds of recon!gurations were
+identi!ed on compromised networks. The communication protocol employed had many layers of
+encryption and obfuscation, using over 200 compromised web servers for command and control. Seaduke
+required a signi!cant investment of time and resources in the preparatory and operational phases of the
+attack.
+Seaduke delivery
+The attackers control Cozyduke via compromised websites, issuing instructions to infected machines by
+uploading “tasks” to a database !le. Cozyduke will periodically contact these websites to retrieve task
+information to be executed on the local machine.  One such task (an encoded PowerShell script) instructed
+Cozyduke to download and execute Seaduke from a compromised website. 
+
+Figure 2. How the attacker tasks Cozer to install Seaduke
+Seaduke operation
+The attackers can operate Seaduke in a broadly similar fashion to Cozyduke. The Seaduke control
+infrastructure is essentially distinct, opening up the possibility of sub-teams concurrently exploiting the
+target network. Unlike Cozyduke, Seaduke operators upload “task” !les directly to the command-and-
+control (C&C) server; there is no database as such present. Seaduke securely communicates with the C&C
+server over HTTP/HTTPS beneath layers of encoding (Base64) and encryption (RC4, AES). To an untrained
+eye, the communications look fairly benign, no doubt an e#ort to stay under the radar on compromised
+networks.
+
+Figure 3. How Seaduke operates on the target network
+Seaduke has many inbuilt commands which are available to the attackers. They have the ability to retrieve
+detailed bot/system information, update bot con!guration, upload !les, download !les, and self-delete the
+malware from the system. The self-delete function is interestingly called “seppuku
+(https://web.archive.org/web/20181008161626mp_/https://en.wikipedia.org/wiki/Seppuku)”. This is a form
+of Japanese ritual suicide. 
+
+Seaduke payloads
+The attackers have also developed a number of additional payloads. Operators can push these payloads
+onto infected machines for very speci!c attacks. 
+Impersonation using Kerberos pass-the-ticket attacks (Mimikatz PowerShell) 
+Email extraction from the MS Exchange Server using compromised credentials
+Archiving sensitive information
+Data ex!ltration via legitimate cloud services
+Secure !le deletion
+What next?
+The Duke group has brought its operational capability to the next level. Its attacks have been so bold and
+aggressive, that a huge amount of attention has been drawn to it, yet it appears to be unperturbed.  Its
+success at compromising such high-pro!le targets has no doubt added a few feathers to its cap. Even the
+developers reveled in this fact, naming one of Seaduke’s functions “forkmeiamfamous”. 
+While the group is currently keeping a lower pro!le, there’s no doubt it will reappear. Some tools may have
+to be abandoned, some reworked and others built completely from scratch. This attack group is in it for the
+long haul.
+Tags: Products (/web/20181008161626mp_/https://www.symantec.com/connect/search?!lters=im_vid_31:691), Endpoint
+Protection (/web/20181008161626mp_/https://www.symantec.com/connect/product/endpoint-protection-vdi), Security
+Response (/web/20181008161626mp_/https://www.symantec.com/connect/search?!lters=im_vid_51:2261), Cyberespionage
+(/web/20181008161626mp_/https://www.symantec.com/connect/search?!lters=im_vid_111:84571), Duke
+(/web/20181008161626mp_/https://www.symantec.com/connect/search?!lters=im_vid_111:93741), information theft
+(/web/20181008161626mp_/https://www.symantec.com/connect/search?!lters=im_vid_111:93731)
+Subscriptions (0)
+(/web/20181008161626mp_/https://www.symantec.com/connect/user/symantec-
+security-response)
+Symantec Security Response
+(/web/20181008161626mp_/https://www.symantec.com/connect/user/symantec-
+security-response)
+View Pro!le (/web/20181008161626mp_/https://www.symantec.com/connect/user/symantec-security-respon
+About Your Community
+A Message
+From Your
+Community
+Login (/web/20181008161626mp_/https://www.symantec.com/connect/user/login?
+destination=blogs%2Fforkmeiamfamous-seaduke-latest-weapon-duke-armory) or Register
+(/web/20181008161626mp_/https://www.symantec.com/connect/user/register?
+destination=blogs%2Fforkmeiamfamous-seaduke-latest-weapon-duke-armory) to post
+comments.
+
+(/web/20181008161626mp_/https://www.symantec.com/connect/user/rgmdonaldson)
+MEMBER
+REWARD POINTS
+148994
+77376
+77025
+68714
+53536
+MEMBER
+REWARD POINTS
+825
+600
+200
+150
+101
+Manager:
+RGMDonaldson (/web/20181008161626mp_/https://www.symantec.com/connect/user/rgmdonaldson)
+Welcome to the Security Community on Symantec Connect.
+The Security Community covers many di#erent security products from Symantec and provides valuable
+technical information for each.
+Please feel free to contact me via private message with any questions you may have.
+I look forward to hearing from you and answering any questions about the Community.
+Send a private message to the Community Manager
+(/web/20181008161626mp_/https://www.symantec.com/connect/messages/new/4100651?
+destination=user%2F4100651)
+Top 5 Contributors: All Time
+ (/web/20181008161626mp_/https://www.symantec.com/connect/user/riai) ℬrίαη
+(/web/20181008161626mp_/https://www.symantec.com/connect/user/riai)
+ (/web/20181008161626mp_/https://www.symantec.com/connect/user/vikram-kumar-sav-sep) Vikram
+Kumar-SAV to SEP (/web/20181008161626mp_/https://www.symantec.com/connect/user/vikram-kumar-sav-
+sep)
+ (/web/20181008161626mp_/https://www.symantec.com/connect/user/mithun-sanghavi) Mithun
+Sanghavi (/web/20181008161626mp_/https://www.symantec.com/connect/user/mithun-sanghavi)
+ (/web/20181008161626mp_/https://www.symantec.com/connect/user/rafeeq) Rafeeq
+(/web/20181008161626mp_/https://www.symantec.com/connect/user/rafeeq)
+ (/web/20181008161626mp_/https://www.symantec.com/connect/user/pk-1) P_K_
+(/web/20181008161626mp_/https://www.symantec.com/connect/user/pk-1)
+Top 5 Contributors: Last 30 Days
+ (/web/20181008161626mp_/https://www.symantec.com/connect/user/aravind-ghosh) Aravind Ghosh
+(/web/20181008161626mp_/https://www.symantec.com/connect/user/aravind-ghosh)
+ (/web/20181008161626mp_/https://www.symantec.com/connect/user/riai) ℬrίαη
+(/web/20181008161626mp_/https://www.symantec.com/connect/user/riai)
+ (/web/20181008161626mp_/https://www.symantec.com/connect/user/africo) africo
+(/web/20181008161626mp_/https://www.symantec.com/connect/user/africo)
+ (/web/20181008161626mp_/https://www.symantec.com/connect/user/craigev) CraigEV
+(/web/20181008161626mp_/https://www.symantec.com/connect/user/craigev)
+ (/web/20181008161626mp_/https://www.symantec.com/connect/user/shadowleaf) ShadowLeaf
+(/web/20181008161626mp_/https://www.symantec.com/connect/user/shadowleaf)
+
+(https://web.archive.org/web/20181008161626mp_/https://www.surveymonkey.com/r/G7KVZWQ)
+Contact Us (/web/20181008161626mp_/https://www.symantec.com/connect/contact)
+Privacy Policy
+(https://web.archive.org/web/20181008161626mp_/http://www.symantec.com/about/pro!le/policies/privacy.jsp)
+Earn Rewards
+(/web/20181008161626mp_/https://www.symantec.com/connect/points)
+Rewards Terms and Conditions
+(/web/20181008161626mp_/https://www.symantec.com/connect/blogs/symantec-connect-rewards-program-terms-and-
+conditions)
+© 2018 Symantec Corporation
+
+ (https://web.archive.org/web/20181008161626/https://twitter.com/symantec)
+
+(https://web.archive.org/web/20181008161626/https://www.facebook.com/Symantec) 
+(https://web.archive.org/web/20181008161626/https://www.linkedin.com/company/symantec)

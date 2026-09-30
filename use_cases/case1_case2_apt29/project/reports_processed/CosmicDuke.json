@@ -1,0 +1,923 @@
+{
+    "file_name": "CosmicDuke.pdf",
+    "cti_info": {
+        "technical_patterns": {
+            "IPv4": [
+                "95.154.228.106",
+                "176.74.216.14",
+                "188.241.115.41",
+                "199.231.188.109",
+                "212.76.128.149",
+                "178.21.172.157",
+                "94.242.199.88",
+                "178.63.149.142",
+                "195.43.94.104",
+                "178.170.164.84",
+                "91.224.141.235",
+                "188.116.32.164",
+                "46.246.120.178"
+            ],
+            "IPv6": [],
+            "MAC": [],
+            "URL HTTP": [
+                "http://www.exploit-db.com/exploits/17473",
+                "http://msdn.microsoft.com/en-us/library/jj665697.aspx",
+                "http://labs.bitdefender.com/wp-content/uploads/downloads/2013/04/MiniDuke_Paper_Final.pdf",
+                "http://www.f-secure.com/en/web/labs_global/whitepapers/technical",
+                "http://www.recon.cx/en/f/vskype-part2.pdf",
+                "http://www.circl.lu/assets/files/tr-14/circl-analysisreport-miniduke-stage3-public.pdf",
+                "http://www.pism.pl/en",
+                "http://www.crysys.hu/miniduke/miniduke_indicators_public.pdf"
+            ],
+            "URL HTTPS": [
+                "https://www.securelist.com/en/downloads/vlpdfs/themysteryofthepdf0-dayassemblermicrobackdoor.pdf"
+            ],
+            "Mail": [
+                "viruslab@f-secure.com"
+            ],
+            "Hash": [
+                "853679ae3172e448d676cbc9503f1474a5ca656f",
+                "353540c6619f2bba2351babad736599811d3392e",
+                "f621ec1b363e13dd60474fcfab374b8570ede4de",
+                "98f81b03a3b0f7b0b914d783683817953e8d4cf0",
+                "7631f1db92e61504596790057ce674ee90570755",
+                "f513b21738ae3083d79e4fa1039889e1c3efff58",
+                "7803f160af428bcfb4b9ea2aba07886f232cde4e",
+                "6db1151eeb4339fc72d6d094e2d6c2572de89470",
+                "5295b09592d5a651ca3f748f0e6401bd48fe7bda",
+                "6a43ada6a3741892b56b0ef38cdf48df1ace236d",
+                "ef3ce46a81d3f30fbcfbe5e0db18284329cc0d99",
+                "74bc93107b1bbae2d98fca6d819c2f0bbe8c9f8a",
+                "55f83ff166ab8978d6ce38e80fde858cf29e660b",
+                "fecdba1d903a51499a3953b4df1d850fbd5438bd",
+                "4e3c9d7eb8302739e6931a3b5b605efe8f211e51",
+                "ccb29875222527af4e58b9dd8994c3c7ef617fd8",
+                "9700c8a41a929449cfba6567a648e9c5e",
+                "f9ba115b673be04ac09c9ee497ef03c5aa75429e",
+                "c671786abd87d214a28d136b6bafd4e33ee66951",
+                "fb3b8f6494b211386381a7e4f6524d3e4643c9e9",
+                "65681390d203871e9c21c68075dbf38944e782e8",
+                "b072577447cdf3936d95e612057e510dd3435963",
+                "b54b3c67f1827dab4cc2b3de94ff0af4e5db3d4c",
+                "6bc34809e44c40b61dd29e0a387ee682",
+                "ed14da9b9075bd3281967033c90886fd7d4f14e5",
+                "5a199a75411047903b7ba7851bf705ec545f6da9",
+                "620165967306d08d6a38dbd1381d84c71d62dea2",
+                "764add69922342b8c4200d64652fbee1376adf1c",
+                "580eca9e36dcd1a2deb9075bcae90afee46aace2",
+                "8aa9f5d426428ec360229f4cb9f722388f0e535c",
+                "2c7c9ceeb61eac89e18b6e4ae0c855d982a0f232",
+                "3e76dfa82161c64417e214b7607ad22ab40a8d69",
+                "9700c8a41a929449cfba6567a648e9c5e4a14e70",
+                "8949c1d82dda5c2ead0a73b532c4b2e1fbb58a0e",
+                "5c5ec0b5112a74a95edc23ef093792eb3698320e",
+                "c715e94dd187f3626f1b3e1511ae11525abf91e6",
+                "0e5f55676e01d8e41d77cdc43489da8381b68086",
+                "16aa08ba5e1d27ac68b6ebf24d846bf6f2a204d1",
+                "4fc6701a621f2a5ce3451c7969e4361bc3b836eb"
+            ],
+            "Malicious Domain": [
+                "bit"
+            ],
+            "Bitcoin Address": [],
+            "Ethereum Address": []
+        },
+        "windows_patterns": {
+            "File Path Windows": [
+                "c:\\botgenstudio\\g",
+                "D:\\production\\n",
+                "C:\\Projects\\N",
+                "d:\\sva\\n",
+                "D:\\SVA\\N",
+                "D:\\PRODUCTION\\N"
+            ]
+        },
+        "unix_patterns": {
+            "File Path Unix": [
+                "/or",
+                "/assets/files/tr-14/circl-analysisreport-miniduke-stage3-public.pdf",
+                "/en-us/library/jj665697.aspx",
+                "/wp-content/uploads/downloads/2013/04/MiniDuke_Paper_Final.pdf",
+                "/en/f/vskype-part2.pdf",
+                "/ignored",
+                "/en/web/labs_global/whitepapers/technical",
+                "/en",
+                "/en/downloads/vlpdfs/themysteryofthepdf0-dayassemblermicrobackdoor.pdf",
+                "/miniduke/miniduke_indicators_public.pdf",
+                "/exploits/17473"
+            ]
+        },
+        "logical_patterns": {
+            "DNI/NIE": [],
+            "IBAN": [],
+            "Credit Card": [],
+            "UUID": []
+        }
+    },
+    "ttp_info": {
+        "file_name": "CosmicDuke.txt",
+        "total_ttps": 160,
+        "ttps": [
+            {
+                "context": "login details from a range of programs and forward ",
+                "technique": "T1531",
+                "technique_name": "Account Access Removal"
+            },
+            {
+                "context": "RC4 Encryption\b",
+                "technique": "T1573",
+                "technique_name": "Encrypted Channel"
+            },
+            {
+                "context": "the files on the system, and has the capability to export ",
+                "technique": "T1005",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "context": "cryptographic certificates and the associated private keys.",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "from the system, Cosmu allows the attacker to download ",
+                "technique": "T1105",
+                "technique_name": "Ingress Tool Transfer"
+            },
+            {
+                "context": "F-Secure has detections for all the different malicious ",
+                "technique": "T1518",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "context": "We have seen dozens of Cosmu samples that share code ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "the MiniDuke loaders and Cosmu info-stealers used in the ",
+                "technique": "T1005",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "context": "This analysis is based on examination of files we gathered ",
+                "technique": "T1119",
+                "technique_name": "Automated Collection"
+            },
+            {
+                "context": "into memory was very similar to the Cosmu family of ",
+                "technique": "T1620",
+                "technique_name": "Reflective Code Loading"
+            },
+            {
+                "context": "decided to name the samples showing this amalgamation ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "CosmicDuke.",
+                "technique": "T1546",
+                "technique_name": "Event Triggered Execution"
+            },
+            {
+                "context": "CosmicDuke infections start by tricking victims into ",
+                "technique": "T1204",
+                "technique_name": "User Execution"
+            },
+            {
+                "context": "make it look like a document or image file.",
+                "technique": "T1548",
+                "technique_name": "Abuse Elevation Control Mechanism"
+            },
+            {
+                "context": "keylogger, clipboard stealer, screenshotter, and password ",
+                "technique": "T1005",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "context": "yy Keylogger",
+                "technique": "T1056",
+                "technique_name": "Input Capture"
+            },
+            {
+                "context": "yy Taking screenshots",
+                "technique": "T1113",
+                "technique_name": "Screen Capture"
+            },
+            {
+                "context": "yy Stealing data from clipboard",
+                "technique": "T1115",
+                "technique_name": "Clipboard Data"
+            },
+            {
+                "context": "yy Stealing Windows password hashes",
+                "technique": "T1003",
+                "technique_name": "OS Credential Dumping"
+            },
+            {
+                "context": "It is possible that the PDF documents containing exploits ",
+                "technique": "T1189",
+                "technique_name": "Drive-by Compromise"
+            },
+            {
+                "context": "launched, the object exploits the known CVE-2011-0611 ",
+                "technique": "T1203",
+                "technique_name": "Exploitation for Client Execution"
+            },
+            {
+                "context": "Less technically challenging CosmicDuke samples use ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "launching the attack file.",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "an image or document to make it seem innocuous.",
+                "technique": "T1548",
+                "technique_name": "Abuse Elevation Control Mechanism"
+            },
+            {
+                "context": "silently installed and executed on the system.",
+                "technique": "T1480",
+                "technique_name": "Execution Guardrails"
+            },
+            {
+                "context": "The third group (Group #3) is rather ",
+                "technique": "T1069",
+                "technique_name": "Permission Groups Discovery"
+            },
+            {
+                "context": "CosmicDuke’s author(s) disguised the fact that the ",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": ".pdf or .doc, in order to make the file appear to be an ",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "Image 1 is a screenshot of how the filenames look like in ",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "The bottom file is a curious exception, as it does not use a ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "instead, it uses an NVIDIA icon, most likely to reflect the ",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "as “NVIDIA Update Components” in the file’s version ",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "Turkish as “civilian crisis center status report”.",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "letter file extensions seen at the end of the filename is not ",
+                "technique": "T1564",
+                "technique_name": "Hide Artifacts"
+            },
+            {
+                "context": "even check it.",
+                "technique": "T1531",
+                "technique_name": "Account Access Removal"
+            },
+            {
+                "context": "Image 1: Screenshot of folder containing CosmicDuke dropper files",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "FIGURE 2: COSMICDUKE SAMPLES ",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "CosmicDuke dropper files all display some kind of a decoy ",
+                "technique": "T1564",
+                "technique_name": "Hide Artifacts"
+            },
+            {
+                "context": "the filenames of the decoys, as displayed in Windows, and ",
+                "technique": "T1564",
+                "technique_name": "Hide Artifacts"
+            },
+            {
+                "context": "the decoy images or files they show when launched:",
+                "technique": "T1564",
+                "technique_name": "Hide Artifacts"
+            },
+            {
+                "context": "The decoys are interesting.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Based on the characters СЖС-1295 and ГХРП ",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "the photo.",
+                "technique": "T1113",
+                "technique_name": "Screen Capture"
+            },
+            {
+                "context": "Part of this EXIF metadata is shown in Image 3a.",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "The third dropper file we’ve seen uses the filename ‘rcs.",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "Decoy shown ",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "The samples we analyzed of the exploit-based ",
+                "technique": "T1554",
+                "technique_name": "Compromise Client Software Binary"
+            },
+            {
+                "context": "CosmicDuke variety had the file names and SHA1 values ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "loader as MiniDuke’s stage 3 [2] samples, making this the ",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "compilation date of the loader as March 24 2011, which ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "sample (with a recorded loader compilation date of ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "that load the Cosmu malware is November 13 2012.",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "compilation date.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "component is actually a downloader; it connects to an ",
+                "technique": "T1105",
+                "technique_name": "Ingress Tool Transfer"
+            },
+            {
+                "context": "IP address in Turkey, and when it receives a response, ",
+                "technique": "T1016",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "context": "decrypts and executes it.",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "[Unknown] ",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "*Based on the compilation  ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "SHA1: b072577447cdf3936d95e612057e510dd3435963.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "It creates a scheduled task and ",
+                "technique": "T1053",
+                "technique_name": "Scheduled Task/Job"
+            },
+            {
+                "context": "The scheduled task is typically named “Watchmon ",
+                "technique": "T1053",
+                "technique_name": "Scheduled Task/Job"
+            },
+            {
+                "context": "It executes the malware at system startup.",
+                "technique": "T1547",
+                "technique_name": "Boot or Logon Autostart Execution"
+            },
+            {
+                "context": "name is ”Java(TM) Virtual Machine Support Service”.",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "real size is 5120 bytes (based on PE headers) and the SHA1 ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "(key HKLM\\Software\\JavaSoft, value Supplement) and ",
+                "technique": "T1012",
+                "technique_name": "Query Registry"
+            },
+            {
+                "context": "starts the malware using the duplicated process token.",
+                "technique": "T1134",
+                "technique_name": "Access Token Manipulation"
+            },
+            {
+                "context": "Cosmu copies itself with a couple of different filenames ",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "copies of the original malware binary.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "The filenames for both the Cosmu copies and the service ",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "filenames like usbmon.exe, urllsa.exe, and rasdns.exe:",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "by using a bruteforce or dictionary attack to crack ",
+                "technique": "T1548",
+                "technique_name": "Abuse Elevation Control Mechanism"
+            },
+            {
+                "context": "The attack was publicly documented in ",
+                "technique": "T1562",
+                "technique_name": "Impair Defenses"
+            },
+            {
+                "context": "Cosmu steals saved credentials from Google ",
+                "technique": "T1555",
+                "technique_name": "Credentials from Password Stores"
+            },
+            {
+                "context": "Cosmu steals autocomplete passwords from IE.",
+                "technique": "T1555",
+                "technique_name": "Credentials from Password Stores"
+            },
+            {
+                "context": "Cosmu steals saved credentials and the associated ",
+                "technique": "T1555",
+                "technique_name": "Credentials from Password Stores"
+            },
+            {
+                "context": "The malware does not decrypt ",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "the credentials.",
+                "technique": "T1003",
+                "technique_name": "OS Credential Dumping"
+            },
+            {
+                "context": "Cosmu steals saved credentials and the associated ",
+                "technique": "T1555",
+                "technique_name": "Credentials from Password Stores"
+            },
+            {
+                "context": "malware does not decrypt the credentials.",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "by parsing account.cfn and decrypting the ",
+                "technique": "T1087",
+                "technique_name": "Account Discovery"
+            },
+            {
+                "context": "Cosmu steals saved credentials and information ",
+                "technique": "T1005",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "context": "Cosmu steals saved credentials and information ",
+                "technique": "T1005",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "context": "yy cpl",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "The keylogger is implemented using the ",
+                "technique": "T1056",
+                "technique_name": "Input Capture"
+            },
+            {
+                "context": "yy avp.exe",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "yy acs.exe",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "yy mcvsescn.exe",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "yy mcods.exe",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "yy navapsvc.exe",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "yy kav.exe",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "yy nod32krn.exe",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "yy nod32.exe",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "yy ekern.exe",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "yy dwengine.exe",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "yy ekrn.exe",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "yy scfservice.exe",
+                "technique": "T1569",
+                "technique_name": "System Services"
+            },
+            {
+                "context": "Cosmu takes screenshots periodically and sends them to ",
+                "technique": "T1113",
+                "technique_name": "Screen Capture"
+            },
+            {
+                "context": "Cosmu copies the content of the clipboard every 30 ",
+                "technique": "T1115",
+                "technique_name": "Clipboard Data"
+            },
+            {
+                "context": "yy FTP server IPs, usernames and passwords",
+                "technique": "T1049",
+                "technique_name": "System Network Connections Discovery"
+            },
+            {
+                "context": "yy Filename prefix and file extension for exfiltrated data ",
+                "technique": "T1020",
+                "technique_name": "Automated Exfiltration"
+            },
+            {
+                "context": "The configuration is embedded into the info-stealer.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "compressed using an algorithm similar to but simpler than ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "LM and NT hashes, cached domain passwords, LSA ",
+                "technique": "T1003",
+                "technique_name": "OS Credential Dumping"
+            },
+            {
+                "context": "PFXExportCertStoreEx.",
+                "technique": "T1106",
+                "technique_name": "Native API"
+            },
+            {
+                "context": "The malware uses the password ",
+                "technique": "T1201",
+                "technique_name": "Password Policy Discovery"
+            },
+            {
+                "context": "“saribas” to encrypt the exported data.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "files that match any of the below patterns:",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "yy *.ppt",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "yy *login*",
+                "technique": "T1531",
+                "technique_name": "Account Access Removal"
+            },
+            {
+                "context": "yy *.lnk",
+                "technique": "T1547",
+                "technique_name": "Boot or Logon Autostart Execution"
+            },
+            {
+                "context": "Cosmu searches removable drives for a broader set of files ",
+                "technique": "T1025",
+                "technique_name": "Data from Removable Media"
+            },
+            {
+                "context": "yy *.exe",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "Microsoft Developer Network; 2.5 LZNT1 Algorithm Details; ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "The sample makes HTTP GET requests to the server(s) ",
+                "technique": "T1071",
+                "technique_name": "Application Layer Protocol"
+            },
+            {
+                "context": "The GET request contains ",
+                "technique": "T1071",
+                "technique_name": "Application Layer Protocol"
+            },
+            {
+                "context": "yy Auth",
+                "technique": "T1550",
+                "technique_name": "Use Alternate Authentication Material"
+            },
+            {
+                "context": "yy VolumeID",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "encoded using URL safe base64, or then the value is ",
+                "technique": "T1132",
+                "technique_name": "Data Encoding"
+            },
+            {
+                "context": "The 256-character string is generated by selecting ",
+                "technique": "T1132",
+                "technique_name": "Data Encoding"
+            },
+            {
+                "context": "Cosmu uses RC4 to decrypt incoming data and encrypt ",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "The RC4 routine is not standard RC4, but ",
+                "technique": "T1573",
+                "technique_name": "Encrypted Channel"
+            },
+            {
+                "context": "in Figure 5 that shows a Python re-implementation of the ",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "buggy RC4.",
+                "technique": "T1573",
+                "technique_name": "Encrypted Channel"
+            },
+            {
+                "context": "All RC4 keys are 32 bytes.",
+                "technique": "T1573",
+                "technique_name": "Encrypted Channel"
+            },
+            {
+                "context": "BUGGY RC4 ENCRYPTION",
+                "technique": "T1573",
+                "technique_name": "Encrypted Channel"
+            },
+            {
+                "context": "samples, and of other similarities observed in the file ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "more details, see “Appendix A | Samples”.",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "The oldest Cosmu samples we saw have a compilation ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "compilation timestamp to be manipulated, it may be that ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "timestamp has been tampered with.",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "Info-stealers",
+                "technique": "T1005",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "context": "[Unknown] ",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "[Unknown] ",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "All droppers were compiled on 2013-08-02.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "13, though one was compiled on 2012-12-04 - oddly ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "6bc34809e44c40b61dd29e0a387ee682) was compiled.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "As the server is no longer up however, we were ",
+                "technique": "T1505",
+                "technique_name": "Server Software Component"
+            },
+            {
+                "context": "The compilation timestamps of the info-stealers show ",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "MiniDuke loader was compiled on 2012-12-04.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "infected system’s C:\\ drive that contains the directory ",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "UNITED STATES",
+                "technique": "T1588",
+                "technique_name": "Obtain Capabilities"
+            },
+            {
+                "context": "group #1 uses.",
+                "technique": "T1069",
+                "technique_name": "Permission Groups Discovery"
+            },
+            {
+                "context": "We have seen three different droppers for this sample ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "group.",
+                "technique": "T1069",
+                "technique_name": "Permission Groups Discovery"
+            },
+            {
+                "context": "We have not found any exploits associated to this group of ",
+                "technique": "T1588",
+                "technique_name": "Obtain Capabilities"
+            },
+            {
+                "context": "directories named “NITRO” and “SVA”.",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "exploits as an infection vector.",
+                "technique": "T1480",
+                "technique_name": "Execution Guardrails"
+            },
+            {
+                "context": "instead the loader has a filename (Sivil Durum Raporu Kriz ",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "also contains “botgenstudio”, again making it similar ",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "group #2 uses.",
+                "technique": "T1069",
+                "technique_name": "Permission Groups Discovery"
+            },
+            {
+                "context": "group.",
+                "technique": "T1069",
+                "technique_name": "Permission Groups Discovery"
+            },
+            {
+                "context": "Unlike Groups #1 and #2, no exploits or droppers ",
+                "technique": "T1069",
+                "technique_name": "Permission Groups Discovery"
+            },
+            {
+                "context": "been replaced by “KSK”.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "The updated loader has PDB path, C:\\Projects\\NEMESIS\\",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "nemesis-gemina\\nemesis\\bin\\carriers\\ezlzma_x86_exe.",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "Compiled ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Compiled ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Info-stealers",
+                "technique": "T1005",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "context": "Compiled ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "IP Address",
+                "technique": "T1016",
+                "technique_name": "System Network Configuration Discovery"
+            }
+        ]
+    }
+}

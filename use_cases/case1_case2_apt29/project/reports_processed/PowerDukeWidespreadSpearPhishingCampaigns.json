@@ -1,0 +1,487 @@
+{
+    "file_name": "PowerDukeWidespreadSpearPhishingCampaigns.pdf",
+    "cti_info": {
+        "technical_patterns": {
+            "IPv4": [
+                "84.206.0.0",
+                "185.124.86.0",
+                "177.10.96.30",
+                "81.82.0.0",
+                "81.82.196.162",
+                "185.26.144.0",
+                "185.132.124.43",
+                "185.132.124.0",
+                "177.10.96.0",
+                "173.243.80.0",
+                "173.243.80.6",
+                "185.26.144.109",
+                "65.15.64.0",
+                "84.206.44.194",
+                "185.124.86.121",
+                "65.15.88.243"
+            ],
+            "IPv6": [],
+            "MAC": [],
+            "URL HTTP": [],
+            "URL HTTPS": [],
+            "Mail": [
+                "securefaxsolution@gmail.com",
+                "industry.faxsolution@gmail.com"
+            ],
+            "Hash": [
+                "ead48f15ebc088384a4bd6190c2343fa",
+                "bea0a6f069bd547db685698bc9f9d25a",
+                "8b3050a95e3ce00424b85f6e9cc3ccec",
+                "5cc807f80f14bc4a1d6036865e50d576200dfd2e",
+                "c272aebc661c54cc960ba9a4a3578952",
+                "dd766876b3be5022bfb062f454f878abfbc670b8",
+                "4bcbf078a78ba0e842f78963ba9dd71240ab6a6d",
+                "ad6723f61e10aefd9688b29b474a9323",
+                "1067ddd5615518e0cbac7389a024b32f119a3229",
+                "a76c02c067eae26d78f4b494274dfa6aedc6fa7a",
+                "57c627d68e156676d08bfc0829b94331",
+                "f79caf27a99c091e6c1775b306993341",
+                "4e1dec16d58ba5f4196f6a76a0bca75c",
+                "f713d5df826c6051e65f995e57d6817d",
+                "d5dcf445830c54af145c0dfeaebf28f8ec780eb5",
+                "0b9dccfcb2cc8bced343b9d930e475f1d0e5d966",
+                "7b9b51cb44cd6a7af1cd28faeeda04a7",
+                "a8e700492e113f73558131d94bc9ae2f",
+                "ab32c09c46e0c9dbc576fefee68e5a2f57e0482e",
+                "11523d859e9a818c2628d7954502cbdb5eeb2199",
+                "3335f0461e5472803f4b19b706eaf4b5",
+                "ee09bec09388338134d47fa993d5e0f86efe5bd4",
+                "cbf96820dc74a50a91b2b8b94376682a",
+                "39c2a7266132e0af016a48b97d565463d90",
+                "e3bd7bdfe0026cf4ee39fd75a771eac52",
+                "b5684384c8028f0324ed7119f6abf379f2789970",
+                "5f105801a1abb398dadc756480713f9bd7a4aa73",
+                "a7c43d7895ecef2b6306fb00972c321060753361",
+                "52d62213c66a603e33dab326bf4fa29d6ac681c4",
+                "b774f39d31c32da0f6a5fb5d0e6d2892",
+                "9f420779c90e118a0b5fd904380878a1",
+                "28b95a2c399e60ee535c32e73860fbea"
+            ],
+            "Malicious Domain": [],
+            "Bitcoin Address": [],
+            "Ethereum Address": []
+        },
+        "windows_patterns": {
+            "File Path Windows": []
+        },
+        "unix_patterns": {
+            "File Path Unix": [
+                "/19",
+                "/16",
+                "/15",
+                "/eFax/message0236.ZIP",
+                "/21",
+                "/eFax/RWP_16-038_Norris.ZIP",
+                "/eFax/37486.ZIP",
+                "/24"
+            ]
+        },
+        "logical_patterns": {
+            "DNI/NIE": [],
+            "IBAN": [],
+            "Credit Card": [],
+            "UUID": []
+        }
+    },
+    "ttp_info": {
+        "file_name": "PowerDukeWidespreadSpearPhishingCampaigns.txt",
+        "total_ttps": 78,
+        "ttps": [
+            {
+                "context": "The last attack claimed to be a link to a PDF download on \"Why",
+                "technique": "T1566",
+                "technique_name": "Phishing"
+            },
+            {
+                "context": "the August attacks contained a Microsoft O#ce Word (.doc) or Excel (.xls) attachment.",
+                "technique": "T1566",
+                "technique_name": "Phishing"
+            },
+            {
+                "context": "These attachments,",
+                "technique": "T1566",
+                "technique_name": "Phishing"
+            },
+            {
+                "context": "Similar attack campaigns using documents with macros dropping",
+                "technique": "T1491",
+                "technique_name": "Defacement"
+            },
+            {
+                "context": "from the Dukes in both 2015 and 2016.",
+                "technique": "T1069",
+                "technique_name": "Permission Groups Discovery"
+            },
+            {
+                "context": "Rigging",
+                "technique": "T1491",
+                "technique_name": "Defacement"
+            },
+            {
+                "context": "This message claims to have been sent from Secure Fax Corp. and has a link to a ZIP ﬁle that contains a",
+                "technique": "T1566",
+                "technique_name": "Phishing"
+            },
+            {
+                "context": "Microsoft shortcut ﬁle (.LNK).",
+                "technique": "T1547",
+                "technique_name": "Boot or Logon Autostart Execution"
+            },
+            {
+                "context": "This shortcut ﬁle contains PowerShell commands that conduct anti-VM",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "The e-mail contained links pointing to the following URL:",
+                "technique": "T1598",
+                "technique_name": "Phishing for Information"
+            },
+            {
+                "context": "Filename: message0236.ZIP",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "MD5 hash: bea0a6f069bd547db685698bc9f9d25a",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "MD5 hash: c272aebc661c54cc960ba9a4a3578952",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Filename: kxwn.lock",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "MD5 hash: 28b95a2c399e60ee535c32e73860fbea",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "\"%APPDATA\\Roaming\\Microsoft\\\" with persistence via HKCU Run Key \"WebCache\"",
+                "technique": "T1547",
+                "technique_name": "Boot or Logon Autostart Execution"
+            },
+            {
+                "context": "(rundll32.exe %APPDATA\\Roaming\\Microsoft\\kxwn.lock , #2).",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "Filename: kxwn.lock:schemas",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "MD5 hash: 4e1dec16d58ba5f4196f6a76a0bca75c",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Notes: Alternate data stream (ADS) PNG  ﬁle with the PowerDuke backdoor component hidden and",
+                "technique": "T1564",
+                "technique_name": "Hide Artifacts"
+            },
+            {
+                "context": "encrypted within using Tiny Encryption Algorithm (TEA).",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "MD5 hash: a8e700492e113f73558131d94bc9ae2f",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "MD5 hash: ad6723f61e10aefd9688b29b474a9323",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Run Key \"ToolboxFX\" (rundll32.exe %APPDATA\\Roaming\\HP\\fywhx.dll #2).",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "Filename: fywhx.dll:schemas",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "Notes: Alternate data stream (ADS) PNG  ﬁle with the PowerDuke backdoor component hidden and",
+                "technique": "T1564",
+                "technique_name": "Hide Artifacts"
+            },
+            {
+                "context": "encrypted within using Tiny Encryption Algorithm (TEA).",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Volexity believes the following e-mail received the widest distribution among the targeted organizations.",
+                "technique": "T1566",
+                "technique_name": "Phishing"
+            },
+            {
+                "context": "spelling of this non-existent service is inconsistent in the e-mail.",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "The screen shot",
+                "technique": "T1113",
+                "technique_name": "Screen Capture"
+            },
+            {
+                "context": "The e-mail contained links pointing to the following URL:",
+                "technique": "T1598",
+                "technique_name": "Phishing for Information"
+            },
+            {
+                "context": "MD5 hash: 8b3050a95e3ce00424b85f6e9cc3ccec",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Notes: Password protected ZIP ﬁle with malicious executable inside (RWP16-038_Norris.exe).",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "MD5 hash: 3335f0461e5472803f4b19b706eaf4b5",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "\"%APPDATA\\Roaming\\Apple\\\" with persistence via HKCU Run Key \"ConnectionCenter\"",
+                "technique": "T1547",
+                "technique_name": "Boot or Logon Autostart Execution"
+            },
+            {
+                "context": "(rundll32.exe %APPDATA\\Roaming\\Apple\\gwV46iIc.idx, #2).",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "Notes: Alternate data stream (ADS) PNG  ﬁle with the PowerDuke backdoor component hidden and",
+                "technique": "T1564",
+                "technique_name": "Hide Artifacts"
+            },
+            {
+                "context": "encrypted within using Tiny Encryption Algorithm (TEA).",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "MD5 hash: ead48f15ebc088384a4bd6190c2343fa",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Filename:  impku.dat",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "MD5 hash: 9f420779c90e118a0b5fd904380878a1",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "MD5 hash: b774f39d31c32da0f6a5fb5d0e6d2892",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Notes: Alternate data stream (ADS) PNG  ﬁle with the PowerDuke backdoor component hidden and",
+                "technique": "T1564",
+                "technique_name": "Hide Artifacts"
+            },
+            {
+                "context": "encrypted within using Tiny Encryption Algorithm (TEA).",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "The link in the e-mail points to a ZIP ﬁle that has a Microsoft",
+                "technique": "T1566",
+                "technique_name": "Phishing"
+            },
+            {
+                "context": "This shortcut ﬁle contains PowerShell commands that conduct anti-VM",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "Like Attack Wave #3, this e-mail message",
+                "technique": "T1566",
+                "technique_name": "Phishing"
+            },
+            {
+                "context": "]net/eFax/37486.ZIP",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "]net appears to be under the control of the attackers but may be a hijacked domain.",
+                "technique": "T1583",
+                "technique_name": "Acquire Infrastructure"
+            },
+            {
+                "context": "Filename: 37486.ZIP",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "MD5 hash: f79caf27a99c091e6c1775b306993341",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "MD5 hash: f713d5df826c6051e65f995e57d6817d",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "MD5 hash: 57c627d68e156676d08bfc0829b94331",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Run Key \"IAStorIcon\" (rundll32.exe %APPDATA\\Roaming\\Apple\\hqwhbr.lck, #2).",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "MD5 hash: cbf96820dc74a50a91b2b8b94376682a",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Notes: Alternate data stream (ADS) PNG  ﬁle with the PowerDuke backdoor component hidden and",
+                "technique": "T1564",
+                "technique_name": "Hide Artifacts"
+            },
+            {
+                "context": "encrypted within using Tiny Encryption Algorithm (TEA).",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "control a system.",
+                "technique": "T1548",
+                "technique_name": "Abuse Elevation Control Mechanism"
+            },
+            {
+                "context": "Several commands supported by PowerDuke facilitate",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "A previous analysis of PowerDuke showed it supported the following commands.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "get the NetBIOS name via GetComputerNameEx",
+                "technique": "T1016",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "context": "get the computer's domain via NetWkstaGetInfo",
+                "technique": "T1016",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "context": "get logical drives, drive type, free space, serial number, etc.",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "get the size of a ﬁle via GetFileAttributesExW or failing that, by mapping the ﬁle and",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "osdate",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "get OS info via registry, such as ProductName, CurrentBuild, CurrentVersion,",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "list processes via CreateToolhelp32Snapshot",
+                "technique": "T1057",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "context": "get current directory via GetCurrentDirectoryW",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "start a process via CreateProcessW",
+                "technique": "T1106",
+                "technique_name": "Native API"
+            },
+            {
+                "context": "runs cmd.exe /c and gets the output via Named Pipe and sends the data back",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "time",
+                "technique": "T1124",
+                "technique_name": "System Time Discovery"
+            },
+            {
+                "context": "the time + timezone (GetLocalTime and GetTimeZoneInformation)",
+                "technique": "T1124",
+                "technique_name": "System Time Discovery"
+            },
+            {
+                "context": "the user's name via GetUserNameExW",
+                "technique": "T1106",
+                "technique_name": "Native API"
+            },
+            {
+                "context": "wipe",
+                "technique": "T1561",
+                "technique_name": "Disk Wipe"
+            },
+            {
+                "context": "gets the text of the current foreground window",
+                "technique": "T1010",
+                "technique_name": "Application Window Discovery"
+            },
+            {
+                "context": "malware appears to support the following additional commands not described above:",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "IP Address",
+                "technique": "T1016",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "context": "IP Address",
+                "technique": "T1016",
+                "technique_name": "System Network Configuration Discovery"
+            }
+        ]
+    }
+}

@@ -1,0 +1,443 @@
+{
+    "file_name": "GrizzlySteppe.pdf",
+    "cti_info": {
+        "technical_patterns": {
+            "IPv4": [],
+            "IPv6": [],
+            "MAC": [],
+            "URL HTTP": [
+                "http://www.antiphishing.org",
+                "http://msdn.microsoft.com/en-us/library/ff648653.aspx"
+            ],
+            "URL HTTPS": [
+                "https://www.us-cert.gov/ccubedvp",
+                "https://www.nist.gov/cyberframework",
+                "https://www.us-cert.gov/tlp",
+                "https://www.us-cert.gov/forms/feedback",
+                "https://www.cert.org/resilience/rmm.html",
+                "https://www.dhs.gov/ais"
+            ],
+            "Mail": [
+                "CyWatch@ic.fbi.gov",
+                "CISCP@us-cert.gov",
+                "NCCICCustomerService@hq.dhs.gov",
+                "cyberframework@nist.gov",
+                "ECS_Program@hq.dhs.gov",
+                "cyberadvisor@hq.dhs.gov",
+                "cywatch@ic.fbi.gov"
+            ],
+            "Hash": [],
+            "Malicious Domain": [],
+            "Bitcoin Address": [],
+            "Ethereum Address": []
+        },
+        "windows_patterns": {
+            "File Path Windows": []
+        },
+        "unix_patterns": {
+            "File Path Unix": [
+                "/or",
+                "/response",
+                "/resilience/rmm.html",
+                "/forms/feedback",
+                "/cyberframework",
+                "/en-us/library/ff648653.aspx",
+                "/ais",
+                "/ccubedvp",
+                "/tlp"
+            ]
+        },
+        "logical_patterns": {
+            "DNI/NIE": [],
+            "IBAN": [],
+            "Credit Card": [],
+            "UUID": []
+        }
+    },
+    "ttp_info": {
+        "file_name": "GrizzlySteppe.txt",
+        "total_ttps": 76,
+        "ttps": [
+            {
+                "context": "GRIZZLY STEPPE – Russian Malicious Cyber Activity",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "provides technical details regarding the tools and infrastructure used by the Russian civilian and ",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "the U.S. Intelligence Community, DHS, FBI, the private sector, and other entities.",
+                "technique": "T1565",
+                "technique_name": "Data Manipulation"
+            },
+            {
+                "context": "This activity by RIS is part of an ongoing campaign of cyber-enabled operations directed at the ",
+                "technique": "T1119",
+                "technique_name": "Automated Collection"
+            },
+            {
+                "context": "29 tradecraft, including Powershell command, scheduled execution, and unique ",
+                "technique": "T1482",
+                "technique_name": "Domain Trust Discovery"
+            },
+            {
+                "context": "Access Tools (RATs) and evades detection using a range of techniques.",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "their spearphishing email campaigns.",
+                "technique": "T1114",
+                "technique_name": "Email Collection"
+            },
+            {
+                "context": "information from their targets.",
+                "technique": "T1114",
+                "technique_name": "Email Collection"
+            },
+            {
+                "context": "In summer 2015, an APT29 spearphishing campaign directed emails containing a malicious link ",
+                "technique": "T1566",
+                "technique_name": "Phishing"
+            },
+            {
+                "context": "APT29 used legitimate ",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "enumerated active directory accounts, and exfiltrated email from several accounts through ",
+                "technique": "T1087",
+                "technique_name": "Account Discovery"
+            },
+            {
+                "context": "This time, the spearphishing email tricked recipients into changing their passwords through a ",
+                "technique": "T1552",
+                "technique_name": "Unsecured Credentials"
+            },
+            {
+                "context": "credentials, APT28 was able to gain access and steal content, likely leading to the exfiltration of ",
+                "technique": "T1020",
+                "technique_name": "Automated Exfiltration"
+            },
+            {
+                "context": "Actors likely associated with RIS are continuing to engage in spearphishing campaigns, ",
+                "technique": "T1119",
+                "technique_name": "Automated Collection"
+            },
+            {
+                "context": "Alternate Names ",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "Yara Signature ",
+                "technique": "T1553",
+                "technique_name": "Subvert Trust Controls"
+            },
+            {
+                "context": "rule PAS_TOOL_PHP_WEB_KIT  ",
+                "technique": "T1546",
+                "technique_name": "Event Triggered Execution"
+            },
+            {
+                "context": "'code'/  ",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "$cookie = \"_COOKIE\"  ",
+                "technique": "T1539",
+                "technique_name": "Steal Web Session Cookie"
+            },
+            {
+                "context": "DHS recommends that network administrators review the IP addresses, file hashes, and Yara ",
+                "technique": "T1016",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "context": "The review of network perimeter netflow or firewall ",
+                "technique": "T1049",
+                "technique_name": "System Network Connections Discovery"
+            },
+            {
+                "context": "When reviewing network perimeter logs for the IP addresses, organizations may find numerous ",
+                "technique": "T1016",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "context": "vulnerability scanning or browsing of legitimate public facing services (e.g., HTTP, HTTPS, ",
+                "technique": "T1049",
+                "technique_name": "System Network Connections Discovery"
+            },
+            {
+                "context": "Malicious actors may use a variety of methods to interfere with information systems.",
+                "technique": "T1565",
+                "technique_name": "Data Manipulation"
+            },
+            {
+                "context": "commands to a browser, database, or other system, allowing a regular user to control ",
+                "technique": "T1548",
+                "technique_name": "Abuse Elevation Control Mechanism"
+            },
+            {
+                "context": "• Cross-site scripting (XSS) vulnerabilities allow threat actors to insert and execute ",
+                "technique": "T1190",
+                "technique_name": "Exploit Public-Facing Application"
+            },
+            {
+                "context": "Successful XSS attacks on websites can provide ",
+                "technique": "T1102",
+                "technique_name": "Web Service"
+            },
+            {
+                "context": "• Server vulnerabilities may be exploited to allow unauthorized access to sensitive ",
+                "technique": "T1505",
+                "technique_name": "Server Software Component"
+            },
+            {
+                "context": "An attack against a poorly configured server may allow an adversary access ",
+                "technique": "T1005",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "context": "to critical information including any websites or databases hosted on the server.",
+                "technique": "T1505",
+                "technique_name": "Server Software Component"
+            },
+            {
+                "context": "practices when updating software and patches by only downloading updates from ",
+                "technique": "T1531",
+                "technique_name": "Account Access Removal"
+            },
+            {
+                "context": "Firewalls can be configured to ",
+                "technique": "T1562",
+                "technique_name": "Impair Defenses"
+            },
+            {
+                "context": "Protect Against SQL Injection and Other Attacks on Web Services ",
+                "technique": "T1102",
+                "technique_name": "Web Service"
+            },
+            {
+                "context": "Use and configure available firewalls to block attacks.",
+                "technique": "T1498",
+                "technique_name": "Network Denial of Service"
+            },
+            {
+                "context": "Microsoft’s Enhanced Mitigation Experience Toolkit (EMET) and Microsoft AppLocker.",
+                "technique": "T1480",
+                "technique_name": "Execution Guardrails"
+            },
+            {
+                "context": "applications only require GET, POST, and HEAD.",
+                "technique": "T1071",
+                "technique_name": "Application Layer Protocol"
+            },
+            {
+                "context": "responding with banners identifying the server software and version number.",
+                "technique": "T1505",
+                "technique_name": "Server Software Component"
+            },
+            {
+                "context": "Secure both the operating system and the application.",
+                "technique": "T1528",
+                "technique_name": "Steal Application Access Token"
+            },
+            {
+                "context": "Perform penetration testing against Web services.",
+                "technique": "T1594",
+                "technique_name": "Search Victim-Owned Websites"
+            },
+            {
+                "context": "Phishing and Spearphishing ",
+                "technique": "T1491",
+                "technique_name": "Defacement"
+            },
+            {
+                "context": "Implement a Sender Policy Framework (SPF) record for your organization’s Domain",
+                "technique": "T1482",
+                "technique_name": "Domain Trust Discovery"
+            },
+            {
+                "context": "Educate users to be suspicious of unsolicited phone calls, social media interactions, or",
+                "technique": "T1531",
+                "technique_name": "Account Access Removal"
+            },
+            {
+                "context": "email messages from individuals asking about employees or other internal information.",
+                "technique": "T1531",
+                "technique_name": "Account Access Removal"
+            },
+            {
+                "context": "Do not provide personal information or information about your organization, including its",
+                "technique": "T1591",
+                "technique_name": "Gather Victim Org Information"
+            },
+            {
+                "context": "Do not reveal personal or financial information in social media or email, and do not",
+                "technique": "T1531",
+                "technique_name": "Account Access Removal"
+            },
+            {
+                "context": "This includes following links sent in email.",
+                "technique": "T1069",
+                "technique_name": "Permission Groups Discovery"
+            },
+            {
+                "context": "than the valid website (e.g., .com vs. .net).",
+                "technique": "T1593",
+                "technique_name": "Search Open Websites/Domains"
+            },
+            {
+                "context": "Scrub and verify all administrator accounts regularly.",
+                "technique": "T1531",
+                "technique_name": "Account Access Removal"
+            },
+            {
+                "context": "Containment provided by enclaving also makes incident cleanup significantly less costly.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Enforce a strict lockout policy for network users and closely monitor logs for failed login",
+                "technique": "T1531",
+                "technique_name": "Account Access Removal"
+            },
+            {
+                "context": "consider supplementing password authentication with other forms of authentication such",
+                "technique": "T1531",
+                "technique_name": "Account Access Removal"
+            },
+            {
+                "context": "as challenge/response or multifactor authentication using biometric or physical tokens.",
+                "technique": "T1531",
+                "technique_name": "Account Access Removal"
+            },
+            {
+                "context": "such as Mimikatz, for credential theft from harvesting domain-level credentials.",
+                "technique": "T1482",
+                "technique_name": "Domain Trust Discovery"
+            },
+            {
+                "context": "Implement multi-factor authentication (e.g., smart cards) or at minimum ensure users",
+                "technique": "T1531",
+                "technique_name": "Account Access Removal"
+            },
+            {
+                "context": "choose complex passwords that change regularly.",
+                "technique": "T1531",
+                "technique_name": "Account Access Removal"
+            },
+            {
+                "context": "Properly secure password files by making hashed passwords more difficult to acquire.",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "Password hashes can be cracked within seconds using freely available tools.",
+                "technique": "T1003",
+                "technique_name": "OS Credential Dumping"
+            },
+            {
+                "context": "restricting access to sensitive password hashes by using a shadow password file or",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "Avoid password policies that reduce the overall strength of credentials.",
+                "technique": "T1531",
+                "technique_name": "Account Access Removal"
+            },
+            {
+                "context": "conducting regular audits.",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "Ensure event logging (applications, events, login activities, security attributes, etc.)",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "Configure network logs to provide enough information to assist in quickly developing an",
+                "technique": "T1049",
+                "technique_name": "System Network Connections Discovery"
+            },
+            {
+                "context": "accurate determination of a security incident.",
+                "technique": "T1548",
+                "technique_name": "Abuse Elevation Control Mechanism"
+            },
+            {
+                "context": "Secure logs, potentially in a centralized location, and protect them from modification.",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "Resources include discussion points, steps to start evaluating a cybersecurity ",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "For a list of services, visit ",
+                "technique": "T1007",
+                "technique_name": "System Service Discovery"
+            },
+            {
+                "context": "measurement of key cybersecurity capabilities to provide meaningful indicators of an",
+                "technique": "T1049",
+                "technique_name": "System Network Connections Discovery"
+            },
+            {
+                "context": "https://www.cert.org/resilience/rmm.html to learn more about the CERT Resilience",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "threat information to protect internal networks.",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "For more information, email",
+                "technique": "T1114",
+                "technique_name": "Email Collection"
+            },
+            {
+                "context": "For more information, email ",
+                "technique": "T1114",
+                "technique_name": "Email Collection"
+            },
+            {
+                "context": "The Automated Indicator Sharing (AIS) initiative is a DHS effort to create a system",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "Standards and Technology (NIST) in collaboration with the public and private sectors, is",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "principles and best practices of risk management to improve the security and resiliency of",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "critical infrastructure.",
+                "technique": "T1584",
+                "technique_name": "Compromise Infrastructure"
+            },
+            {
+                "context": "line of all email correspondence.",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            }
+        ]
+    }
+}

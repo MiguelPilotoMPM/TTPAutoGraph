@@ -1,0 +1,501 @@
+{
+    "file_name": "CarbonBlack.pdf",
+    "cti_info": {
+        "technical_patterns": {
+            "IPv4": [],
+            "IPv6": [],
+            "MAC": [],
+            "URL HTTP": [],
+            "URL HTTPS": [],
+            "Mail": [],
+            "Hash": [
+                "5216f0c62d1fd41b1d558e129e18d0fe",
+                "027cc450ef5f8c5f653329641ec1fed91f694e0d229928963b30f6b0d7d3a745",
+                "52dd60b5f3c9e2f17c2e303e8c8d4eab",
+                "71b6a493388e7d0b40c83ce903bc6b04",
+                "c5bd3bb710ae377938b17980692b785b",
+                "34f917aaba5684fbe56d3c57d48ef2a1aa7cf06d",
+                "da2b0b17905e8afae0eaca35e831be9e",
+                "46418e52b546c1f696eb8a524f18c56e",
+                "c5d1d4cdade7dcfbe14ec10dcf66cfb1",
+                "f07e68575f50a62382d99e182baa05d5"
+            ],
+            "Malicious Domain": [],
+            "Bitcoin Address": [],
+            "Ethereum Address": []
+        },
+        "windows_patterns": {
+            "File Path Windows": [
+                "C:\\Documents and Settings\\A",
+                "C:\\Windows\\p"
+            ]
+        },
+        "unix_patterns": {
+            "File Path Unix": [
+                "/SeDebugPrivilege",
+                "/SeTcbPrivilege",
+                "/or",
+                "/all",
+                "/Bt80VmNTBo/x95ZjAetGDN3VFNq7pC+9OqFoK30b3ni5rdQY/CdUOs2:y/X4NTS/x9jNG+w+9OqFoK323qdQYKUG",
+                "/5.2"
+            ]
+        },
+        "logical_patterns": {
+            "DNI/NIE": [],
+            "IBAN": [],
+            "Credit Card": [],
+            "UUID": []
+        }
+    },
+    "ttp_info": {
+        "file_name": "CarbonBlack.txt",
+        "total_ttps": 89,
+        "ttps": [
+            {
+                "context": "The metadata for the analyzed sample is noted below:",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "MD5: 71b6a493388e7d0b40c83ce903bc6b04",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "SHA256: 027cc450ef5f8c5f653329641ec1fed91f694e0d229928963b30f6b0d7d3a745",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Magic: PE32 executable for MS Windows (DLL) (console) Intel 80386 32-bit",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "Import Hash: 52dd60b5f3c9e2f17c2e303e8c8d4eab",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "                 .reloc     3,584      c5d1d4cdade7dcfbe14ec10dcf66cfb1",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "This sample was compiled recently (18 June 2017 at 07:14:36 UTC) and contains an expired",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Initial analysis suggests that the malware is a new variant of the Petya family of ransomware.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "and naming, with the colloquial names given of “NotPetya” and “Schrodinger’s Petya.” To",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "command line.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "A call to the standard DLL",
+                "technique": "T1129",
+                "technique_name": "Shared Modules"
+            },
+            {
+                "context": "permissions the running account has, primarily checking for the SeDebugPrivilege permission,",
+                "technique": "T1087",
+                "technique_name": "Account Discovery"
+            },
+            {
+                "context": "as detailed later in User Rights Checking and Malware Logic.",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "malware will encrypt the victim system in one of two methods.",
+                "technique": "T1486",
+                "technique_name": "Data Encrypted for Impact"
+            },
+            {
+                "context": "it encrypts the hard drive, shown below.",
+                "technique": "T1486",
+                "technique_name": "Data Encrypted for Impact"
+            },
+            {
+                "context": "to be Petya upon dynamic analysis, although static analysis showed vastly different code for",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "After the malware is finished obtaining privileges on the system, it looks for specific processes",
+                "technique": "T1057",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "context": "The malware authors use a proprietary XOR encryption routine to mask",
+                "technique": "T1132",
+                "technique_name": "Data Encoding"
+            },
+            {
+                "context": "what process names they are looking for.",
+                "technique": "T1057",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "context": "Carbon Black created a brute force routine to",
+                "technique": "T1110",
+                "technique_name": "Brute Force"
+            },
+            {
+                "context": "determine what those process names were:",
+                "technique": "T1057",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "context": "Encrypted",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Encrypted",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Encrypted",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Encrypted",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "avp.exe",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "Kaspersky",
+                "technique": "T1518",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "context": "ccSvcHst.exe",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "A global variable is modified if these process names are found running on the system.",
+                "technique": "T1057",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "context": "global variable affects how the malware runs on the system.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "found on the system and the malware obtains the required privileges, the credential stealer is",
+                "technique": "T1003",
+                "technique_name": "OS Credential Dumping"
+            },
+            {
+                "context": "Process Name Hashing Function",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "process context does not have SeDebugPrivilege permissions then the variant will employ a",
+                "technique": "T1574",
+                "technique_name": "Hijack Execution Flow"
+            },
+            {
+                "context": "Where files’ data is loaded by using the FindFile",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "cl Application & fsutil usn deletejournal /D %c:”",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "Anti-forensics Commands",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "It then uses the fsutil command to delete (/D) the USN",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "The method chosen is dependent upon the context of the process privileges, which",
+                "technique": "T1574",
+                "technique_name": "Hijack Execution Flow"
+            },
+            {
+                "context": "The sample will schedule a reboot early in its execution but,",
+                "technique": "T1529",
+                "technique_name": "System Shutdown/Reboot"
+            },
+            {
+                "context": "The malware will initiate a shutdown using the InitiateSystemShutdown() Api",
+                "technique": "T1529",
+                "technique_name": "System Shutdown/Reboot"
+            },
+            {
+                "context": "The malware will initiate a shutdown using a call to NtDll.NtRaiseHardError()",
+                "technique": "T1529",
+                "technique_name": "System Shutdown/Reboot"
+            },
+            {
+                "context": "The malware will rely upon the previously created scheduled task",
+                "technique": "T1053",
+                "technique_name": "Scheduled Task/Job"
+            },
+            {
+                "context": "System Shutdown Conditions",
+                "technique": "T1529",
+                "technique_name": "System Shutdown/Reboot"
+            },
+            {
+                "context": "default administrative network shares (Admin$) with a call to WNetAddConnection2() using a",
+                "technique": "T1021",
+                "technique_name": "Remote Services"
+            },
+            {
+                "context": "Lateral Movement to Admin Shares",
+                "technique": "T1021",
+                "technique_name": "Remote Services"
+            },
+            {
+                "context": "on the other system using standard CreateFile() and WriteFile() API routines.",
+                "technique": "T1106",
+                "technique_name": "Native API"
+            },
+            {
+                "context": "The malware also",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "has the ability to extract an embedded and compressed resource (resource 3) containing the",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "SysInternals PsExec.exe utility.",
+                "technique": "T1569",
+                "technique_name": "System Services"
+            },
+            {
+                "context": "PsExec Remote Execution Command Line Construction",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Failing that, the malware will then leverage the existing Windows WMI utility to execute the file",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "on the remote system, which is displayed in the image below:",
+                "technique": "T1018",
+                "technique_name": "Remote System Discovery"
+            },
+            {
+                "context": "WMIC Remote Execution Command Line Construction",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "As noted earlier, upon initial execution the sample will check several system privileges to",
+                "technique": "T1069",
+                "technique_name": "Permission Groups Discovery"
+            },
+            {
+                "context": "will enumerate other systems on the domain (area highlighted in green in the image below).",
+                "technique": "T1018",
+                "technique_name": "Remote System Discovery"
+            },
+            {
+                "context": "The area highlighted in red below shows where a function (labeled here as filename_check) is",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "called, where the sample will check to see if the file C:\\Windows\\perfc is present on the",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "to prevent multiple instances from running on a system.",
+                "technique": "T1480",
+                "technique_name": "Execution Guardrails"
+            },
+            {
+                "context": "sample will remove forensic artifacts in the manner detailed in Table 1 above, and then shut",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "Privilege and Drive Access Checks Prior to Scanning",
+                "technique": "T1595",
+                "technique_name": "Active Scanning"
+            },
+            {
+                "context": "The function (highlighted in green in the image above) will gather system information and then",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "Grabbing Local System Info and Enumerating Systems",
+                "technique": "T1049",
+                "technique_name": "System Network Connections Discovery"
+            },
+            {
+                "context": "As previously referenced, this sample is also capable of spreading through SMB kernel",
+                "technique": "T1129",
+                "technique_name": "Shared Modules"
+            },
+            {
+                "context": "process.",
+                "technique": "T1559",
+                "technique_name": "Inter-Process Communication"
+            },
+            {
+                "context": "The sample will then decode several strings used in the SMB phase of the  attack (which are",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "The table below shows the strings that were decoded in the previous image.",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "These strings",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "were encoded using a simple XOR key of 0x72.",
+                "technique": "T1132",
+                "technique_name": "Data Encoding"
+            },
+            {
+                "context": "highlighted in the image below shows where the shellcode is first decoded with a simple XOR",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "Initial De-obfuscation of Shellcode Payload",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "The image below shows a portion of the decoded shellcode, which contains additional layers of",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "obfuscation and is still being analyzed.",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "Resource 4 (once inflated and decoded using a simple",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "Continued De-obfuscation of Shellcode Payload",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": " – A token field that allows the owning process to adjust the memory of other processes",
+                "technique": "T1134",
+                "technique_name": "Access Token Manipulation"
+            },
+            {
+                "context": "the operating system.",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "The values are added together using Boolean OR commands which can result in the",
+                "technique": "T1001",
+                "technique_name": "Data Obfuscation"
+            },
+            {
+                "context": "rebooting the system after infection.",
+                "technique": "T1480",
+                "technique_name": "Execution Guardrails"
+            },
+            {
+                "context": "Calling Credential Harvesters",
+                "technique": "T1003",
+                "technique_name": "OS Credential Dumping"
+            },
+            {
+                "context": "This function will initially attempt to determine if the",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "inflated with zlib.",
+                "technique": "T1132",
+                "technique_name": "Data Encoding"
+            },
+            {
+                "context": "The sample will then create a named pipe to the",
+                "technique": "T1559",
+                "technique_name": "Inter-Process Communication"
+            },
+            {
+                "context": "temporary file (highlighted in blue), and execute the file as a new process, with a parameter of",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "Once completed the sample will delete the temporary file from the disk.",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "(Editor’s Note: This post was updated on 30 June to clarify the reboot sequence and adjust",
+                "technique": "T1529",
+                "technique_name": "System Shutdown/Reboot"
+            },
+            {
+                "context": "2 = SeDebugPrivilege",
+                "technique": "T1134",
+                "technique_name": "Access Token Manipulation"
+            },
+            {
+                "context": "4 = SeTcbPrivilege",
+                "technique": "T1134",
+                "technique_name": "Access Token Manipulation"
+            },
+            {
+                "context": "5 = SeShutdownPrivilege/SeTcbPrivilege",
+                "technique": "T1134",
+                "technique_name": "Access Token Manipulation"
+            },
+            {
+                "context": "6 = SeDebugPrivilege/SeTcbPrivilege",
+                "technique": "T1134",
+                "technique_name": "Access Token Manipulation"
+            }
+        ]
+    }
+}

@@ -1,0 +1,269 @@
+{
+    "file_name": "Threat Brief_ Iranian-Linked Cyber Operations.pdf",
+    "cti_info": {
+        "technical_patterns": {
+            "IPv4": [],
+            "IPv6": [],
+            "MAC": [],
+            "URL HTTP": [],
+            "URL HTTPS": [
+                "https://attack.mitre.org/groups/G0079",
+                "https://unit42.paloaltonetworks.com/shamoon-3-targets-oil-gas-organization",
+                "https://blog.trendmicro.com/trendlabs-security-intelligence/more-than-a-dozen-obfuscated-apt33-botnets-used-for-extreme-narrow-targeting",
+                "https://blog.trendmicro.com/trendlabs-security-intelligence/muddywater-resurfaces-uses-multi-stage-backdoor-powerstats-v3-and-new-post",
+                "https://securelist.com/shamoon-the-wiper-copycats-at-work/57854",
+                "https://securelist.com/muddywater/88059",
+                "https://unit42.paloaltonetworks.com/unit42-shamoon-2-delivering-disttrack",
+                "https://www.ﬁreeye.com/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html",
+                "https://unit42.paloaltonetworks.com/unit42-oilrig-uses-rgdoor-iis-backdoor-targets-middle-east",
+                "https://unit42.paloaltonetworks.com/unit42-oopsie-oilrig-uses-threedollars-deliver-new-trojan",
+                "https://unit42.paloaltonetworks.com/unit42-muddying-the-water-targeted-attacks-in-the-middle-east",
+                "https://unit42.paloaltonetworks.com/unit42-oilrig-performs-tests-twoface-webshell",
+                "https://unit42.paloaltonetworks.com/unit42-oilrig-targets-middle-eastern-government-adds-evasion-techniques-oopsie",
+                "https://attack.mitre.org/groups/G0064",
+                "https://unit42.paloaltonetworks.com/unit42-second-wave-shamoon-2-attacks-identiﬁed",
+                "https://attack.mitre.org/groups/G0059",
+                "https://attack.mitre.org/groups/G0049",
+                "https://unit42.paloaltonetworks.com/unit42-oilrig-actors-provide-glimpse-development-testing-eﬀorts",
+                "https://unit42.paloaltonetworks.com/unit42-new-threat-actor-group-darkhydrus-targets-middle-east-government",
+                "https://unit42.paloaltonetworks.com/unit42-oilrig-deploys-alma-communicator-dns-tunneling-trojan",
+                "https://unit42.paloaltonetworks.com/unit42-oilrig-group-steps-attacks-new-delivery-documents-new-injector-trojan",
+                "https://unit42.paloaltonetworks.com/dns-tunneling-in-the-wild-overview-of-oilrigs-dns-tunneling",
+                "https://unit42.paloaltonetworks.com/unit42-striking-oil-closer-look-adversary-infrastructure",
+                "https://unit42.paloaltonetworks.com/unit42-shamoon-2-return-disttrack-wiper",
+                "https://unit42.paloaltonetworks.com/darkhydrus-delivers-new-trojan-that-can-use-google-drive-for-c2-communications",
+                "https://unit42.paloaltonetworks.com/unit42-oilrig-uses-updated-bondupdater-target-middle-eastern-government",
+                "https://unit42.paloaltonetworks.com/unit42-oilrig-uses-ismdoor-variant-possibly-linked-greenbug-threat-group",
+                "https://unit42.paloaltonetworks.com/threat-brief-iranian-linked-cyber-operations",
+                "https://unit42.paloaltonetworks.com/unit42-magic-hound-campaign-attacks-saudi-targets",
+                "https://unit42.paloaltonetworks.com/behind-the-scenes-with-oilrig",
+                "https://unit42.paloaltonetworks.com/unit42-oilrig-targets-technology-service-provider-government-agency-quadagent",
+                "https://www.clearskysec.com/muddywater2",
+                "https://unit42.paloaltonetworks.com/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor",
+                "https://unit42.paloaltonetworks.com/unit42-darkhydrus-uses-phishery-harvest-credentials-middle-east",
+                "https://unit42.paloaltonetworks.com/shamoon-3-modiﬁed-open-source-wiper-contains-verse-from-the-quran",
+                "https://unit42.paloaltonetworks.com/unit42-analyzing-oilrigs-ops-tempo-testing-weaponization-delivery"
+            ],
+            "Mail": [],
+            "Hash": [],
+            "Malicious Domain": [],
+            "Bitcoin Address": [],
+            "Ethereum Address": []
+        },
+        "windows_patterns": {
+            "File Path Windows": []
+        },
+        "unix_patterns": {
+            "File Path Unix": [
+                "/groups/G0064",
+                "/unit42-shamoon-2-delivering-disttrack",
+                "/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor",
+                "/unit42-oilrig-targets-middle-eastern-government-adds-evasion-techniques-oopsie",
+                "/groups/G0049",
+                "/unit42-darkhydrus-uses-phishery-harvest-credentials-middle-east",
+                "/unit42-second-wave-shamoon-2-attacks-identiﬁed",
+                "/prevention",
+                "/groups/G0079",
+                "/unit42-new-threat-actor-group-darkhydrus-targets-middle-east-government",
+                "/unit42-analyzing-oilrigs-ops-tempo-testing-weaponization-delivery",
+                "/unit42-magic-hound-campaign-attacks-saudi-targets",
+                "/Elﬁn",
+                "/unit42-shamoon-2-return-disttrack-wiper",
+                "/unit42-muddying-the-water-targeted-attacks-in-the-middle-east",
+                "/unit42-oilrig-performs-tests-twoface-webshell",
+                "/unit42-oilrig-uses-updated-bondupdater-target-middle-eastern-government",
+                "/behind-the-scenes-with-oilrig",
+                "/unit42-striking-oil-closer-look-adversary-infrastructure",
+                "/muddywater/88059",
+                "/dns-tunneling-in-the-wild-overview-of-oilrigs-dns-tunneling",
+                "/shamoon-3-modiﬁed-open-source-wiper-contains-verse-from-the-quran",
+                "/unit42-oopsie-oilrig-uses-threedollars-deliver-new-trojan",
+                "/unit42-oilrig-uses-rgdoor-iis-backdoor-targets-middle-east",
+                "/trendlabs-security-intelligence/more-than-a-dozen-obfuscated-apt33-botnets-used-for-extreme-narrow-targeting",
+                "/Helix",
+                "/shamoon-3-targets-oil-gas-organization",
+                "/08/24",
+                "/threat-brief-iranian-linked-cyber-operations",
+                "/muddywater2",
+                "/unit42-oilrig-targets-technology-service-provider-government-agency-quadagent",
+                "/unit42-oilrig-actors-provide-glimpse-development-testing-eﬀorts",
+                "/unit42-oilrig-deploys-alma-communicator-dns-tunneling-trojan",
+                "/darkhydrus-delivers-new-trojan-that-can-use-google-drive-for-c2-communications",
+                "/Newscaster/Cobalt",
+                "/trendlabs-security-intelligence/muddywater-resurfaces-uses-multi-stage-backdoor-powerstats-v3-and-new-post",
+                "/groups/G0059",
+                "/unit42-oilrig-group-steps-attacks-new-delivery-documents-new-injector-trojan",
+                "/unit42-oilrig-uses-ismdoor-variant-possibly-linked-greenbug-threat-group",
+                "/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html",
+                "/shamoon-the-wiper-copycats-at-work/57854"
+            ]
+        },
+        "logical_patterns": {
+            "DNI/NIE": [],
+            "IBAN": [],
+            "Credit Card": [],
+            "UUID": []
+        }
+    },
+    "ttp_info": {
+        "file_name": "Threat Brief_ Iranian-Linked Cyber Operations.txt",
+        "total_ttps": 31,
+        "ttps": [
+            {
+                "context": "https://unit42.paloaltonetworks.com/threat-brief-iranian-linked-cyber-operations/",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "https://unit42.paloaltonetworks.com/threat-brief-iranian-linked-cyber-operations/",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "conjunction with ongoing attack campaigns and operations.",
+                "technique": "T1482",
+                "technique_name": "Domain Trust Discovery"
+            },
+            {
+                "context": "Iranian TTPs: Behaviorally, several tactics and techniques have been observed across multiple groups and campaigns over time.",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "Script based backdoors (T1064, T1027)",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Use of Mimikatz (T1003, T1207, T1098, T1081, S0002)",
+                "technique": "T1003",
+                "technique_name": "OS Credential Dumping"
+            },
+            {
+                "context": "General Mitigations: With this knowledge of common behaviors, some mitigations recommendations are:",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "Increase education and awareness against phishing attacks in your organization via exercises and informational resources",
+                "technique": "T1049",
+                "technique_name": "System Network Connections Discovery"
+            },
+            {
+                "context": "Enable or implement multi-factor authentication on public facing systems, or more preferably, across the entire organization",
+                "technique": "T1531",
+                "technique_name": "Account Access Removal"
+            },
+            {
+                "context": "Review security policies for script ﬁle execution on endpoints and restrict where possible",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Review all public facing network applications and deploy up-to-date patches",
+                "technique": "T1498",
+                "technique_name": "Network Denial of Service"
+            },
+            {
+                "context": "https://unit42.paloaltonetworks.com/threat-brief-iranian-linked-cyber-operations/",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "https://attack.mitre.org/groups/G0049/",
+                "technique": "T1069",
+                "technique_name": "Permission Groups Discovery"
+            },
+            {
+                "context": "https://attack.mitre.org/groups/G0059/",
+                "technique": "T1069",
+                "technique_name": "Permission Groups Discovery"
+            },
+            {
+                "context": "sourced Python RAT called Pupy.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "https://attack.mitre.org/groups/G0064/",
+                "technique": "T1069",
+                "technique_name": "Permission Groups Discovery"
+            },
+            {
+                "context": "They are known to use custom tools in conjunction with well-known publicly available backdoors",
+                "technique": "T1571",
+                "technique_name": "Non-Standard Port"
+            },
+            {
+                "context": "addition to compromised systems to use as proxies to further mask their origins.",
+                "technique": "T1090",
+                "technique_name": "Proxy"
+            },
+            {
+                "context": "This activity exempliﬁed how this adversary group and other related groups will",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "attack organizations outside of their mission objective to augment their own capabilities to complete their task.",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "https://unit42.paloaltonetworks.com/threat-brief-iranian-linked-cyber-operations/",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "https://www.ﬁreeye.com/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "https://attack.mitre.org/groups/G0079/",
+                "technique": "T1069",
+                "technique_name": "Permission Groups Discovery"
+            },
+            {
+                "context": "DarkHydrus is a more sophisticated group when compared to others operating in the region, as their toolset and TTPs show a higher skill level.",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "used custom tools in addition to publicly available red-teaming tools such as Phishery.",
+                "technique": "T1057",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "context": "The attack package included a commercially available driver to execute the wiping tasks and also included a",
+                "technique": "T1485",
+                "technique_name": "Data Destruction"
+            },
+            {
+                "context": "A signiﬁcant portion of MuddyWater’s toolset consisted of open sourced red-",
+                "technique": "T1588",
+                "technique_name": "Obtain Capabilities"
+            },
+            {
+                "context": "exploitation-tools/",
+                "technique": "T1057",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "context": "https://unit42.paloaltonetworks.com/threat-brief-iranian-linked-cyber-operations/",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "Enabling Multi-Factor Authentication (MFA)",
+                "technique": "T1531",
+                "technique_name": "Account Access Removal"
+            },
+            {
+                "context": "Unit 42 has consolidated the IOCs of the referenced groups in this report and stored them in our GitHub repository.",
+                "technique": "T1119",
+                "technique_name": "Automated Collection"
+            }
+        ]
+    }
+}

@@ -1,0 +1,300 @@
+{
+    "file_name": "Seaduke.pdf",
+    "cti_info": {
+        "technical_patterns": {
+            "IPv4": [],
+            "IPv6": [],
+            "MAC": [],
+            "URL HTTP": [
+                "http://sitebar.org",
+                "http://monitor.syn"
+            ],
+            "URL HTTPS": [
+                "https://www.facebook.com"
+            ],
+            "Mail": [],
+            "Hash": [
+                "A25EC7749B2DE12C2A86167AFA88A4DD",
+                "3EB86B7B067C296EF53E4857A74E09F12C2B84B666FC130D1F58AEC18BC74B0D",
+                "BB71254FBD41855E8E70F05231CE77FEE6F00388"
+            ],
+            "Malicious Domain": [],
+            "Bitcoin Address": [],
+            "Ethereum Address": []
+        },
+        "windows_patterns": {
+            "File Path Windows": []
+        },
+        "unix_patterns": {
+            "File Path Unix": [
+                "/3.3.8",
+                "/replace",
+                "/rss.php",
+                "/ZxdE5KD2XosXqIbEdrCxy3mqDSSLWJ7BFk3o",
+                "/UQ"
+            ]
+        },
+        "logical_patterns": {
+            "DNI/NIE": [],
+            "IBAN": [],
+            "Credit Card": [],
+            "UUID": []
+        }
+    },
+    "ttp_info": {
+        "file_name": "Seaduke.txt",
+        "total_ttps": 50,
+        "ttps": [
+            {
+                "context": "PE32 executable (GUI) Intel 80386, for MS Windows, UPX compressed",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "First Layer of Obfuscation",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Within this blog post, a payload containing a function",
+                "technique": "T1203",
+                "technique_name": "Exploitation for Client Execution"
+            },
+            {
+                "context": "‘Trojan.Win32.Seadask’ by a number of anti-virus companies.",
+                "technique": "T1518",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "context": "Once the UPX packer is removed from the malware sample, it becomes quickly apparent that we’re dealing with a sample compiled using PyInstaller.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "allows an individual to write a program using the Python scripting language and convert it into an executable for the Microsoft Windows, Linux, Mac OSX, Solaris, or",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "MD5",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Compile",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "sys.path.append(r\"%s?%d\")",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "Cannot GetProcAddress for PySys_SetObject",
+                "technique": "T1106",
+                "technique_name": "Native API"
+            },
+            {
+                "context": "Because the sample was written in Python originally, we’re able to extract the underlying code.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "underlying pyc ﬁles present within the binary.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Extracted Python ﬁles from Seaduke",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "We can then use a tool such as uncompyle2 to convert the Python byte-code into the original source code.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "the underlying Python code has been obfuscated.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Obfuscated Python code",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Tracing through the obfuscated code, we identify an ‘exec(ZxkBDKLakV)’ statement, which will presumably execute some Python code.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "subsequently decompressed using the ZLIB library.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "The following simple Python code can be used to circumvent this layer of obfuscation:",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "The remaining Python code still appears to be obfuscated, however, overall functionality can be identiﬁed.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "As we can see below, almost all variable names and class names have been obfuscated using long unique strings.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Obfuscation discovered in ﬁnal payload",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "Once we decode and",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "Base64-encoded / ZLIB compressed data",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "print \"Usage: python %s [file]\" % __file__",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "When the malware is initially run, it will determine on which operating system it is running.",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "Persistence via PowerShell",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Persistence via the Run registry key",
+                "technique": "T1547",
+                "technique_name": "Boot or Logon Autostart Execution"
+            },
+            {
+                "context": "Persistence via a .lnk ﬁle stored in the Startup directory",
+                "technique": "T1547",
+                "technique_name": "Boot or Logon Autostart Execution"
+            },
+            {
+                "context": "All network communications are performed over HTTP for this particular sample; however, it",
+                "technique": "T1071",
+                "technique_name": "Application Layer Protocol"
+            },
+            {
+                "context": "In actuality, this Cookie value contains encrypted data.",
+                "technique": "T1539",
+                "technique_name": "Steal Web Session Cookie"
+            },
+            {
+                "context": "The base64-encoded data is parsed from the Cookie value (padding is added as necessary).",
+                "technique": "T1132",
+                "technique_name": "Data Encoding"
+            },
+            {
+                "context": "The resulting decoded data is shown below.",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "\"first_run_delay\": 0, ",
+                "technique": "T1497",
+                "technique_name": "Virtualization/Sandbox Evasion"
+            },
+            {
+                "context": "\"delete_after\": false",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "Migrate processes",
+                "technique": "T1057",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "context": "Execute command",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Base64-encode ﬁle data and return result",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Execute Python code",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Encrypted Data   : '9J\\x8a\\xa3|\\x9d\\x85\\x9e\\x8c\\xa8{R\\x90\\xf2p\\xf9\\\\\\xacc\\x04q1'",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "Finally, the encrypted data is encrypted using the RC4 algorithm.",
+                "technique": "T1486",
+                "technique_name": "Data Encrypted for Impact"
+            },
+            {
+                "context": "The server attempts to mimic a HTML page and provides base64-encoded data within the",
+                "technique": "T1001",
+                "technique_name": "Data Obfuscation"
+            },
+            {
+                "context": "This data is then base64-decoded with additional characters (‘-_’)",
+                "technique": "T1132",
+                "technique_name": "Data Encoding"
+            },
+            {
+                "context": "Command",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "clone_time",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "In order for the ‘self_exit’ or ‘seppuku’ commands to properly execute, the attackers must supply a secondary argument of ‘YESIAMSURE’.",
+                "technique": "T1129",
+                "technique_name": "Shared Modules"
+            },
+            {
+                "context": "While written in Python, the malware employs a number of interesting techniques for encrypting data over the network and",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "LDAP Enumeration: Unveiling the Double-Edged",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "Crypted Hearts: Exposing ",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "Peace of mind comes from staying ahead of threats.",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            }
+        ]
+    }
+}

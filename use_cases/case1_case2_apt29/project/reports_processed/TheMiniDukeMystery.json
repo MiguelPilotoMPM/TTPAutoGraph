@@ -1,0 +1,125 @@
+{
+    "file_name": "TheMiniDukeMystery.pdf",
+    "cti_info": {
+        "technical_patterns": {
+            "IPv4": [],
+            "IPv6": [],
+            "MAC": [],
+            "URL HTTP": [],
+            "URL HTTPS": [],
+            "Mail": [],
+            "Hash": [],
+            "Malicious Domain": [],
+            "Bitcoin Address": [],
+            "Ethereum Address": []
+        },
+        "windows_patterns": {
+            "File Path Windows": []
+        },
+        "unix_patterns": {
+            "File Path Unix": []
+        },
+        "logical_patterns": {
+            "DNI/NIE": [],
+            "IBAN": [],
+            "Credit Card": [],
+            "UUID": []
+        }
+    },
+    "ttp_info": {
+        "file_name": "TheMiniDukeMystery.txt",
+        "total_ttps": 18,
+        "ttps": [
+            {
+                "context": "previously unknown, advanced piece of malware.",
+                "technique": "T1586",
+                "technique_name": "Compromise Accounts"
+            },
+            {
+                "context": "loaded at system boot, the downloader uses a set of",
+                "technique": "T1547",
+                "technique_name": "Boot or Logon Autostart Execution"
+            },
+            {
+                "context": "APT annual review: What the",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "These accounts were created by MiniDuke-s",
+                "technique": "T1136",
+                "technique_name": "Create Account"
+            },
+            {
+                "context": "to !nd the encrypted strings to the next C2.",
+                "technique": "T1573",
+                "technique_name": "Encrypted Channel"
+            },
+            {
+                "context": "• Once the infected system locates the C2, it receives",
+                "technique": "T1041",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "context": "encrypted backdoors that are obfuscated within GIF",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Once they are downloaded to the machine, they can fetch",
+                "technique": "T1105",
+                "technique_name": "Ingress Tool Transfer"
+            },
+            {
+                "context": "in Panama and one in Turkey to receive the instructions",
+                "technique": "T1531",
+                "technique_name": "Account Access Removal"
+            },
+            {
+                "context": "• The attackers left a small clue in the code, in the form",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Lithuania, Montenegro, Portugal, Romania, Russian",
+                "technique": "T1614",
+                "technique_name": "System Location Discovery"
+            },
+            {
+                "context": "C++",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "VULNERABILITIES AND EXPLOITS",
+                "technique": "T1588",
+                "technique_name": "Obtain Capabilities"
+            },
+            {
+                "context": "Analysis of Cyber",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "04 SEP 2024, 5:00PM",
+                "technique": "T1053",
+                "technique_name": "Scheduled Task/Job"
+            },
+            {
+                "context": "Buyer’s Dilemma: Hype",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "BellaCiao variant written in C++",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Cookies",
+                "technique": "T1547",
+                "technique_name": "Boot or Logon Autostart Execution"
+            }
+        ]
+    }
+}

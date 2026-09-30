@@ -1,0 +1,293 @@
+{
+    "file_name": "Iranian Campaign Tailored to US Companies Uses Updated Toolset - Intezer.pdf",
+    "cti_info": {
+        "technical_patterns": {
+            "IPv4": [],
+            "IPv6": [],
+            "MAC": [],
+            "URL HTTP": [],
+            "URL HTTPS": [
+                "https://docs.microsoft.com/en-us",
+                "https://intezer.com/blog/research/new-iranian-campaign-tailored-to-us-companies-uses-updated-toolset"
+            ],
+            "Mail": [],
+            "Hash": [
+                "a897164e3547f0ce3aaa476b0364a200769e8c07ce825bcfdc43939dd1314bb1",
+                "4c323bc11982b95266732c01645c39618550e68f25c34f6d3d79288eae7d4378",
+                "20b3d046ed617b7336156a64a0550d416afdd80a2c32ce332be6bbfd4829832c",
+                "d61eecd7492dfa461344076a93fc2668dc28943724190faf3d9390f8403b6411",
+                "c10cd1c78c180ba657e3921ee9421b9abd5b965c4cdfaa94a58e383b45bb72ca"
+            ],
+            "Malicious Domain": [],
+            "Bitcoin Address": [],
+            "Ethereum Address": []
+        },
+        "windows_patterns": {
+            "File Path Windows": []
+        },
+        "unix_patterns": {
+            "File Path Unix": [
+                "/en-us",
+                "/blog/research/new-iranian-campaign-tailored-to-us-companies-uses-updated-toolset",
+                "/08/24"
+            ]
+        },
+        "logical_patterns": {
+            "DNI/NIE": [],
+            "IBAN": [],
+            "Credit Card": [],
+            "UUID": []
+        }
+    },
+    "ttp_info": {
+        "file_name": "Iranian Campaign Tailored to US Companies Uses Updated Toolset - Intezer.txt",
+        "total_ttps": 49,
+        "ttps": [
+            {
+                "context": "us to believe this attack may target Westat customers.",
+                "technique": "T1588",
+                "technique_name": "Obtain Capabilities"
+            },
+            {
+                "context": "ﬁle that uses the Westat name and logo.",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "about previous APT34 operations; including IP addresses and",
+                "technique": "T1049",
+                "technique_name": "System Network Connections Discovery"
+            },
+            {
+                "context": "malicious VBA code begins to execute.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "extracts a “Client update.exe” executable ﬁle and installs it to",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "crtt function creates a scheduled task “CheckUpdate” that runs the",
+                "technique": "T1053",
+                "technique_name": "Scheduled Task/Job"
+            },
+            {
+                "context": "Survey.xls VBA Code",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Both the extracted VBA code and the functionality of the code look",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "APT34 VBA Code from the FireEye Report",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "metadata, denoting the preferred language installed on the",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "At ﬁrst glance, “Client update.exe” seems like a completely new",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "likely a highly modiﬁed version of the previously seen TONEDEAF",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "execute commands.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "We have named the new variant TONEDEAF 2.0.",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "contrast to the original TONEDEAF, TONEDEAF 2.0 contains solely",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "the scheduled task, as part of the proper infection chain.",
+                "technique": "T1053",
+                "technique_name": "Scheduled Task/Job"
+            },
+            {
+                "context": "predecessor by hiding many of the interesting API imports it uses.",
+                "technique": "T1564",
+                "technique_name": "Hide Artifacts"
+            },
+            {
+                "context": "The names of these APIs, and the DLLs that contain them, are",
+                "technique": "T1106",
+                "technique_name": "Native API"
+            },
+            {
+                "context": "C2 Communication",
+                "technique": "T1041",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "context": "C2 Communication",
+                "technique": "T1041",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "context": "C2 Communication",
+                "technique": "T1041",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "context": "C2 Communication",
+                "technique": "T1041",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "context": "The backdoor uses HTTP for C2 communication, with a custom",
+                "technique": "T1071",
+                "technique_name": "Application Layer Protocol"
+            },
+            {
+                "context": "backdoor always contain the HTTP query parameter “?ser=<6",
+                "technique": "T1071",
+                "technique_name": "Application Layer Protocol"
+            },
+            {
+                "context": "message, used to send the executed command’s output to the",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "server.",
+                "technique": "T1505",
+                "technique_name": "Server Software Component"
+            },
+            {
+                "context": "C2 Request",
+                "technique": "T1041",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "context": "The malware extracts the command by looking",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "for an HTTP div element in the response with a special class name.",
+                "technique": "T1071",
+                "technique_name": "Application Layer Protocol"
+            },
+            {
+                "context": "The malware will then execute the command by prepending it with",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "“cmd U c” and will send the output of the command back to the C2",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "using the POST reply message (2).",
+                "technique": "T1071",
+                "technique_name": "Application Layer Protocol"
+            },
+            {
+                "context": "We have also observed that an SSL certiﬁcate has been recently",
+                "technique": "T1553",
+                "technique_name": "Subvert Trust Controls"
+            },
+            {
+                "context": "Traces from the Original TONEDEAF",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "Traces from the Original TONEDEAF",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "Traces from the Original TONEDEAF",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "Traces from the Original TONEDEAF",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "victim and the server.",
+                "technique": "T1505",
+                "technique_name": "Server Software Component"
+            },
+            {
+                "context": "creates a notiﬁcation icon in the Windows status bar.",
+                "technique": "T1564",
+                "technique_name": "Hide Artifacts"
+            },
+            {
+                "context": "Another instance is the code that sets the working directory of the",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "It appears in di\"erent stages for each variant, but is",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "Lebanon by the same user, only a few minutes apart.",
+                "technique": "T1548",
+                "technique_name": "Abuse Elevation Control Mechanism"
+            },
+            {
+                "context": "the new binary in order to lower its noise.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Only Chrome password",
+                "technique": "T1555",
+                "technique_name": "Credentials from Password Stores"
+            },
+            {
+                "context": "Furthermore, VALUEVAULT 2.0 is a 64-bit binary as opposed to",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "VALUEVAULT 1.0 which is a 32-bit binary.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "analysis of the new malware variants reveals this Iranian",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "upgrading its toolset in an attempt to evade future detection.",
+                "technique": "T1564",
+                "technique_name": "Hide Artifacts"
+            },
+            {
+                "context": "The binary code from these new malware samples are now indexed",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            }
+        ]
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "file_name": "Ryuk wakes from hibernation; FBI, DHS warn of healthcare attacks - Cybersecurity Dive.pdf",
+    "cti_info": {
+        "technical_patterns": {
+            "IPv4": [],
+            "IPv6": [],
+            "MAC": [],
+            "URL HTTP": [],
+            "URL HTTPS": [
+                "https://www.cybersecuritydive.com/news/Ryuk-FBI-DHS-ransomware-healthcare/587961"
+            ],
+            "Mail": [],
+            "Hash": [],
+            "Malicious Domain": [],
+            "Bitcoin Address": [],
+            "Ethereum Address": []
+        },
+        "windows_patterns": {
+            "File Path Windows": []
+        },
+        "unix_patterns": {
+            "File Path Unix": [
+                "/2",
+                "/07/24",
+                "/news/Ryuk-FBI-DHS-ransomware-healthcare/587961"
+            ]
+        },
+        "logical_patterns": {
+            "DNI/NIE": [],
+            "IBAN": [],
+            "Credit Card": [],
+            "UUID": []
+        }
+    },
+    "ttp_info": {
+        "file_name": "Ryuk wakes from hibernation; FBI, DHS warn of healthcare attacks - Cybersecurity Dive.txt",
+        "total_ttps": 11,
+        "ttps": [
+            {
+                "context": "Researchers found that threat group UNC1878 is",
+                "technique": "T1069",
+                "technique_name": "Permission Groups Discovery"
+            },
+            {
+                "context": "will have a material impact on its business operations or its",
+                "technique": "T1553",
+                "technique_name": "Subvert Trust Controls"
+            },
+            {
+                "context": "UNC1878 obtains credentials using Mimikatz, LaZagne",
+                "technique": "T1003",
+                "technique_name": "OS Credential Dumping"
+            },
+            {
+                "context": "“With legitimate credentials UNC1878 extended their access by",
+                "technique": "T1078",
+                "technique_name": "Valid Accounts"
+            },
+            {
+                "context": "Trickbot’s critical infrastructure.",
+                "technique": "T1584",
+                "technique_name": "Compromise Infrastructure"
+            },
+            {
+                "context": "phishing email.",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "UNC1878’s “time to Ryuk,” or intrusion to execution time, was on",
+                "technique": "T1497",
+                "technique_name": "Virtualization/Sandbox Evasion"
+            },
+            {
+                "context": "average about five days and 17 hours.",
+                "technique": "T1029",
+                "technique_name": "Scheduled Transfer"
+            },
+            {
+                "context": "ransomware binary and patch files for malware propagation.",
+                "technique": "T1480",
+                "technique_name": "Execution Guardrails"
+            },
+            {
+                "context": "“associated with one or more of these legitimate services.” ",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "two groups should really be the same, the data will tell us and in",
+                "technique": "T1069",
+                "technique_name": "Permission Groups Discovery"
+            }
+        ]
+    }
+}

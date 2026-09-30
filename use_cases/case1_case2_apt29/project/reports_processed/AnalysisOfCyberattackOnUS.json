@@ -1,0 +1,284 @@
+{
+    "file_name": "AnalysisOfCyberattackOnUS.pdf",
+    "cti_info": {
+        "technical_patterns": {
+            "IPv4": [
+                "95.216.59.92"
+            ],
+            "IPv6": [],
+            "MAC": [],
+            "URL HTTP": [],
+            "URL HTTPS": [
+                "https://www.jmj.com/personal/nauerthn_state_gov"
+            ],
+            "Mail": [],
+            "Hash": [
+                "cd92f19d3ad4ec50f6d19652af010fe07dca55e1",
+                "8e928c550e5d44fb31ef8b6f3df2e914acd66873",
+                "e431261c63f94a174a1308defccc674dabbe3609",
+                "9858d5cb2a6614be3c48e33911bf9f7978b441bf"
+            ],
+            "Malicious Domain": [],
+            "Bitcoin Address": [],
+            "Ethereum Address": []
+        },
+        "windows_patterns": {
+            "File Path Windows": []
+        },
+        "unix_patterns": {
+            "File Path Unix": [
+                "/personal/nauerthn_state_gov/VFVKRTdRSm",
+                "/Atosev.gen!A",
+                "/personal/nauerthn_state_gov/TUJE7QJl[random",
+                "/personal/nauerthn_state_gov"
+            ]
+        },
+        "logical_patterns": {
+            "DNI/NIE": [],
+            "IBAN": [],
+            "Credit Card": [],
+            "UUID": []
+        }
+    },
+    "ttp_info": {
+        "file_name": "AnalysisOfCyberattackOnUS.txt",
+        "total_ttps": 47,
+        "ttps": [
+            {
+                "context": "centers, but also included educational institutions and private-sector corporations",
+                "technique": "T1589",
+                "technique_name": "Gather Victim Identity Information"
+            },
+            {
+                "context": "Meanwhile, numerous alerts in Windows Defender Advanced Threat",
+                "technique": "T1518",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "context": "step of notifying thousands of individual recipients in hundreds of targeted",
+                "technique": "T1114",
+                "technique_name": "Email Collection"
+            },
+            {
+                "context": "Products",
+                "technique": "T1195",
+                "technique_name": "Supply Chain Compromise"
+            },
+            {
+                "context": "The spear-phishing emails mimicked sharing notifications from OneDrive and, as",
+                "technique": "T1566",
+                "technique_name": "Phishing"
+            },
+            {
+                "context": "The spear-phishing emails used in this attack resemble file-sharing notifications",
+                "technique": "T1566",
+                "technique_name": "Phishing"
+            },
+            {
+                "context": "The emails contain a link to a legitimate, but compromised third-party website:",
+                "technique": "T1598",
+                "technique_name": "Phishing for Information"
+            },
+            {
+                "context": "The random strings are likely used to identify distinct targeted individuals who",
+                "technique": "T1132",
+                "technique_name": "Data Encoding"
+            },
+            {
+                "context": "When users click the link, they are served a ZIP archive containing a malicious LNK",
+                "technique": "T1204",
+                "technique_name": "User Execution"
+            },
+            {
+                "context": "It executes an obfuscated",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "The encoded payload—another heavily obfuscated PowerShell script—is decoded",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "Decoded second script",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "The second script carves out two additional resources from within the .LNK file:",
+                "technique": "T1105",
+                "technique_name": "Ingress Tool Transfer"
+            },
+            {
+                "context": "The first-stage DLL, cyzfc.dat, is created by the PowerShell script in the path",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "PointFunctionCall.",
+                "technique": "T1106",
+                "technique_name": "Native API"
+            },
+            {
+                "context": "The PowerShell script then executes cyzfc.dat by calling rundll32.exe.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Take a header that is baked into the first payload with a size 0xEF bytes",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "De-XOR the second-stage payload with a rolling XOR (ROR1), starting from",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "Implement a backdoor over the named pipe:",
+                "technique": "T1559",
+                "technique_name": "Inter-Process Communication"
+            },
+            {
+                "context": "much simple XOR key: simple XORing every 4 bytes with 0x7CC2885F",
+                "technique": "T1573",
+                "technique_name": "Encrypted Channel"
+            },
+            {
+                "context": "decrypted, it forms a PE file with a Meterpreter header, interpreting instructions in",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "the PE header and moving control to a reflective loader:",
+                "technique": "T1480",
+                "technique_name": "Execution Guardrails"
+            },
+            {
+                "context": "CobaltStrike is a feature-rich penetration testing tool that provides remote",
+                "technique": "T1021",
+                "technique_name": "Remote Services"
+            },
+            {
+                "context": "Microsoft Threat Protection is a comprehensive solution for enterprise networks,",
+                "technique": "T1518",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "context": "behavioral markers in links in the emails, allowing us to successfully block",
+                "technique": "T1114",
+                "technique_name": "Email Collection"
+            },
+            {
+                "context": "(Behavior:Win32/Atosev.gen!A) for the second-stage malware.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Purge (ZAP) actively removes emails post-delivery after they have been verified as",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "Artifacts associated with an advanced threat detected",
+                "technique": "T1518",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "context": "Block executable files from running unless they meet a prevalence, age, or",
+                "technique": "T1480",
+                "technique_name": "Execution Guardrails"
+            },
+            {
+                "context": "Automated investigation and response",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "attack.",
+                "technique": "T1498",
+                "technique_name": "Network Denial of Service"
+            },
+            {
+                "context": "investigate, and respond to advanced attacks, sign up for a free Windows",
+                "technique": "T1531",
+                "technique_name": "Account Access Removal"
+            },
+            {
+                "context": "The following Advanced hunting query can help security operations teams search",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "let fileHash = \"9858d5cb2a6614be3c48e33911bf9f7978b441bf\";",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "//Query 3: Malicious PowerShell",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "\"-noni -ep bypass $zk=' ",
+                "technique": "T1562",
+                "technique_name": "Impair Defenses"
+            },
+            {
+                "context": "//Query 4: Malicious domain in default browser commandline",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "let fileHash = \"cd92f19d3ad4ec50f6d19652af010fe07dca55e1\";",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "ds7002.ZIP: cd92f19d3ad4ec50f6d19652af010fe07dca55e1",
+                "technique": "T1560",
+                "technique_name": "Archive Collected Data"
+            },
+            {
+                "context": "ds7002.LNK: e431261c63f94a174a1308defccc674dabbe3609",
+                "technique": "T1547",
+                "technique_name": "Boot or Logon Autostart Execution"
+            },
+            {
+                "context": "Microsoft Threat Protection,",
+                "technique": "T1518",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "context": "securing identities,",
+                "technique": "T1491",
+                "technique_name": "Defacement"
+            },
+            {
+                "context": "endpoints, cloud apps, and",
+                "technique": "T1580",
+                "technique_name": "Cloud Infrastructure Discovery"
+            },
+            {
+                "context": "infrastructure.",
+                "technique": "T1584",
+                "technique_name": "Compromise Infrastructure"
+            },
+            {
+                "context": "compromise tool to exploit a",
+                "technique": "T1548",
+                "technique_name": "Abuse Elevation Control Mechanism"
+            },
+            {
+                "context": "this vulnerability as CVE-",
+                "technique": "T1195",
+                "technique_name": "Supply Chain Compromise"
+            },
+            {
+                "context": "English (United States)",
+                "technique": "T1614",
+                "technique_name": "System Location Discovery"
+            }
+        ]
+    }
+}

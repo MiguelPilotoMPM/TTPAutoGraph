@@ -1,0 +1,175 @@
+{
+    "file_name": "UkrainianCriticalInfrastructure.pdf",
+    "cti_info": {
+        "technical_patterns": {
+            "IPv4": [],
+            "IPv6": [],
+            "MAC": [],
+            "URL HTTP": [
+                "http://ics-cert.us"
+            ],
+            "URL HTTPS": [
+                "https://www.oig.dhs.gov",
+                "https://www.usa.gov",
+                "https://www.whitehouse.gov",
+                "https://www.dhs.gov",
+                "https://us-cert.cisa.gov/russia",
+                "https://ics-cert.us",
+                "https://www.dhs.gov/foia",
+                "https://ics-cert.us-cert.gov/alerts/ICS-ALERT-14-281-01E",
+                "https://www.dhs.gov/performance",
+                "https://www.us"
+            ],
+            "Mail": [
+                "ics-cert@hq.dhs.gov",
+                "SayCISA@cisa.dhs.gov"
+            ],
+            "Hash": [],
+            "Malicious Domain": [],
+            "Bitcoin Address": [],
+            "Ethereum Address": []
+        },
+        "windows_patterns": {
+            "File Path Windows": []
+        },
+        "unix_patterns": {
+            "File Path Unix": [
+                "/monitors/ICS-MM201506",
+                "/performance",
+                "/Russia",
+                "/sites/default/files/documents/Seven%20Steps%20to%20E!ectively%20D",
+                "/ICS-CERT",
+                "/default/ﬁles/documents/seven%20steps%20to%20effectively%20defend%20industrial%2",
+                "/default/ﬁles/recommended_practices/nccic_ics",
+                "/ncas/tips/ST13-003",
+                "/June",
+                "/foia",
+                "/alerts/ics",
+                "/alerts/ICS-ALERT-14-281-01E",
+                "/feedb",
+                "/russia",
+                "/tips/st13-003",
+                "/monitors/ics-mm201506",
+                "/content/recommended-practices",
+                "/sites/default/files/recommended_practices/NCCIC_ICS"
+            ]
+        },
+        "logical_patterns": {
+            "DNI/NIE": [],
+            "IBAN": [],
+            "Credit Card": [],
+            "UUID": []
+        }
+    },
+    "ttp_info": {
+        "file_name": "UkrainianCriticalInfrastructure.txt",
+        "total_ttps": 21,
+        "ttps": [
+            {
+                "context": "Cyber-Attack Against",
+                "technique": "T1491",
+                "technique_name": "Defacement"
+            },
+            {
+                "context": "On December 23, 2015, Ukrainian power companies experienced unscheduled",
+                "technique": "T1053",
+                "technique_name": "Scheduled Task/Job"
+            },
+            {
+                "context": "On December 23, 2015, Ukrainian power companies experienced unscheduled",
+                "technique": "T1053",
+                "technique_name": "Scheduled Task/Job"
+            },
+            {
+                "context": "network defense purposes.",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "organizations with first-hand experience of the event.",
+                "technique": "T1531",
+                "technique_name": "Account Access Removal"
+            },
+            {
+                "context": "Through interviews with impacted entities, the team learned that power outages",
+                "technique": "T1597",
+                "technique_name": "Search Closed Sources"
+            },
+            {
+                "context": "Windows-based human-machine interfaces (HMIs) embedded in remote terminal",
+                "technique": "T1021",
+                "technique_name": "Remote Services"
+            },
+            {
+                "context": "addition, the actors reportedly scheduled disconnects for server Uninterruptable",
+                "technique": "T1053",
+                "technique_name": "Scheduled Task/Job"
+            },
+            {
+                "context": "attacks.",
+                "technique": "T1498",
+                "technique_name": "Network Denial of Service"
+            },
+            {
+                "context": "breached.",
+                "technique": "T1003",
+                "technique_name": "OS Credential Dumping"
+            },
+            {
+                "context": "working counter to the safe operation of the process.",
+                "technique": "T1574",
+                "technique_name": "Hijack Execution Flow"
+            },
+            {
+                "context": "Application Whitelisting (AWL) can detect and prevent attempted execution of",
+                "technique": "T1562",
+                "technique_name": "Impair Defenses"
+            },
+            {
+                "context": "Organizations should also limit Remote Access functionality wherever possible.",
+                "technique": "T1021",
+                "technique_name": "Remote Services"
+            },
+            {
+                "context": "Strong multi-factor",
+                "technique": "T1550",
+                "technique_name": "Use Alternate Authentication Material"
+            },
+            {
+                "context": "authentication should be used if possible, avoiding schemes where both tokens",
+                "technique": "T1528",
+                "technique_name": "Steal Application Access Token"
+            },
+            {
+                "context": "These backdoors can be accidentally created in various places on the network, but",
+                "technique": "T1014",
+                "technique_name": "Rootkit"
+            },
+            {
+                "context": "compromise may provide extended access because of pre-existing trust",
+                "technique": "T1199",
+                "technique_name": "Trusted Relationship"
+            },
+            {
+                "context": "established internal procedures and report their findings to ICS-CERT for tracking",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "and correlation against other incidents.",
+                "technique": "T1482",
+                "technique_name": "Domain Trust Discovery"
+            },
+            {
+                "context": "Additional information about using YARA signatures can be found",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "<https://www.usa.gov/>",
+                "technique": "T1593",
+                "technique_name": "Search Open Websites/Domains"
+            }
+        ]
+    }
+}

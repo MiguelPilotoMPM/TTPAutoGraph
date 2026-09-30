@@ -1,0 +1,1410 @@
+{
+    "file_name": "F-Secure_Dukes_Whitepaper.pdf",
+    "cti_info": {
+        "technical_patterns": {
+            "IPv4": [
+                "151.236.23.31",
+                "178.21.172.157",
+                "199.231.188.109",
+                "212.76.128.149",
+                "83.149.74.73",
+                "128.199.138.233",
+                "91.224.141.235",
+                "188.116.32.164",
+                "87.118.106.55",
+                "88.150.208.207",
+                "85.17.143.149",
+                "94.242.199.88",
+                "178.63.149.142",
+                "66.29.115.55",
+                "46.246.120.178",
+                "82.146.51.22",
+                "176.74.216.14",
+                "50.7.192.146",
+                "184.154.184.83",
+                "64.18.143.66",
+                "96.9.182.37",
+                "188.40.13.99",
+                "173.236.70.212",
+                "188.241.115.41",
+                "87.255.77.36",
+                "192.168.56.101",
+                "69.59.28.57",
+                "195.43.94.104",
+                "5.45.66.134",
+                "82.146.47.163",
+                "91.221.66.242"
+            ],
+            "IPv6": [],
+            "MAC": [],
+            "URL HTTP": [
+                "http://www.boost.org/users",
+                "http://www.symantec.com/connect/blogs/forkmeiamfamous-seaduke-latest",
+                "http://seclists.org/fulldisclosure/2010/Jan/341",
+                "http://www.symantec.com/connect/blogs",
+                "http://blog.crysys.hu/2013/02/miniduke",
+                "http://news.bbc.co.uk/2/hi",
+                "http://blog.trendmicro.com/trendlabs-security",
+                "http://efele.net/maps/tz/russia",
+                "http://www.crysys.hu/miniduke/miniduke_indicators_public.pdf",
+                "http://researchcenter.paloaltonetworks",
+                "http://kasperskycontenthub.com"
+            ],
+            "URL HTTPS": [
+                "https://www.f-secure.com/documents/996508/1030745/cosmicduke_whitepaper.pdf",
+                "https://en.wikipedia.org/wiki/Moscow_Time",
+                "https://www.exploit-db.com",
+                "https://www.f-secure.com/weblog/archives/00002764.html",
+                "https://securelist.com/blog/incidents/64107/miniduke-is-back-nemesis-gemina-and-the-botgen",
+                "https://securelist.com/blog",
+                "https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf",
+                "https://www.f-secure",
+                "https://www.whitehouse.gov/the-press-office/remarks-president-barack-obama-prague-delivered",
+                "https://www.fireeye.com/blog/threat-research/2013/02/in-turn-its-pdf",
+                "https://www.f-secure.com",
+                "https://securelist.com/blog/research/71443/minidionis-one-more-apt-with-a-usage-of-cloud",
+                "https://www.circl.lu/files/tr-14",
+                "https://en.wikipedia.org/wiki/Kavkaz_Center",
+                "https://www.f",
+                "https://www2.fireeye.com/rs/848-DID-242"
+            ],
+            "Mail": [],
+            "Hash": [
+                "353540c6619f2bba2351babad736599811d3392e",
+                "cd7116fc6a5fa170690590e161c7589d502bd6a7",
+                "93ee1c714fad9cc1bf2cba19f3de9d1e83c665e2",
+                "91cb047f28a15b558a9a4dff26df642b9001f8d7",
+                "9fae684a130c052ad2b55ebaf7f6e513c0e62abe",
+                "9796d22994ff4b4e838079d2e5613e7ac425dd1d",
+                "365f61c7886ca82bfdf8ee19ce0f92c4f7d0901e",
+                "a9e529c7b04a99019dd31c3c0d7f576e1bbd0970",
+                "4fbc518df60df395ea27224cb85c4da2ff327e98",
+                "b2a951c5b2613abdb9174678f43a579592b0abc9",
+                "c6d3dac500de2f46e56611c13c589e037e4ca5e0",
+                "5acaea49540635670036dc626503431b5a783b56",
+                "a81b58b2171c6a728039dc493faaf2cab7d146a5",
+                "74bc93107b1bbae2d98fca6d819c2f0bbe8c9f8a",
+                "44403a3e51e337c1372b0becdab74313125452c7",
+                "0d8f41fe09dbd75ab953f9e64a6cdbbbc198bf2b",
+                "fecdba1d903a51499a3953b4df1d850fbd5438bd",
+                "7d871a2d467474178893cd017e4e3e04e589c9a0",
+                "07b4e44b6b3e1c3904ded7d6c9dcf7fa609467ef",
+                "04299c0b549d4a46154e0a754dda2bc9e43dff76",
+                "3980f0e3fe80b2e7378325ab64ecbe725ae5eca9",
+                "383fc3c218b9fb0d4224d69af66caf09869b4c73",
+                "e7720ab728cb18ea329c7dd7c9b7408e266c986b",
+                "31ab6830f4e39c2c520ae55d4c4bffe0b347c947",
+                "a3653091334892cf97a55715c7555c8881230bc4",
+                "7b3652f8d51bf74174e1e5364dbbf901a2ebcba1",
+                "bfe26837da22f21451f0416aa9d241f98ff1c0f8",
+                "bf48d8126e84185e7825b69951293271031cbad4",
+                "f33c980d4b6aaab1dc401226ab452ce840ad4f40",
+                "c1ec762878a0eed8ebf47e122e87c79a5e3f7b44",
+                "5a199a75411047903b7ba7851bf705ec545f6da9",
+                "78d1c1e11ebae22849bccb3eb154ec986d992364",
+                "333f5acc35ea0206f7d1deadcb94ca6ec9564d02",
+                "2ceae0f5f3efe366ebded0a413e5ea264fbf2a33",
+                "073faad9c18dbe0e0285b2747eae0c629e56830c",
+                "b491c14d8cfb48636f6095b7b16555e9a575d57f",
+                "558f1d400be521f8286b6a51f56d362d64278132",
+                "b65aa8590a1bac52a85dbd1ea091fc586f6ab00a",
+                "f2ffc4e1d5faec0b7c03a233524bb78e44f0e50b",
+                "e4add0b118113b2627143c7ef1d5b1327de395f1",
+                "c6472898e9085e563cd56baeb6b6e21928c5486d",
+                "2f156a9f861cda356c4ddf332d71937ac9962c68",
+                "a10f2dc5dbdbf1a11ebe4c3e59a4c0e5d14bcc8a",
+                "5150174a4d5e5bb0bccc568e82dbb86406487510",
+                "6b0721a9ced806076f84e828d9c65504a77d106c",
+                "45ee9aa9f8ef3a9cc0b4b250766e7a9368a30934",
+                "8099a40b9ef478ee50c466eb65fe71b247fcf014",
+                "01e5080b832c6e4fcb7b9d06caffe03dab8d95da",
+                "4aaac99607013b21863728b9453e4ffee67b902e",
+                "10b31a17449705be20890ddd8ad97a2feb093674",
+                "223c7eb7b9dde08ee028bba6552409ee144db54a",
+                "3ed561786ca07c8e9862f4f682c1828a039d6dd4",
+                "d303a6ddd63ce993a8432f4daab5132732748843",
+                "9700c8a41a929449cfba6567a648e9c5e4a14e70",
+                "797b3101b9352be812b8d411179ae765e14065a6",
+                "8949c1d82dda5c2ead0a73b532c4b2e1fbb58a0e",
+                "1a31245e943b131d81375d70b489d8e4bf3d6dce",
+                "5c5ec0b5112a74a95edc23ef093792eb3698320e",
+                "50f8ea7eb685656c02a83420b3910d14ac588c8b",
+                "01d3973e1bb46e2b75034736991c567862a11263",
+                "6483ed51bd244c7b2cf97db62602b19c27fa3059",
+                "97c62e04b0ce401bd338224cdd58f5943f47c8de",
+                "cd50170a70b9cc767aa4b21a150c136cb25fbd44",
+                "7efd300efed0a42c7d1f568e309c45b2b641f5c2",
+                "e99a03ebe3462d2399f1b819f48384f6714dcba1",
+                "52d44e936388b77a0afdb21b099cf83ed6cbaa6f",
+                "91fd13a6b44e99f7235697ab5fe520d540279741",
+                "4a9875f646c5410f8317191ef2a91f934ce76f57",
+                "4800d67ea326e6d037198abd3d95f4ed59449313",
+                "fdfd9abbaafe0bee747c0f1d7963d903174359df",
+                "02f55947402689ec755356ab6b0345a592446da7",
+                "f621ec1b363e13dd60474fcfab374b8570ede4de",
+                "ad2cac618ab9d9d4a16a2db32410607bbf98ce8f",
+                "a74eceea45207a6b46f461d436b73314b2065756",
+                "cbca642acdb9f6df1b3efef0af8e675e32bd71d1",
+                "49fb759d133eeaab3fcc78cec64418e44ed649ab",
+                "6a3c2ad9919ad09ef6cdffc80940286814a0aa2c",
+                "a75995f94854dea8799650a2f4a97980b71199d2",
+                "8a2227cafa5713297313844344d6b6d9e0885093",
+                "ccf83cd713e0f078697f9e842a06d624f8b9757e",
+                "f3dcbc016393497f681e12628ad9411c27e57d48",
+                "c1e229219e84203ba9e26f2917bd268656ff4716",
+                "32b0c8c46f8baaba0159967c5602f58dd73ebde9",
+                "e841ca216ce4ee9e967ffff9b059d31ccbf126bd",
+                "ed0cf362c0a9de96ce49c841aa55997b4777b326",
+                "6e00b86a2480abc6dbd971c0bf6495d81ed1b629",
+                "f1f1ace3906080cef52ca4948185b665d1d7b13e",
+                "edf74413a6e2763147184b5e1b8732537a854365",
+                "a7819c06746ae8d1e5d5111b1ca711db0c8d923e",
+                "d5905327f213a69f314e2503c68ef5b51c2d381e",
+                "6a43ada6a3741892b56b0ef38cdf48df1ace236d",
+                "2d74a4efaecd0d23afcad02118e00c08e17996ed",
+                "b8b116d11909a05428b7cb6dcce06113f4cc9e58",
+                "827de388e0feabd92fe7bd433138aa35142bd01a",
+                "b14b9241197c667f00f86d096d71c47d6fa9aca6",
+                "aa7cf4f1269fa7bca784a18e5cecab962b901cc2",
+                "7b8851f98f765038f275489c69a485e1bed4f82d",
+                "4e3c9d7eb8302739e6931a3b5b605efe8f211e51",
+                "ccb29875222527af4e58b9dd8994c3c7ef617fd8",
+                "f62600984c5086f2da3d70bc1f5042cf464f928d",
+                "1e5c6d3f64295cb36d364f7fa183177a3f5e6b7e",
+                "c671786abd87d214a28d136b6bafd4e33ee66951",
+                "e60d36efd6b307bef4f18e31e7932a711106cd44",
+                "65681390d203871e9c21c68075dbf38944e782e8",
+                "04aefbf1527536159d72d20dea907cbd080793e3",
+                "207be5648c0a2e48be98dc4dc1d5d16944189219",
+                "ed14da9b9075bd3281967033c90886fd7d4f14e5",
+                "694fa03160d50865dce0c35227dc97ffa1acfa48",
+                "926046f0c727358d1a6fbdd6ff3e28bc67d5e2f6",
+                "8b357ff017df3ed882b278d0dbbdf129235d123d",
+                "28a43eac3be1b96c68a1e7463ae91367434a2ac4",
+                "541816260c71535cfebc743b9e2770a3a601acdf",
+                "cb3a83fc24c7b6b0b9d438fbf053276cceaacd2e",
+                "296fd4c5b4bf8ea288f45b4801512d7dec7c497b",
+                "493d0660c9cf738be08209bfd56351d4cf075877",
+                "b27f6174173e71dc154413a525baddf3d6dea1fd",
+                "580eca9e36dcd1a2deb9075bcae90afee46aace2",
+                "2345cd5c112e55ba631dac539c8efab850c536b2",
+                "322e042cf1cb43a8072c4a4cbf6e37004a88d6f7",
+                "e09f283ade693ff89864f6ec9c2354091fbd186e",
+                "c16529dbc2987be3ac628b9b413106e5749999ed",
+                "0653a8f06b140f4fac44acb3be723d7bb2602558",
+                "d433f281cf56015941a1c2cb87066ca62ea1db37",
+                "9f5b46ee0591d3f942ccaa9c950a8bff94aa7a0f",
+                "dea6e89e36cf5a4a216e324983cc0b8f6c58eaa8",
+                "fe33b9f95db53c0096ae9fb9672f9c7c32d22acf",
+                "03661a5e2352a797233c23883b25bb652f03f205",
+                "b3873d2c969d224b0fd17b5f886ea253ac1bfb5b",
+                "00852745cb40730dc333124549a768b471dff4bc",
+                "4b4841ca3f05879ca0dab0659b07fc93a780f9f1",
+                "c637a9c3fb08879e0f54230bd8dca81deb6e1bcf",
+                "25b6c73124f11f70474f2687ad1de407343ac025",
+                "3f4a5bf72a15b7a8638655b24eb3359e229b9aea",
+                "8ab7f806fa18dd9a9c2dc43db0ad3ee79060b6e8",
+                "7d17917cb8bc00b022a86bb7bab59e28c3453126",
+                "174373ab44cf6e7355f9dbb8469453519cb61a44",
+                "0cf68d706c38ab112e0b667498c24626aec730f6",
+                "fbf290f6adad79ae9628ec6d5703e5ffb86cf8f1",
+                "ad9734b05973a0a0f1d34a32cd1936e66898c034",
+                "807c3db7385972a78b6d217a379dab67e68a3cf5",
+                "285ac0fb341e57c87964282f621b3d1f018ab7ea",
+                "23e20c523b9970686d913360d438c88e6067c157",
+                "1e6b9414fce4277207aab2aa12e4f0842a23f9c1",
+                "ea0cfe60a7b7168c42c0e86e15feb5b0c9674029",
+                "e78870f3807a89684085d605dcd57a06e7327125",
+                "8f4138e9588ef329b5cf5bc945dee4ad9fec1dff",
+                "bf265227f9a8e22ea1c0035ac4d2449ceed43e2b",
+                "ecd2feb0afd5614d7575598c63d9b0146a67ecaa",
+                "34af1909ec77d2c3878724234b9b1e3141c91409",
+                "fdc65f38f458ceddf5a5e3f4b44df7337a1fb415",
+                "910dfe45905b63c12c6f93193f5dc08f5b012bc3",
+                "88b7ead7c0bf8b3d8a54b4a9c8871f44d1577ce7",
+                "7631f1db92e61504596790057ce674ee90570755",
+                "a6c18fcbe6b25c370e1305d523b5de662172875b",
+                "6db1151eeb4339fc72d6d094e2d6c2572de89470",
+                "5295b09592d5a651ca3f748f0e6401bd48fe7bda",
+                "634a1649995309b9c7d163af627f7e39f42d5968",
+                "909d369c42125e84e0650f7e1183abe740486f58",
+                "52164782fc9f8a2a6c4be2b9cd000e4a60a860ed",
+                "1df78a1dc0aa3382fcc6fac172b70aafd0ed8d3d",
+                "18d983ba09da695ce704ab8093296366b543996a",
+                "55f83ff166ab8978d6ce38e80fde858cf29e660b",
+                "0e263d80c46d5a538115f71e077a6175168abc5c",
+                "8c3ed0bbdc77aec299c77f666c21659840f5ce23",
+                "f7d47c38eca7ec68aa478c06b1ba983d9bf02e15",
+                "cce5b3a2965c500de8fa75e1429b8be5aa744e14",
+                "cc15924d37e36060faa405e5fa8f6ca15a3cace2",
+                "f54f4e46f5f933a96650ca5123a4c41e115a9f61",
+                "2a13ae3806de8e2c7adba6465c4b2a7bb347f0f5",
+                "118114446847ead7a2fe87ecb4943fdbdd2bbd1e",
+                "b54b3c67f1827dab4cc2b3de94ff0af4e5db3d4c",
+                "4ec769c15a9e318d41fd4a1997ec13c029976fc2",
+                "543783df44459a3878ad00ecae47ff077f5efd7b",
+                "a421e0758f1007527fec4d72fa2668da340554c9",
+                "bb71254fbd41855e8e70f05231ce77fee6f00388",
+                "73366c1eb26b92886531586728be4975d56f7ca5",
+                "a3dfb5643c824ae0c3ba2b7f3efb266bfbf46b02",
+                "d81b0705d26390eb82188c03644786dd6f1a2a9e",
+                "f97c5e8d018207b1d546501fe2036adfbf774cfd",
+                "17df96e423320ddfb7664413bf562a6b1aaef9d4",
+                "4fd46c30fb1b6f5431c12a38430d684ed1ff5a75",
+                "6b0b8ad038c7ae2efbad066b8ba22de859b81f98",
+                "332aac7bdb0f697fd96e35c31c54d15e548061f4",
+                "764add69922342b8c4200d64652fbee1376adf1c",
+                "3bf6b0d49b8e594f8b59eec98942e1380e16dd22",
+                "683104d28bd5c52c53d2e6c710a7bd19676c28b8",
+                "efcb9be7bf162980187237bcb50f4da2d55430c2",
+                "c3d8a548fa0525e1e55aa592e14303fc6964d28d",
+                "25e0af331b8e9fed64dc0df71a2687be348100e8",
+                "7ad1bef0ba61dbed98d76d4207676d08c893fc13",
+                "412d488e88deef81225d15959f48479fc8d387b3",
+                "42429d0c0cade08cfe4f72dcd77892b883e8a4bc",
+                "5ccff14ce7c1732fadfe74af95a912093007357f",
+                "5b2c4da743798bde4158848a8a44094703e842cb",
+                "43fa0d5a30b4cd72bb7e156c00c1611bb4f4bd0a",
+                "7371eecafbaeefd0dc5f4dd5737f745586133f59",
+                "a4e39298866b72e5399d5177f717c46861d8d3df",
+                "d7f7aef824265136ad077ae4f874d265ae45a6b0",
+                "0d78d1690d2db2ee322ca11b82d79c758a901ebc",
+                "e0779ac6e5cc76e91fca71efeade2a5d7f099c80",
+                "b579845c223331fea9dfd674517fa4633082970e",
+                "cdcfac3e9d60aae54586b30fa5b99f180839deed",
+                "de8e9def2553f4d211cc0b34a3972d9814f156aa",
+                "e519198de4cc8bcb0644aa1ab6552b1d15c99a0e",
+                "0bc8485ce6c24bb888e2329d479c9b7303bb98b4",
+                "16b632b4076a458b6e2087d64a42764d86b5b021",
+                "145c5081037fad98fa72aa4d6dc6c193fdb1c127",
+                "47f26990d063c947debbde0e10bd267fb0f32719",
+                "9090de286ce9126e8e9c1c3a175a70ab4656ca09",
+                "36b969c1b3c46953077e4aabb75be8cc6aa6a327",
+                "ed328e83cda3cdf75ff68372d69bcbacfe2c9c5e",
+                "7803f160af428bcfb4b9ea2aba07886f232cde4e",
+                "482d1624f9450ca1c99926ceec2606260e7ce544",
+                "22bae6be13561cec758d25fa7adac89e67a1f33a",
+                "bf9d3a45273608caf90084c1157de2074322a230",
+                "eb851adfada7b40fc4f6c0ae348694500f878493",
+                "2e27c59f0cf0dbf81466cc63d87d421b33843e87",
+                "2f53bfcd2016d506674d0a05852318f9e8188ee1",
+                "317bde14307d8777d613280546f47dd0ce54f95b",
+                "53140342b8fe2dd7661fce0d0e88d909f55099db",
+                "78e9960cc5819583fb98fb619b33bff7768ee861",
+                "6b3b42f584b6dc1e0a7b0e0c389f1fbe040968aa",
+                "416d1035168b99cc8ba7227d4c7c3c6bc1ce169a",
+                "61283ef203f4286f1d366a57e077b0a581be1659",
+                "42e6da9a08802b5ce5d1f754d4567665637b47bc",
+                "1ce049522c4df595a1c4c9e9ca24be72dc5c6b28",
+                "bdd2bae83c3bab9ba0c199492fe57e70c6425dd3",
+                "42dbfbedd813e6dbea1398323f085a88fa014293",
+                "446daabb7ac2b9f11dc1267fbd192628cc2bac19",
+                "30b377e7dc2418607d8cf5d01ae1f925eab2f037",
+                "0e020c03fffabc6d20eca67f559c46b4939bb4f4",
+                "63aedcd38fe947404dda4fbaddb1da539d632417",
+                "9b56155b82f14000f0ec027f29ff20e6ae5205c2",
+                "524aaf596dc12b1bb479cd69c620914fd4c3f9c9",
+                "11b5cfb37efb45d2c721cbf20cab7c1f5c1aa44b",
+                "c39d0b12bb1c25cf46a5ae6b197a59f8ea90caa0",
+                "1e200fbb02dc4a51ea3ede0b6d1ff9004f07fe73",
+                "c8ae844baea44ec1db172ae9b257dbac04dcbbe7",
+                "a2ed0eaaeadaa90d25f8b1da23033593bb76598e",
+                "c011552d61ac5a87d95e43b90f2bf13077856def",
+                "c2b5aff3435a7241637f288fedef722541c4dad8",
+                "103c37f6276059a5ff47117b7f638013ccffe407",
+                "9a277a63e41d32d9af3eddea1710056be0d42347",
+                "1ba5bcd62abcbff517a4adb2609f721dd7f609df",
+                "87668d14910c1e1bb8bbea0c6363f76e664dcd09",
+                "a32817e9ff07bc69974221d9b7a9b980fa80b677",
+                "6b631396013ddfd8c946772d3cd4919495298d40",
+                "c59114c79e3d3ddd77d6919b88bc99d40205e645",
+                "045867051a6052d1d910abfcb24a7674bcc046ca",
+                "93d53be2c3e7961bc01e0bfa5065a2390305268c",
+                "8aa9f5d426428ec360229f4cb9f722388f0e535c",
+                "15c75472f160f082f6905d57a98de94c026e2c56",
+                "6b7a4ccd5a411c03e3f1e86f86b273965991eb85",
+                "cc3df7de75db8be4a0a30ede21f226122d2dfe87",
+                "658db78c0ce62e08e86b51988a222b5fb5fbb913",
+                "bbe24aa5e554002f8fd092fc5af7747931307a15",
+                "0c8db6542172de98fa16c9bacfef9ed4099fd872",
+                "f2b4b1605360d7f4e0c47932e555b36707f287be",
+                "2b1e7d54723cf9ee2fd133b8f17fa99470d7a51a",
+                "c17ad20e3790ba674e3fe6f01b9c10270bf0f0e4",
+                "0ff7ce34841c03c876b141c1f46d0ff2519889cc",
+                "84ba6b6a0a3999c0932f35298948f149ee05bc02",
+                "155004c1cc831a7f39caf2bec04f1841b61af802",
+                "d22d80da6f042c4da3392a69c713ee4d64be8bc8",
+                "e95e2c166be39a4d9cd671531b376b1a8ceb4a55",
+                "7e9eb570ef07b793828c28ca3f84177e1ab76e14",
+                "03c5690728b7dffb2f4ab947fe390264751428aa",
+                "3459d9c27c31c0e8b2ea5b21fdc200e784c7edf4",
+                "1e770f2a17664e7d7687c53860b1c0dc0da7157e",
+                "0e5f55676e01d8e41d77cdc43489da8381b68086",
+                "dea73f04e52917dc71cc4e9d7592b6317e09a054",
+                "151362502d569b16453e84a2f5d277d8e4e878c2",
+                "1c124e1523fcbef25c4f3074b1f8088bcad2230f",
+                "1e5f6a5624a9e5472d547b8aa54c6d146813f91d",
+                "e76da232ec020d133530fdd52ffcc38b7c1d7662"
+            ],
+            "Malicious Domain": [],
+            "Bitcoin Address": [],
+            "Ethereum Address": []
+        },
+        "windows_patterns": {
+            "File Path Windows": [
+                "E:\\Visual Studio 2010\\P",
+                "D:\\Projects\\A"
+            ]
+        },
+        "unix_patterns": {
+            "File Path Unix": [
+                "/blog/threat-research/2013/02/in-turn-its-pdf",
+                "/miniduke/miniduke_indicators_public.pdf",
+                "/trendlabs-security",
+                "/wp-content/uploads/downloads/2013/04",
+                "/MiniDuke.A",
+                "/2015/04/malware-w-5-rocznice-katastrofy-samolotu.html",
+                "/sites/43/vlpdfs/themysteryofthepdf0-dayassemblermicrobackdoor.pdf",
+                "/2015/07/unit-42-technical-analysis",
+                "/2015/07",
+                "/documents/996508/1030745/cosmicduke_whitepaper.pdf",
+                "/2015/08/wykradanie-danych-z-instytucji.html",
+                "/CosmicDuke.F",
+                "/OnionDuke.E",
+                "/weblog/archives/00002822.html",
+                "/CozyDuke.A",
+                "/CloudDuke.A",
+                "/2015/07/tracking",
+                "/CosmicDuke.H",
+                "/CosmicDuke.G",
+                "/pawn",
+                "/wp-content/uploads/sites/43/vlpdfs/themysteryofthepdf0",
+                "/CosmicDuke.I66.29.115.55",
+                "/CosmicDuke.B",
+                "/connect/blogs",
+                "/MiniDuke.E",
+                "/weblog/archives/00002764.html",
+                "/weblog/archives/00002688.html",
+                "/OnionDuke.C",
+                "/2014/05/20/miniduke-still-duking",
+                "/fsecure",
+                "/rpt-apt29-hammertoss.pdf",
+                "/MiniDuke.C",
+                "/69731/the-cozyduke-apt",
+                "/8004399.stm",
+                "/tz",
+                "/blog/incidents/64107/miniduke-is-back-nemesis-gemina-and-the-botgen",
+                "/71443/minidionis-one-more-apt-with",
+                "/MiniDuke.J",
+                "/CozyDuke.D",
+                "/2013/02/miniduke",
+                "/blog/research/71443/minidionis-one-more-apt-with-a-usage-of-cloud",
+                "/OnionDuke.G",
+                "/OnionDuke.B",
+                "/15609",
+                "/blog",
+                "/SeaDuke.A",
+                "/rs/848-DID-242",
+                "/CloudDuke.B",
+                "/CozyDuke.E",
+                "/wiki/Kavkaz_Center",
+                "/CosmicDuke.C",
+                "/CosmicDuke.A",
+                "/MiniDuke.H",
+                "/A",
+                "/MiniDuke.F",
+                "/64107/miniduke-is-back-nemesis",
+                "/MiniDuke.B",
+                "/MiniDuke.I",
+                "/users",
+                "/wiki/Moscow_Time",
+                "/CozyDuke",
+                "/maps/tz/russia",
+                "/2/hi",
+                "/CosmicDuke.E",
+                "/996508",
+                "/MiniDuke.D",
+                "/CozyDuke.B",
+                "/OnionDuke.D",
+                "/f-secure",
+                "/fulldisclosure/2010/Jan/341",
+                "/documents/996508",
+                "/files/tr-14",
+                "/OnionDuke.A",
+                "/business",
+                "/OnionDuke.F",
+                "/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf",
+                "/connect/blogs/forkmeiamfamous-seaduke-latest",
+                "/the-press-office/remarks-president-barack-obama-prague-delivered",
+                "/996508/1030745/cosmicduke_",
+                "/CosmicDuke.D",
+                "/CozyDuke.C",
+                "/archives/00002764.html"
+            ]
+        },
+        "logical_patterns": {
+            "DNI/NIE": [
+                "20090310I"
+            ],
+            "IBAN": [],
+            "Credit Card": [],
+            "UUID": []
+        }
+    },
+    "ttp_info": {
+        "file_name": "F-Secure_Dukes_Whitepaper.txt",
+        "total_ttps": 190,
+        "ttps": [
+            {
+                "context": "2014: OnionDuke gets caught using a malicious Tor node......................................16",
+                "technique": "T1090",
+                "technique_name": "Proxy"
+            },
+            {
+                "context": "confidence in their ability to continue successfully compromising their targets even when their ",
+                "technique": "T1119",
+                "technique_name": "Automated Collection"
+            },
+            {
+                "context": "Importantly, PinchDuke trojan samples always contain a notable text string, which we ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "attack campaigns that are run in parallel.",
+                "technique": "T1491",
+                "technique_name": "Defacement"
+            },
+            {
+                "context": "to their compilation timestamps, created on the 5th and 12th of November 2008.",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "The second campaign identifier, from the sample compiled on the ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "spread via the same exploit that was being used by a malware that they had already named ",
+                "technique": "T1189",
+                "technique_name": "Drive-by Compromise"
+            },
+            {
+                "context": "ItaDuke; the “Duke” part of this malware’s name had in turn come about because it reminded the ",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "Despite the shared history of the name itself however, it is ",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "The only other publicly used name for the threat actor that we are aware of is ",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "CosmicDuke",
+                "technique": "T1546",
+                "technique_name": "Event Triggered Execution"
+            },
+            {
+                "context": "“natoinfo_ge”, an apparent reference to the www.natoinfo.ge website belonging to a Georgian ",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "the campaign identifier itself doesn’t contain a date, we believe the campaign to have originated ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "The contents appear to have been copied from a BBC news article [3].",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "CosmicDuke.",
+                "technique": "T1546",
+                "technique_name": "Event Triggered Execution"
+            },
+            {
+                "context": "We believe that during the spring of 2010, the credential and file stealing capabilities of PinchDuke ",
+                "technique": "T1119",
+                "technique_name": "Automated Collection"
+            },
+            {
+                "context": "server.",
+                "technique": "T1505",
+                "technique_name": "Server Software Component"
+            },
+            {
+                "context": "experimenting with the use of privilege escalation vulnerabilities.",
+                "technique": "T1482",
+                "technique_name": "Domain Trust Discovery"
+            },
+            {
+                "context": "January 2010 security researcher Tavis Ormandy disclosed a local privilege escalation vulnerability ",
+                "technique": "T1068",
+                "technique_name": "Exploitation for Privilege Escalation"
+            },
+            {
+                "context": "component that wraps the core malware code and ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "The first sample of this loader was compiled on the ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "During 2011, the Dukes appear to have significantly expanded both their arsenal of malware ",
+                "technique": "T1119",
+                "technique_name": "Automated Collection"
+            },
+            {
+                "context": "purposely rented servers for their C&C infrastructure, the group rarely registered their own ",
+                "technique": "T1583",
+                "technique_name": "Acquire Infrastructure"
+            },
+            {
+                "context": "of domain names was registered by the Dukes in two batches; the first batch was registered on ",
+                "technique": "T1583",
+                "technique_name": "Acquire Infrastructure"
+            },
+            {
+                "context": "Like the “MiniDuke loader”, these “John Kasai” domains also provide a ",
+                "technique": "T1583",
+                "technique_name": "Acquire Infrastructure"
+            },
+            {
+                "context": "C&C server domains registered on the 29th of January, 2011 to “John Kasai”.",
+                "technique": "T1583",
+                "technique_name": "Acquire Infrastructure"
+            },
+            {
+                "context": "By 2011, the Dukes had already developed at least 3 distinct malware toolsets, including a plethora ",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "simplistic backdoor component whose purpose is to enable the remote execution of commands ",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "sample was compiled in January of 2009.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "way it was coded.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "in Assembly language.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "written in Assembly or C, it was written in C++ , which provides added layers of abstraction for the ",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Contrary to what might be expected from malware, early CozyDuke versions also lacked any ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "attempt at obfuscating or hiding their true nature.",
+                "technique": "T1564",
+                "technique_name": "Hide Artifacts"
+            },
+            {
+                "context": "In comparison, even the earliest known GeminiDuke samples encrypted any ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "strings that might have given away the malware’s true nature.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Finally, early CozyDuke versions also featured other elements that one would associate more with ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "out the possibility that the Dukes simply obtained copies of the exploit binaries described by ",
+                "technique": "T1574",
+                "technique_name": "Hijack Execution Flow"
+            },
+            {
+                "context": "To spread the toolset, the Dukes used a wrapper to combine OnionDuke with ",
+                "technique": "T1570",
+                "technique_name": "Lateral Tool Transfer"
+            },
+            {
+                "context": "uploaded them to websites hosting torrent files (image 4, above).",
+                "technique": "T1102",
+                "technique_name": "Web Service"
+            },
+            {
+                "context": "observed being used only with components of this toolset, was compiled on the 17th of February ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "This is significant because it suggests that OnionDuke was under development before any ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "supports our analysis that the overarching theme in the Dukes’ targeting is the collection of ",
+                "technique": "T1119",
+                "technique_name": "Automated Collection"
+            },
+            {
+                "context": "would not explain the significant overlap we have also observed in operational techniques related ",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "components, from the loader and downloader to the backdoor, had been slightly updated and ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Interestingly, the nature of these modifications suggests that ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "resulted in a loader version that would later become known as the “Nemesis Gemina loader” due ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "to PDB strings found in many of the samples.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "CosmicDuke had been in active use for over 4 years, and had undergone minor modifications ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "These samples would also contain artefacts of ",
+                "technique": "T1612",
+                "technique_name": "Build Image on Host"
+            },
+            {
+                "context": "CosmicDuke samples for many years had been changed.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "sample compiled on the 30th of July 2014.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "The loader used by the sample purported to have ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "been compiled on the 25th of March 2010.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "contain links that eventually lead the victim to becoming infected with CozyDuke.",
+                "technique": "T1189",
+                "technique_name": "Drive-by Compromise"
+            },
+            {
+                "context": "Some of the CozyDuke spear-phishing emails from early July posed as e-fax arrival notifications, ",
+                "technique": "T1566",
+                "technique_name": "Phishing"
+            },
+            {
+                "context": "a popular theme for spam emails, and used the same “US letter fax test page” decoy document ",
+                "technique": "T1566",
+                "technique_name": "Phishing"
+            },
+            {
+                "context": "that was used a year later by CloudDuke.",
+                "technique": "T1132",
+                "technique_name": "Data Encoding"
+            },
+            {
+                "context": "Executing ",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "to when Leviathan published their blog post in October 2014, the Tor exit node identified by ",
+                "technique": "T1090",
+                "technique_name": "Proxy"
+            },
+            {
+                "context": "the researchers was being used to wrap executables on-the-fly with OnionDuke (image 7, page ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "This is similar to the way in which the toolset was being spread via trojanized applications in ",
+                "technique": "T1570",
+                "technique_name": "Lateral Tool Transfer"
+            },
+            {
+                "context": "While investigating the OnionDuke variant being spread by the malicious Tor node, we also ",
+                "technique": "T1090",
+                "technique_name": "Proxy"
+            },
+            {
+                "context": "We believe that, unusually, the purpose of the OnionDuke variant spread via the Tor node was ",
+                "technique": "T1090",
+                "technique_name": "Proxy"
+            },
+            {
+                "context": "one of these modules gathers system information and another attempts to steal the victim’s ",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "botnet, but the C&C servers it used had open directory listings, allowing us to retrieve files ",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "The size of the ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "(Mongolia and India) are among the lowest on underground markets.",
+                "technique": "T1583",
+                "technique_name": "Acquire Infrastructure"
+            },
+            {
+                "context": "Screenshot of a tweet intended for OnionDuke, with a link pointing to an image file that embeds an ",
+                "technique": "T1598",
+                "technique_name": "Phishing for Information"
+            },
+            {
+                "context": "Curiously, the spear-phishing emails were strikingly similar to the ",
+                "technique": "T1566",
+                "technique_name": "Phishing"
+            },
+            {
+                "context": "the sheer number of recipients, it may not have been possible to customize the emails in the ",
+                "technique": "T1534",
+                "technique_name": "Internal Spearphishing"
+            },
+            {
+                "context": "They would then use the toolset to gather initial information on the victims, ",
+                "technique": "T1057",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "context": "to have employed two particular later-stage toolsets, SeaDuke and HammerDuke, that were ",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "Both toolsets were originally spotted being deployed by CozyDuke to its victims.",
+                "technique": "T1570",
+                "technique_name": "Lateral Tool Transfer"
+            },
+            {
+                "context": "What makes SeaDuke special is that it was written in Python and designed to work on both ",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "and CozyDuke all support similar use of Twitter (image 9, page 18) to retrieve links to additional ",
+                "technique": "T1102",
+                "technique_name": "Web Service"
+            },
+            {
+                "context": "payloads or commands.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "they sent, but they didn’t switch to a new email format; instead, they reverted to the same efax-",
+                "technique": "T1114",
+                "technique_name": "Email Collection"
+            },
+            {
+                "context": "in both their ability to compromise their targets even when their tools and techniques are already ",
+                "technique": "T1568",
+                "technique_name": "Dynamic Resolution"
+            },
+            {
+                "context": "2015: Continuing surgical strikes with CosmicDuke",
+                "technique": "T1491",
+                "technique_name": "Defacement"
+            },
+            {
+                "context": "of these campaigns that we are aware of occurred during the spring and early summer of 2015.",
+                "technique": "T1119",
+                "technique_name": "Automated Collection"
+            },
+            {
+                "context": "containing malicious attachments with relevant Polish language names [18] [19].",
+                "technique": "T1566",
+                "technique_name": "Phishing"
+            },
+            {
+                "context": "attachment with a Georgian-language name that translates to “NATO consolidates control of the ",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "that they are simply expanding their activities by adding new tools and techniques.",
+                "technique": "T1568",
+                "technique_name": "Dynamic Resolution"
+            },
+            {
+                "context": "Other names",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "HTTP (S)",
+                "technique": "T1071",
+                "technique_name": "Application Layer Protocol"
+            },
+            {
+                "context": "Known toolset components",
+                "technique": "T1057",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "context": "CosmicDuke.",
+                "technique": "T1546",
+                "technique_name": "Event Triggered Execution"
+            },
+            {
+                "context": "The PinchDuke information stealer gathers system configuration information, steals user ",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "credentials, and collects user files from the compromised host transferring these via HTTP(S) to a ",
+                "technique": "T1005",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "context": "We believe PinchDuke’s credential stealing functionality is based on the source code ",
+                "technique": "T1003",
+                "technique_name": "OS Credential Dumping"
+            },
+            {
+                "context": "•  WinInet Credential Cache",
+                "technique": "T1003",
+                "technique_name": "OS Credential Dumping"
+            },
+            {
+                "context": "Other names",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "HTTP (S)",
+                "technique": "T1071",
+                "technique_name": "Application Layer Protocol"
+            },
+            {
+                "context": "Known toolset components",
+                "technique": "T1057",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "context": "PinchDuke will also search for files that have been created within a predefined timeframe and ",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "As a curiosity, most PinchDuke samples contain a Russian language error message:“Ошибка ",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "•  Network settings",
+                "technique": "T1016",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "context": "•  Internet proxy settings",
+                "technique": "T1016",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "context": "•  Running processes",
+                "technique": "T1057",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "context": "•  Programs and services configured to automatically run at startup",
+                "technique": "T1547",
+                "technique_name": "Boot or Logon Autostart Execution"
+            },
+            {
+                "context": "•  Recently accessed files, folders and programs",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "We believe these timestamps to be generated during the compilation of ",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "Comparing the GeminiDuke compilation timestamps, which always reference the time in the ",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "UTC+0 timezone, with the local time timestamps used as mutex names, and adjusting for the ",
+                "technique": "T1124",
+                "technique_name": "System Time Discovery"
+            },
+            {
+                "context": "that is within seconds of the respective sample’s compilation timestamp.",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "The observed timezones correspond to the pre-2011 definition of Moscow Standard Time (MSK) ",
+                "technique": "T1124",
+                "technique_name": "System Time Discovery"
+            },
+            {
+                "context": "align with MSK as it was defined at the time.",
+                "technique": "T1559",
+                "technique_name": "Inter-Process Communication"
+            },
+            {
+                "context": "Map of timezones in Russia; © Eric Muller [23] Pink: MSK (UTC +3) ; Orange: UTC +4",
+                "technique": "T1124",
+                "technique_name": "System Time Discovery"
+            },
+            {
+                "context": "UTC+3 in the winter and UTC+4 during the summer.",
+                "technique": "T1124",
+                "technique_name": "System Time Discovery"
+            },
+            {
+                "context": "they were using to compile GeminiDuke samples, so that the timestamps seen in later samples ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "still appear to follow the old definition of Moscow Standard Time.",
+                "technique": "T1124",
+                "technique_name": "System Time Discovery"
+            },
+            {
+                "context": "The GeminiDuke infostealer has occasionally been wrapped with a loader that appears to be ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Other names",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "Known toolset components",
+                "technique": "T1057",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "context": "information stealing functionality includes:",
+                "technique": "T1005",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "context": "•  Taking screenshots",
+                "technique": "T1113",
+                "technique_name": "Screen Capture"
+            },
+            {
+                "context": "•  Stealing clipboard contents",
+                "technique": "T1115",
+                "technique_name": "Clipboard Data"
+            },
+            {
+                "context": "and to detect the presence of analysis tools appear to be based on the techniques used by ",
+                "technique": "T1497",
+                "technique_name": "Virtualization/Sandbox Evasion"
+            },
+            {
+                "context": "are the same, but the code itself has been altered to work with the toolset in question, leading to ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "than by writing the malware to disk and executing it.",
+                "technique": "T1480",
+                "technique_name": "Execution Guardrails"
+            },
+            {
+                "context": "Finally, it is worth noting that while most of the compilation timestamps for CosmicDuke samples ",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "appear to be authentic, we are aware of a few cases of them being forged.",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "components were written in Assembly language.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "While many malware were written in Assembly ",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Other names",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "Known toolset components",
+                "technique": "T1057",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "context": "This component can be instructed by the C&C server to download ",
+                "technique": "T1129",
+                "technique_name": "Shared Modules"
+            },
+            {
+                "context": "•  Command execution module for executing arbitrary Windows Command Prompt commands",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "•  Password stealer module",
+                "technique": "T1555",
+                "technique_name": "Credentials from Password Stores"
+            },
+            {
+                "context": "•  System information gathering module",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "In other cases, CozyDuke has been observed downloading ",
+                "technique": "T1105",
+                "technique_name": "Ingress Tool Transfer"
+            },
+            {
+                "context": "• \\\\192.168.56.101\\true\\soft\\Agent\\tasks\\Screenshots\\agent_screeshots\\Release\\",
+                "technique": "T1053",
+                "technique_name": "Scheduled Task/Job"
+            },
+            {
+                "context": "Other names",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "Known toolset components",
+                "technique": "T1057",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "context": "◊ Password stealing module",
+                "technique": "T1003",
+                "technique_name": "OS Credential Dumping"
+            },
+            {
+                "context": "The Tor node would intercept any unencrypted executable files being downloaded and modify ",
+                "technique": "T1090",
+                "technique_name": "Proxy"
+            },
+            {
+                "context": "The same wrapper has also been used to wrap legitimate executable files, which were then ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Other names",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "Known toolset components",
+                "technique": "T1057",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "context": "◊ Distributed Denial of Service (DDoS) ",
+                "technique": "T1498",
+                "technique_name": "Network Denial of Service"
+            },
+            {
+                "context": "◊ Password stealing module",
+                "technique": "T1003",
+                "technique_name": "OS Credential Dumping"
+            },
+            {
+                "context": "SeaDuke is a simple backdoor that focuses on executing commands retrieved from its C&C server, ",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Python code.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "SeaDuke is made interesting by the fact that it is written in Python and designed to ",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "CozyDuke downloads and executes the SeaDuke toolset.",
+                "technique": "T1105",
+                "technique_name": "Ingress Tool Transfer"
+            },
+            {
+                "context": "Other names",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "HTTP (S)",
+                "technique": "T1071",
+                "technique_name": "Application Layer Protocol"
+            },
+            {
+                "context": "Known toolset components",
+                "technique": "T1057",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "context": "HammerDuke is however interesting because it is written in .NET, and even more so because ",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "OnionDuke and MiniDuke also use date-based algorithms to generate Twitter account names ",
+                "technique": "T1568",
+                "technique_name": "Dynamic Resolution"
+            },
+            {
+                "context": "however, for OnionDuke and MiniDuke the linked image files contain embedded malware to be ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Similarly, GeminiDuke may also download image files, but these would contain embedded ",
+                "technique": "T1105",
+                "technique_name": "Ingress Tool Transfer"
+            },
+            {
+                "context": "FireEye; HAMMERTOSS: Stealthy Tactics Define a Russian Cyber Threat Group; published July 2015; ",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "Other names",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "Known toolset components",
+                "technique": "T1057",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "context": "The CloudDuke downloader will download and execute additional malware ",
+                "technique": "T1105",
+                "technique_name": "Ingress Tool Transfer"
+            },
+            {
+                "context": "Other names",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "Known toolset components",
+                "technique": "T1057",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "context": "In some cases, the Dukes appear to ",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "its icon and filename obfuscated in such a way that the file does not appear to be an executable.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "The Dukes commonly employ decoys with their infection vectors.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "- where we believe the exploited vulnerability was a zero-day at the time that the group acquired ",
+                "technique": "T1588",
+                "technique_name": "Obtain Capabilities"
+            },
+            {
+                "context": "the exploit.",
+                "technique": "T1203",
+                "technique_name": "Exploitation for Client Execution"
+            },
+            {
+                "context": "in the trafficking of illegal drugs.",
+                "technique": "T1482",
+                "technique_name": "Domain Trust Discovery"
+            },
+            {
+                "context": "coordinated organization with clear separation of responsibilities and targets.",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "Additionally, Kaspersky noted that based on the compilation timestamps, the authors of the Duke ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "malware appear to primarily work from Monday to Friday between the times of 6am and 4pm ",
+                "technique": "T1029",
+                "technique_name": "Scheduled Transfer"
+            },
+            {
+                "context": "also known as Moscow Standard Time, which covers, among others, much of western Russia, ",
+                "technique": "T1124",
+                "technique_name": "System Time Discovery"
+            },
+            {
+                "context": "The Kaspersky Labs analysis of the Duke malware authors’ working times is supported by our own ",
+                "technique": "T1124",
+                "technique_name": "System Time Discovery"
+            },
+            {
+                "context": "This assertion of time zone is also supported by ",
+                "technique": "T1124",
+                "technique_name": "System Time Discovery"
+            },
+            {
+                "context": "Moscow Standard Time timezone, as further detailed in the section on the technical analysis of ",
+                "technique": "T1124",
+                "technique_name": "System Time Discovery"
+            },
+            {
+                "context": "13.",
+                "technique": "T1531",
+                "technique_name": "Account Access Removal"
+            },
+            {
+                "context": "Available: https://securelist.com/blog/research/71443/minidionis-one-more-apt-with-a-usage-of-cloud- drives/",
+                "technique": "T1580",
+                "technique_name": "Cloud Infrastructure Discovery"
+            },
+            {
+                "context": "Available: https://en.wikipedia.org/wiki/Moscow_Time",
+                "technique": "T1124",
+                "technique_name": "System Time Discovery"
+            },
+            {
+                "context": "Exploit Database; CVE: 2010-4398; published 24 November 2014; [Online].",
+                "technique": "T1203",
+                "technique_name": "Exploitation for Client Execution"
+            },
+            {
+                "context": "FireEye; HAMMERTOSS: Stealthy Tactics Define a Russian Cyber Threat Group; published July 2015; [Online].",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "•  alkavkaz.com20081105",
+                "technique": "T1583",
+                "technique_name": "Acquire Infrastructure"
+            },
+            {
+                "context": "CosmicDuke",
+                "technique": "T1546",
+                "technique_name": "Event Triggered Execution"
+            },
+            {
+                "context": "Related IP addresses",
+                "technique": "T1016",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "context": "•  91.221.66.242 ",
+                "technique": "T1016",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "context": "•  airtravelabroad.com",
+                "technique": "T1583",
+                "technique_name": "Acquire Infrastructure"
+            },
+            {
+                "context": "•  deervalleyassociation.com",
+                "technique": "T1583",
+                "technique_name": "Acquire Infrastructure"
+            },
+            {
+                "context": "•  nytunion.com",
+                "technique": "T1583",
+                "technique_name": "Acquire Infrastructure"
+            },
+            {
+                "context": "research purposes.",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "•  Exploit:W32/MiniDuke.C",
+                "technique": "T1203",
+                "technique_name": "Exploitation for Client Execution"
+            },
+            {
+                "context": "•  Exploit:W32/CosmicDuke.D",
+                "technique": "T1203",
+                "technique_name": "Exploitation for Client Execution"
+            },
+            {
+                "context": "•  Exploit:SWF/CosmicDuke.E",
+                "technique": "T1203",
+                "technique_name": "Exploitation for Client Execution"
+            },
+            {
+                "context": "Note: F-Secure also detects various Duke malware ",
+                "technique": "T1518",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "context": "f-secure.com/business   |   twitter.com/fsecure   |   linkedin.com/f-secure",
+                "technique": "T1583",
+                "technique_name": "Acquire Infrastructure"
+            }
+        ]
+    }
+}

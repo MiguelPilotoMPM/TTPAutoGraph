@@ -1,0 +1,235 @@
+{
+    "file_name": "MappingMITREToSandWormAPT.pdf",
+    "cti_info": {
+        "technical_patterns": {
+            "IPv4": [],
+            "IPv6": [],
+            "MAC": [],
+            "URL HTTP": [],
+            "URL HTTPS": [],
+            "Mail": [],
+            "Hash": [],
+            "Malicious Domain": [],
+            "Bitcoin Address": [],
+            "Ethereum Address": []
+        },
+        "windows_patterns": {
+            "File Path Windows": []
+        },
+        "unix_patterns": {
+            "File Path Unix": []
+        },
+        "logical_patterns": {
+            "DNI/NIE": [],
+            "IBAN": [],
+            "Credit Card": [],
+            "UUID": []
+        }
+    },
+    "ttp_info": {
+        "file_name": "MappingMITREToSandWormAPT.txt",
+        "total_ttps": 40,
+        "ttps": [
+            {
+                "context": "The military",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "landscapes, reading, or hanging out",
+                "technique": "T1491",
+                "technique_name": "Defacement"
+            },
+            {
+                "context": "carrying out disruptive cyber activities to",
+                "technique": "T1049",
+                "technique_name": "System Network Connections Discovery"
+            },
+            {
+                "context": "members’ accounts in the run-up to the 2017",
+                "technique": "T1136",
+                "technique_name": "Create Account"
+            },
+            {
+                "context": "_ SandWorm launched spearphishing",
+                "technique": "T1598",
+                "technique_name": "Phishing for Information"
+            },
+            {
+                "context": "organizations investigating the poisoning of a",
+                "technique": "T1491",
+                "technique_name": "Defacement"
+            },
+            {
+                "context": "MITRE ATT&CK",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "computers or account credentials.",
+                "technique": "T1531",
+                "technique_name": "Account Access Removal"
+            },
+            {
+                "context": "speciScally crafted the emails to resemble",
+                "technique": "T1566",
+                "technique_name": "Phishing"
+            },
+            {
+                "context": "T1059: Command and Scripting Interpreter",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "SandWorm heavily leveraged PowerShell",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "commands and scripts to discover system",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "In one instance, the group executed",
+                "technique": "T1069",
+                "technique_name": "Permission Groups Discovery"
+            },
+            {
+                "context": "T1204: User Execution",
+                "technique": "T1204",
+                "technique_name": "User Execution"
+            },
+            {
+                "context": "deployed malware and leveraged hacking tools",
+                "technique": "T1608",
+                "technique_name": "Stage Capabilities"
+            },
+            {
+                "context": "SandWorm leveraged malware to escalate",
+                "technique": "T1068",
+                "technique_name": "Exploitation for Privilege Escalation"
+            },
+            {
+                "context": "then attempted to identify other computers on",
+                "technique": "T1018",
+                "technique_name": "Remote System Discovery"
+            },
+            {
+                "context": "SandWorm used an algorithm to obscure",
+                "technique": "T1001",
+                "technique_name": "Data Obfuscation"
+            },
+            {
+                "context": "to obfuscate their activity by deleting data",
+                "technique": "T1564",
+                "technique_name": "Hide Artifacts"
+            },
+            {
+                "context": "clearing event logs.",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "T1036: Masquerading",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "researching and emulating malware used by",
+                "technique": "T1491",
+                "technique_name": "Defacement"
+            },
+            {
+                "context": "T1003: OS Credential Dumping",
+                "technique": "T1003",
+                "technique_name": "OS Credential Dumping"
+            },
+            {
+                "context": "SandWorm dumped credentials to obtain",
+                "technique": "T1003",
+                "technique_name": "OS Credential Dumping"
+            },
+            {
+                "context": "T1083: File and Directory Discovery",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "SandWorm repeatedly accessed and browsed",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "Sles, ran malicious scripts, and searched",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "T1210: Exploitation of Remote Services",
+                "technique": "T1021",
+                "technique_name": "Remote Services"
+            },
+            {
+                "context": "SandWorm exploited remote services to gain",
+                "technique": "T1021",
+                "technique_name": "Remote Services"
+            },
+            {
+                "context": "COLLECTION",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "T1083: File and Directory Discovery",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "T1001: Data Obfuscation",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "The tunnel allowed them to hide",
+                "technique": "T1572",
+                "technique_name": "Protocol Tunneling"
+            },
+            {
+                "context": "EXFILTRATION",
+                "technique": "T1040",
+                "technique_name": "Network Sniffing"
+            },
+            {
+                "context": "SandWorm leveraged legitimate credentials to",
+                "technique": "T1078",
+                "technique_name": "Valid Accounts"
+            },
+            {
+                "context": "exSltrate data from a victim network and",
+                "technique": "T1005",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "context": "T1491: Defacement",
+                "technique": "T1491",
+                "technique_name": "Defacement"
+            },
+            {
+                "context": "The group deployed destructive malware to",
+                "technique": "T1608",
+                "technique_name": "Stage Capabilities"
+            },
+            {
+                "context": "rendering computers inoperable.",
+                "technique": "T1491",
+                "technique_name": "Defacement"
+            },
+            {
+                "context": "Events &",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            }
+        ]
+    }
+}

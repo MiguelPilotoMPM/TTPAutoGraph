@@ -1,0 +1,404 @@
+{
+    "file_name": "NotSoCozy.pdf",
+    "cti_info": {
+        "technical_patterns": {
+            "IPv4": [],
+            "IPv6": [],
+            "MAC": [],
+            "URL HTTP": [],
+            "URL HTTPS": [],
+            "Mail": [
+                "vleger@tutanota.com"
+            ],
+            "Hash": [
+                "928202aa46271691a8255aaa15382822aa25821925a",
+                "313f4808aa2a2073005d219bc68971cd",
+                "2b13b244aafe1ecace61ea1119a1b2ee",
+                "658c6fe38f95995fa8dc8f6cfe41df7b",
+                "f713d5df826c6051e65f995e57d6817d",
+                "16bbc967a8b6a365871a05c74a4f345b"
+            ],
+            "Malicious Domain": [],
+            "Bitcoin Address": [],
+            "Ethereum Address": []
+        },
+        "windows_patterns": {
+            "File Path Windows": [
+                "C:\\Windows\\s",
+                "C:\\Users\\A"
+            ]
+        },
+        "unix_patterns": {
+            "File Path Unix": [
+                "/443",
+                "/initialization",
+                "/1.1",
+                "/personal/naue\"hn_state_gov",
+                "/Forms/ds7002.PDF",
+                "/?version=4&lid=1582502724&token=ajlomeomnmeapoagc",
+                "/radio/xmlrpc/v45",
+                "/7.0",
+                "/xml",
+                "/5.0",
+                "/access"
+            ]
+        },
+        "logical_patterns": {
+            "DNI/NIE": [],
+            "IBAN": [],
+            "Credit Card": [],
+            "UUID": []
+        }
+    },
+    "ttp_info": {
+        "file_name": "NotSoCozy.txt",
+        "total_ttps": 69,
+        "ttps": [
+            {
+                "context": "deliberate reuse of old phishing tactics, techniques and procedures (TTPs),",
+                "technique": "T1482",
+                "technique_name": "Domain Trust Discovery"
+            },
+            {
+                "context": "email construction, and the use of compromised infrastructure.",
+                "technique": "T1482",
+                "technique_name": "Domain Trust Discovery"
+            },
+            {
+                "context": "however, many espionage actors do use publicly and commercially available",
+                "technique": "T1588",
+                "technique_name": "Obtain Capabilities"
+            },
+            {
+                "context": "The threat actor cra&ed the phishing emails to masquerade as a U.S.",
+                "technique": "T1566",
+                "technique_name": "Phishing"
+            },
+            {
+                "context": "cra&ed to execute a PowerShell command that read, decoded, and executed",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "]com – assessed to be a masquerade of the Pandora music",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "Similarities to Older Activity",
+                "technique": "T1568",
+                "technique_name": "Dynamic Resolution"
+            },
+            {
+                "context": "ds7002.lnk (MD5: 6ed0020b0851'71d5b0076f4ee95f3c), has technical",
+                "technique": "T1547",
+                "technique_name": "Boot or Logon Autostart Execution"
+            },
+            {
+                "context": "distribution of emails varied signi#cantly between the a$ected organizations.",
+                "technique": "T1114",
+                "technique_name": "Email Collection"
+            },
+            {
+                "context": "truncated on some recipient email clients, the a!acker made li!le e$o\" to hide",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "The #rst variant (MD5: 3fccf531$0ae6fedd7c586774b17a2d), contained",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "ds7002.lnk was a",
+                "technique": "T1547",
+                "technique_name": "Boot or Logon Autostart Execution"
+            },
+            {
+                "context": "malicious sho\"cut (LNK) #le that contained an embedded BEACON DLL and",
+                "technique": "T1547",
+                "technique_name": "Boot or Logon Autostart Execution"
+            },
+            {
+                "context": "decoy PDF, and was cra&ed to launch a PowerShell command.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "The other observed variant of ds7002.zip (MD5:",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Our analysis indicates that the a!acker sta\"ed con#guring infrastructure",
+                "technique": "T1583",
+                "technique_name": "Acquire Infrastructure"
+            },
+            {
+                "context": "Table 1 contains a timeline of this activity.",
+                "technique": "T1119",
+                "technique_name": "Automated Collection"
+            },
+            {
+                "context": "Time",
+                "technique": "T1124",
+                "technique_name": "System Time Discovery"
+            },
+            {
+                "context": "Ce\"i#cate",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "modi#ed",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "modi#ed",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Execution",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "6ed0020b0851'71d5b0076f4ee95f3c), the following PowerShell command was",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "This command included some speci#c obfuscation, which may indicate a!empts",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "'FromBase'+0x40+'String', in place of FromBase64String, the PowerShell",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "command used to decode base64.",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "The decoded command consisted of additional PowerShell that read the content",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "of ds7002.lnk from o$set 0x5e2be to o$set 0x623b6, base64 decoded the",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "When the decoded PowerShell is compared to the older 2016 PowerShell",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noni",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "$oe=[Convert]::FromBase64CharArray($oe,0,$oe.Length);",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Figure 4: Shared functions to loader in older activity (XOR decode function and",
+                "technique": "T1129",
+                "technique_name": "Shared Modules"
+            },
+            {
+                "context": "The PowerShell loader code is obfuscated, but a sho\" de-obfuscated snippet is",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "BEACON loader DLL is executed with the expo\" function \"PointFunctionCall\":",
+                "technique": "T1106",
+                "technique_name": "Native API"
+            },
+            {
+                "context": "BEACON loader DLL",
+                "technique": "T1129",
+                "technique_name": "Shared Modules"
+            },
+            {
+                "context": "expo\" function \"PointFunctionCall\":",
+                "technique": "T1106",
+                "technique_name": "Native API"
+            },
+            {
+                "context": "\"C:\\Windows\\system32\\rundll32.exe\"",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "C:\\Users\\Administrator\\AppData\\Local\\cyzfc.dat, PointFunctionCall",
+                "technique": "T1106",
+                "technique_name": "Native API"
+            },
+            {
+                "context": "$(\"PointFunctionCall\") }",
+                "technique": "T1106",
+                "technique_name": "Native API"
+            },
+            {
+                "context": "callback to the C2 server pandorasong[.",
+                "technique": "T1008",
+                "technique_name": "Fallback Channels"
+            },
+            {
+                "context": "]com via TCP/443 SSL.",
+                "technique": "T1095",
+                "technique_name": "Non-Application Layer Protocol"
+            },
+            {
+                "context": "con#gured to use a malleable C2 pro#le for its network communications.",
+                "technique": "T1001",
+                "technique_name": "Data Obfuscation"
+            },
+            {
+                "context": "Pandora C2 pro#le.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Similarities to Older Activity",
+                "technique": "T1568",
+                "technique_name": "Dynamic Resolution"
+            },
+            {
+                "context": "%windir%\\\\syswow64\\\\rundll32.exe",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "%windir%\\\\sysnative\\\\rundll32.exe",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "port: 443",
+                "technique": "T1571",
+                "technique_name": "Non-Standard Port"
+            },
+            {
+                "context": "HTTP/1.1",
+                "technique": "T1071",
+                "technique_name": "Application Layer Protocol"
+            },
+            {
+                "context": "Figure 5: LNK characteristics: new activity (le\") and old activity (right)",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "Figure 6: LNK characteristics: new activity (le\") and old activity (right)",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "Figure 7: Embedded PowerShell: new activity (le\") and old activity (right)",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Figure 8: Shared string obfuscation logic: new LNK activity (le\") and old VERNALDROP",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "BEACON C2",
+                "technique": "T1041",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "context": "Malware.Binary.lnk",
+                "technique": "T1547",
+                "technique_name": "Boot or Logon Autostart Execution"
+            },
+            {
+                "context": "Malicious ZIP",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Benign ZIP archive",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "MD5",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "MD5",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Benign decoy PDF",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "MD5",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "BEACON DLL MD5",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Benign decoy PDF",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "Endpoint Security",
+                "technique": "T1518",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "context": "WINDOWS METHODOLOGY [Rundll32 Roaming]",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "WINDOWS METHODOLOGY [PowerShell Script Block",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "WINDOWS METHODOLOGY [Base64 Char Args]",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Table 3: FireEye product detections",
+                "technique": "T1518",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "context": "XRefer: The Gemini-",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "Assisted Binary",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            }
+        ]
+    }
+}

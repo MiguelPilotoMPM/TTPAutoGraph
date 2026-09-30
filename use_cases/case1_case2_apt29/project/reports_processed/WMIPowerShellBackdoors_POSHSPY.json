@@ -1,0 +1,280 @@
+{
+    "file_name": "WMIPowerShellBackdoors_POSHSPY.pdf",
+    "cti_info": {
+        "technical_patterns": {
+            "IPv4": [],
+            "IPv6": [],
+            "MAC": [],
+            "URL HTTP": [],
+            "URL HTTPS": [],
+            "Mail": [],
+            "Hash": [],
+            "Malicious Domain": [],
+            "Bitcoin Address": [],
+            "Ethereum Address": []
+        },
+        "windows_patterns": {
+            "File Path Windows": []
+        },
+        "unix_patterns": {
+            "File Path Unix": []
+        },
+        "logical_patterns": {
+            "DNI/NIE": [],
+            "IBAN": [],
+            "Credit Card": [],
+            "UUID": []
+        }
+    },
+    "ttp_info": {
+        "file_name": "WMIPowerShellBackdoors_POSHSPY.txt",
+        "total_ttps": 49,
+        "ttps": [
+            {
+                "context": "WMI and PowerShell Backdoors",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "POSHSPY's use of WMI",
+                "technique": "T1047",
+                "technique_name": "Windows Management Instrumentation"
+            },
+            {
+                "context": "not familiar with the intricacies of WMI.",
+                "technique": "T1047",
+                "technique_name": "Windows Management Instrumentation"
+            },
+            {
+                "context": "to use WMI for storage and persistence.",
+                "technique": "T1047",
+                "technique_name": "Windows Management Instrumentation"
+            },
+            {
+                "context": "We #rst discussed APT29’s use of this backdoor as pa% of our “No Easy Breach”",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "Windows Management Instrumentation",
+                "technique": "T1047",
+                "technique_name": "Windows Management Instrumentation"
+            },
+            {
+                "context": "WMI is an administrative framework that is built into every version of Windows",
+                "technique": "T1047",
+                "technique_name": "Windows Management Instrumentation"
+            },
+            {
+                "context": "WMI provides many administrative capabilities on local and remote",
+                "technique": "T1047",
+                "technique_name": "Windows Management Instrumentation"
+            },
+            {
+                "context": "processes, and se!ing conditional triggers.",
+                "technique": "T1480",
+                "technique_name": "Execution Guardrails"
+            },
+            {
+                "context": "WMI can be accessed using a",
+                "technique": "T1047",
+                "technique_name": "Windows Management Instrumentation"
+            },
+            {
+                "context": "PowerShell.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "model (CIM) repository, which consists of several #les in the",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "WMI classes are the primary structure within WMI.",
+                "technique": "T1047",
+                "technique_name": "Windows Management Instrumentation"
+            },
+            {
+                "context": "WMI classes can contain",
+                "technique": "T1047",
+                "technique_name": "Windows Management Instrumentation"
+            },
+            {
+                "context": "WMI permanent event subscriptions can be used to trigger actions when",
+                "technique": "T1546",
+                "technique_name": "Event Triggered Execution"
+            },
+            {
+                "context": "execution of backdoors at system sta% up.",
+                "technique": "T1480",
+                "technique_name": "Execution Guardrails"
+            },
+            {
+                "context": "WMI classes: a Filter, a Consumer, and a FilterToConsumerBinding.",
+                "technique": "T1047",
+                "technique_name": "Windows Management Instrumentation"
+            },
+            {
+                "context": "running a script, adding an entry to a log, or sending an email.",
+                "technique": "T1548",
+                "technique_name": "Abuse Elevation Control Mechanism"
+            },
+            {
+                "context": "conditions that will trigger a Consumer, including system sta%up, the execution",
+                "technique": "T1546",
+                "technique_name": "Event Triggered Execution"
+            },
+            {
+                "context": "We have observed APT29 use WMI to persist a backdoor and also store the",
+                "technique": "T1047",
+                "technique_name": "Windows Management Instrumentation"
+            },
+            {
+                "context": "PowerShell backdoor code.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "To store the code, APT29 created a new WMI class",
+                "technique": "T1547",
+                "technique_name": "Boot or Logon Autostart Execution"
+            },
+            {
+                "context": "APT29 wrote the",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "APT29 then created a WMI event subscription in order to execute the backdoor.",
+                "technique": "T1546",
+                "technique_name": "Event Triggered Execution"
+            },
+            {
+                "context": "decrypted, and executed the backdoor code directly from the new WMI",
+                "technique": "T1047",
+                "technique_name": "Windows Management Instrumentation"
+            },
+            {
+                "context": "The WMI component of the POSHSPY backdoor leverages a Filter to execute the",
+                "technique": "T1047",
+                "technique_name": "Windows Management Instrumentation"
+            },
+            {
+                "context": "they con#gured to execute every Monday, Tuesday, Thursday, Friday, and",
+                "technique": "T1053",
+                "technique_name": "Scheduled Task/Job"
+            },
+            {
+                "context": "extracted, decrypted, and executed the PowerShell backdoor payload stored in",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "The PowerShell",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "displays the command, called the “CommandLineTemplate”, executed by the",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "WindowsParentalControlsMigration consumer.",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "Figure 2: WindowsParentalControlsMigration CommandLineTemplate",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Figure 3 contains the decoded PowerShell command from the",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "“CommandLineTemplate.”",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Figure 3: Decoded CommandLineTemplate PowerShell code",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "POSHSPY PowerShell Component",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Here is the full code for a POSHSPY.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "The POSHSPY backdoor is designed to download and execute additional",
+                "technique": "T1105",
+                "technique_name": "Ingress Tool Transfer"
+            },
+            {
+                "context": "and naming the EXE to match the chosen directory name, or, if that fails, writing",
+                "technique": "T1480",
+                "technique_name": "Execution Guardrails"
+            },
+            {
+                "context": "When combined with the other options in the DGA, 550",
+                "technique": "T1568",
+                "technique_name": "Dynamic Resolution"
+            },
+            {
+                "context": "Infrequent beaconing, use of DGA and",
+                "technique": "T1482",
+                "technique_name": "Domain Trust Discovery"
+            },
+            {
+                "context": "When responding to an",
+                "technique": "T1548",
+                "technique_name": "Abuse Elevation Control Mechanism"
+            },
+            {
+                "context": "This PowerShell logging blog post contains more information on improving",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "PowerShell visibility in your environment.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Teodorescu contains additional information on WMI o\"ense, defense and",
+                "technique": "T1047",
+                "technique_name": "Windows Management Instrumentation"
+            },
+            {
+                "context": "information on a!acker use of WMI in past Mandiant investigations.",
+                "technique": "T1047",
+                "technique_name": "Windows Management Instrumentation"
+            },
+            {
+                "context": "The FireEye FLARE team released a WMI repository-parsing tool that allows",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "XRefer: The Gemini-",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "Assisted Binary",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            }
+        ]
+    }
+}

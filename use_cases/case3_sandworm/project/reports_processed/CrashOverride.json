@@ -1,0 +1,631 @@
+{
+    "file_name": "CrashOverride.pdf",
+    "cti_info": {
+        "technical_patterns": {
+            "IPv4": [
+                "195.16.88.6",
+                "93.115.27.57",
+                "5.39.218.152"
+            ],
+            "IPv6": [],
+            "MAC": [],
+            "URL HTTP": [],
+            "URL HTTPS": [
+                "https://github.com/dragosinc/CRASHOVERRIDE"
+            ],
+            "Mail": [],
+            "Hash": [],
+            "Malicious Domain": [],
+            "Bitcoin Address": [],
+            "Ethereum Address": []
+        },
+        "windows_patterns": {
+            "File Path Windows": [
+                "C:\\Users\\P"
+            ]
+        },
+        "unix_patterns": {
+            "File Path Unix": [
+                "/dragosinc/CRASHOVERRIDE",
+                "/not",
+                "/4.0",
+                "/RAT",
+                "/slave",
+                "/7",
+                "/HAVEX"
+            ]
+        },
+        "logical_patterns": {
+            "DNI/NIE": [],
+            "IBAN": [],
+            "Credit Card": [],
+            "UUID": []
+        }
+    },
+    "ttp_info": {
+        "file_name": "CrashOverride.txt",
+        "total_ttps": 116,
+        "ttps": [
+            {
+                "context": "Background  ",
+                "technique": "T1583",
+                "technique_name": "Acquire Infrastructure"
+            },
+            {
+                "context": "Evolution of Tradecraft ",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "    Capabilities Overview ",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "    SIPROTECT DoS Module ",
+                "technique": "T1498",
+                "technique_name": "Network Denial of Service"
+            },
+            {
+                "context": "    Capability Conclusions  ",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "CRASHOVERRIDE is the ﬁrst ever malware framework designed and deployed to ",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "CRASHOVERRIDE is the fourth ever piece of ICS-tailored malware (STUXNET, ",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "The Dragos team was asked to validate ESET’s ﬁndings to news publications ESET ",
+                "technique": "T1553",
+                "technique_name": "Subvert Trust Controls"
+            },
+            {
+                "context": "Dragos tracks as ELECTRUM, it was our decision that an independent report was ",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "and technically in-depth intelligence report.",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "systems and communications.",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "These control centers often regularly manage the continual demand and ",
+                "technique": "T1029",
+                "technique_name": "Scheduled Transfer"
+            },
+            {
+                "context": "As the breakers open and close, substations ",
+                "technique": "T1529",
+                "technique_name": "System Shutdown/Reboot"
+            },
+            {
+                "context": "Evolution of Tradecraft",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "attack.",
+                "technique": "T1498",
+                "technique_name": "Network Denial of Service"
+            },
+            {
+                "context": "However, it was the malware’s payload that was speciﬁc to ICS that ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "sis on electric power and petrochemical asset owners.",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "There are often not many commonalities between ",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "the malware itself was not complex the tradecraft associated with the usage of ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Gaining a foothold in the network that had access ",
+                "technique": "T1482",
+                "technique_name": "Domain Trust Discovery"
+            },
+            {
+                "context": "ware.",
+                "technique": "T1562",
+                "technique_name": "Impair Defenses"
+            },
+            {
+                "context": "been more of a proof of concept than what was fully capable in the malware.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "environment further and leveraged HMIs to connect to Internet-connected lo-",
+                "technique": "T1608",
+                "technique_name": "Stage Capabilities"
+            },
+            {
+                "context": "It marks an advancement in capability by ",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "Dragos focused our analysis on the previously mentioned items ",
+                "technique": "T1119",
+                "technique_name": "Automated Collection"
+            },
+            {
+                "context": "Both samples shared common ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "18th in an unknown time zone although timestamps for both samples were zeroed ",
+                "technique": "T1124",
+                "technique_name": "System Time Discovery"
+            },
+            {
+                "context": "Authenticates with a local proxy via the internal network established before the ",
+                "technique": "T1090",
+                "technique_name": "Proxy"
+            },
+            {
+                "context": "server (C2) through internal proxy ",
+                "technique": "T1090",
+                "technique_name": "Proxy"
+            },
+            {
+                "context": "Creates a ﬁle on the local system (contents not determined)",
+                "technique": "T1005",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "context": "Access to the ICS network ﬂows through a backdoor module.",
+                "technique": "T1021",
+                "technique_name": "Remote Services"
+            },
+            {
+                "context": "four samples which all featured similar functionality.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "ELECTRUM must establish the internal proxy before the installation of the back-",
+                "technique": "T1090",
+                "technique_name": "Proxy"
+            },
+            {
+                "context": "This port is a default port associated with the Squid proxy.",
+                "technique": "T1571",
+                "technique_name": "Non-Standard Port"
+            },
+            {
+                "context": "with every Windows installation) in the HTTP body.",
+                "technique": "T1071",
+                "technique_name": "Application Layer Protocol"
+            },
+            {
+                "context": "Execute a command as speciﬁed user",
+                "technique": "T1087",
+                "technique_name": "Account Discovery"
+            },
+            {
+                "context": "Specify a user (log in as user) and start a service",
+                "technique": "T1007",
+                "technique_name": "System Service Discovery"
+            },
+            {
+                "context": "ware.",
+                "technique": "T1562",
+                "technique_name": "Impair Defenses"
+            },
+            {
+                "context": "When used, the adversary can select an arbitrary system service, direct it to ",
+                "technique": "T1569",
+                "technique_name": "System Services"
+            },
+            {
+                "context": "all-encompassing backdoor and espionage framework.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Loads the payload module(s) deﬁned on the command line during execu-",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Launches the payload and begins either 1 or 2 hours countdown before ",
+                "technique": "T1497",
+                "technique_name": "Virtualization/Sandbox Evasion"
+            },
+            {
+                "context": "module DLL via an exported function named Crash.",
+                "technique": "T1129",
+                "technique_name": "Shared Modules"
+            },
+            {
+                "context": "highest priority on the executing machine.",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "The ﬁrst task of the wiper writes zeros into all of the registry keys in: ",
+                "technique": "T1485",
+                "technique_name": "Data Destruction"
+            },
+            {
+                "context": "PCM600 Template IED File",
+                "technique": "T1221",
+                "technique_name": "Template Injection"
+            },
+            {
+                "context": "Masquerades as the new master",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "stop_comm_service",
+                "technique": "T1489",
+                "technique_name": "Service Stop"
+            },
+            {
+                "context": "merate and discover IOAs to operate breakers.",
+                "technique": "T1049",
+                "technique_name": "System Network Connections Discovery"
+            },
+            {
+                "context": "and without a conﬁguration ﬁle it enumerates the local network to identify poten-",
+                "technique": "T1016",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "context": "proach capability development through a ‘two-tier’ approach: a core development ",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "The command sequence polls the target device for the appropriate address-",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "command on their HMI the sequence loop will continue to re-open the breaker.",
+                "technique": "T1529",
+                "technique_name": "System Shutdown/Reboot"
+            },
+            {
+                "context": "The changing breaker status will invoke ",
+                "technique": "T1546",
+                "technique_name": "Event Triggered Execution"
+            },
+            {
+                "context": "However, CRASHOVERRIDE has the potential to amplify this attack ",
+                "technique": "T1030",
+                "technique_name": "Data Transfer Size Limits"
+            },
+            {
+                "context": "Command 48, Read Additional Status Information.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "ered that implements the known CVE-2015-5374 Denial of Service condition to the ",
+                "technique": "T1203",
+                "technique_name": "Exploitation for Client Execution"
+            },
+            {
+                "context": "This same tactic against digital relays, albe-",
+                "technique": "T1090",
+                "technique_name": "Proxy"
+            },
+            {
+                "context": "SCADA environment and gathering appropriate forensics.",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "The behavioral analytics to identify the communications on the network ",
+                "technique": "T1049",
+                "technique_name": "System Network Connections Discovery"
+            },
+            {
+                "context": "ICS Kill Chain",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "C:\\Users\\<Public OR Executing User>\\",
+                "technique": "T1087",
+                "technique_name": "Account Discovery"
+            },
+            {
+                "context": "File dropped and deleted after pro-",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "Stage 2: C2",
+                "technique": "T1041",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "context": "Remote Access",
+                "technique": "T1021",
+                "technique_name": "Remote Services"
+            },
+            {
+                "context": "IP Address",
+                "technique": "T1016",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "context": "Stage 2: C2",
+                "technique": "T1041",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "context": "Remote Access",
+                "technique": "T1021",
+                "technique_name": "Remote Services"
+            },
+            {
+                "context": "IP Address",
+                "technique": "T1016",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "context": "Stage 2: C2",
+                "technique": "T1041",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "context": "Remote Access",
+                "technique": "T1021",
+                "technique_name": "Remote Services"
+            },
+            {
+                "context": "IP Address",
+                "technique": "T1016",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "context": "Stage 2: C2",
+                "technique": "T1041",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "context": "Remote Access",
+                "technique": "T1021",
+                "technique_name": "Remote Services"
+            },
+            {
+                "context": "Stage 2: C2",
+                "technique": "T1041",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "context": "Remote Access",
+                "technique": "T1021",
+                "technique_name": "Remote Services"
+            },
+            {
+                "context": "Command Line",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Stage 2: Develop",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "Phase2: C2",
+                "technique": "T1041",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "context": "Remote Access",
+                "technique": "T1021",
+                "technique_name": "Remote Services"
+            },
+            {
+                "context": "Phase2: C2",
+                "technique": "T1041",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "context": "Remote Access",
+                "technique": "T1021",
+                "technique_name": "Remote Services"
+            },
+            {
+                "context": "Backdoor/RAT Proxy + HTTP CON-",
+                "technique": "T1071",
+                "technique_name": "Application Layer Protocol"
+            },
+            {
+                "context": "Phase2: C2",
+                "technique": "T1041",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "context": "Remote Access",
+                "technique": "T1021",
+                "technique_name": "Remote Services"
+            },
+            {
+                "context": "Backdoor/RAT Proxy + HTTP CON-",
+                "technique": "T1071",
+                "technique_name": "Application Layer Protocol"
+            },
+            {
+                "context": "Phase2: C2",
+                "technique": "T1041",
+                "technique_name": "Exfiltration Over C2 Channel"
+            },
+            {
+                "context": "Remote Access",
+                "technique": "T1021",
+                "technique_name": "Remote Services"
+            },
+            {
+                "context": "three command line parameters – work-",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "34119BA3BFF04",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Wiper module, wipes list of ﬁles by ",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "extension, removes system processes, ",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "Destruction",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "Wiper module, wipes list of ﬁles by ",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "extension, removes system processes, ",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "Destruction",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "Stage 2: Develop",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "opc.exe",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "Wiper module, wipes list of ﬁles by ",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "extension, removes system processes, ",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "Destruction",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "104.dll",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "Destruction",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "strings:",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "$s1 = “.pcmp” fullword nocase wide",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "$s2 = “.pcmi” fullword nocase wide",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "$s3 = “.pcmt” fullword nocase wide",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "strings:",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "$s0 = “101.dll” fullword nocase wide",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "$s1 = “Crash101.dll” fullword nocase wide",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "$s2 = “104.dll” fullword nocase wide",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "$s4 = “61850.dll” fullword nocase wide",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "$s6 = “OPCClientDemo.dll” fullword nocase wide",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "$s13 = “haslo.exe” fullword nocase wide",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "        description = “Identify service hollowing and persistence setting”",
+                "technique": "T1007",
+                "technique_name": "System Service Discovery"
+            },
+            {
+                "context": "        $s0 = { 6a 00 68 80 00 00 00 6a 03 6a 00 6a 02 8b f9 68 00 00 00 40 57 ff 15 ",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            }
+        ]
+    }
+}

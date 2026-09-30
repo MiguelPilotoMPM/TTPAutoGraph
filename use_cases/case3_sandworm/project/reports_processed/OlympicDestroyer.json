@@ -1,0 +1,215 @@
+{
+    "file_name": "OlympicDestroyer.pdf",
+    "cti_info": {
+        "technical_patterns": {
+            "IPv4": [],
+            "IPv6": [],
+            "MAC": [],
+            "URL HTTP": [],
+            "URL HTTPS": [],
+            "Mail": [],
+            "Hash": [
+                "D934CB8D0EADB93F8A57A9B8853C5DB218D5DB78C16A35F374E413884D915016",
+                "19ab44a1343db19741b0e0b06bacce55990b6c8f789815daaf3476e0cc30ebea",
+                "ae9a4e244a9b3c77d489dee8aeaf35a7c3ba31b210e76d81ef2e91790f052c85",
+                "EDB1FF2521FB4BF748111F92786D260D40407A2E8463DCD24BB09F908EE13EB9",
+                "28858CC6E05225F7D156D1C6A21ED11188777FA0A752CB7B56038D79A88627CC",
+                "edb1ff2521fb4bf748111f92786d260d40407a2e8463dcd24bb09f908ee13eb9",
+                "a7d6dcdf5ca2c426cc6c447cff76834d97bc1fdff2cd14bad0b7c2817408c334",
+                "f188abc33d351c2254d794b525c5a8b79ea78acd3050cd8d27d3ecfc568c2936",
+                "3337e3875b05e0bfba69ab926532e3f179e8cfbf162ebb60ce58a0281437a7ef",
+                "3E27B6B287F0B9F7E85BFE18901D961110AE969D58B44AF15B1D75BE749022C2",
+                "ab5bf79274b6583a00be203256a4eacfa30a37bc889b5493da9456e2d5885c7f"
+            ],
+            "Malicious Domain": [],
+            "Bitcoin Address": [],
+            "Ethereum Address": []
+        },
+        "windows_patterns": {
+            "File Path Windows": [
+                "C:\\Windows\\s",
+                "c:\\Windows\\s"
+            ]
+        },
+        "unix_patterns": {
+            "File Path Unix": [
+                "/or",
+                "/12",
+                "/13",
+                "/directory"
+            ]
+        },
+        "logical_patterns": {
+            "DNI/NIE": [],
+            "IBAN": [],
+            "Credit Card": [],
+            "UUID": []
+        }
+    },
+    "ttp_info": {
+        "file_name": "OlympicDestroyer.txt",
+        "total_ttps": 32,
+        "ttps": [
+            {
+                "context": "identiGed within the sample.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "The destructive nature of this malware aims to render the",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "Gles are embedded as resources (obfuscated).",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "The named pipe is used as a communication channel between the initial stage",
+                "technique": "T1559",
+                "technique_name": "Inter-Process Communication"
+            },
+            {
+                "context": "The network discovery is performed using",
+                "technique": "T1016",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "context": "By checking the ARP table with the Windows API GetIPNetTable;",
+                "technique": "T1016",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "context": "By WMI (using WQL) with the following request: \"SELECT ds_cn FROM ds_computer\".",
+                "technique": "T1047",
+                "technique_name": "Windows Management Instrumentation"
+            },
+            {
+                "context": "This request attempts to list all the systems within the current environment/directory.",
+                "technique": "T1018",
+                "technique_name": "Remote System Discovery"
+            },
+            {
+                "context": "The purpose is to copy the initial stage to the remote system in",
+                "technique": "T1570",
+                "technique_name": "Lateral Tool Transfer"
+            },
+            {
+                "context": "described in the next section:",
+                "technique": "T1565",
+                "technique_name": "Data Manipulation"
+            },
+            {
+                "context": "This new binary will be used",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "Olympic Destroyer drops a browser credential stealer.",
+                "technique": "T1555",
+                "technique_name": "Credentials from Password Stores"
+            },
+            {
+                "context": "The Gnal payload is embedded in an",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "obfuscated resource.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "parses the registry and it queries the sqlite Gle in order to retrieve stored credentials.",
+                "technique": "T1012",
+                "technique_name": "Query Registry"
+            },
+            {
+                "context": "is embedded in the sample:",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "The stealer attempts to obtain credentials from LSASS with a technique",
+                "technique": "T1003",
+                "technique_name": "OS Credential Dumping"
+            },
+            {
+                "context": "Here is the output format parsed by the initial stage:",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "The initial malware execution results in multiple Gles written to disk, as discussed.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "By leveraging cmd.exe from the host the malware Grst deletes all",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "C:\\Windows\\system32\\cmd.exe /c c:\\Windows\\system32\\vssadmin.exe ",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "C:\\Windows\\system32\\cmd.exe /c wbadmin.exe delete catalog -quiet",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "tool for a sysadmin to use in order to aid recovery.",
+                "technique": "T1548",
+                "technique_name": "Abuse Elevation Control Mechanism"
+            },
+            {
+                "context": "The next step the attacker takes in this destructive path is to, again leverage cmd.exe, but",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "C:\\Windows\\system32\\cmd.exe /c bcdedit.exe /set {default} ",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "attack.",
+                "technique": "T1498",
+                "technique_name": "Network Denial of Service"
+            },
+            {
+                "context": "could not print their tickets.",
+                "technique": "T1558",
+                "technique_name": "Steal or Forge Kerberos Tickets"
+            },
+            {
+                "context": "Advanced Malware Protection (AMP) is ideally suited to prevent the execution of the",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "Network Security appliances such asNGFW,NGIPS, andMeraki MX can detect malicious",
+                "technique": "T1518",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "context": "19ab44a1343db19741b0e0b06bacce55990b6c8f789815daaf3476e0cc30ebea (unpacked:",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "f188abc33d351c2254d794b525c5a8b79ea78acd3050cd8d27d3ecfc568c2936 (unpacked",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Talos Videos",
+                "technique": "T1123",
+                "technique_name": "Audio Capture"
+            }
+        ]
+    }
+}

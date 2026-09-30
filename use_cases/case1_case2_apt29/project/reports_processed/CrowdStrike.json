@@ -1,0 +1,371 @@
+{
+    "file_name": "CrowdStrike.pdf",
+    "cti_info": {
+        "technical_patterns": {
+            "IPv4": [],
+            "IPv6": [],
+            "MAC": [],
+            "URL HTTP": [],
+            "URL HTTPS": [
+                "https://www.nbcnews.com/meet-the"
+            ],
+            "Mail": [],
+            "Hash": [],
+            "Malicious Domain": [],
+            "Bitcoin Address": [],
+            "Ethereum Address": []
+        },
+        "windows_patterns": {
+            "File Path Windows": [
+                "C:\\Windows\\t"
+            ]
+        },
+        "unix_patterns": {
+            "File Path Unix": [
+                "/terrorist",
+                "/contractor",
+                "/meet-the",
+                "/29/19",
+                "/Washington",
+                "/meet-press-december-29-2019-n1106036"
+            ]
+        },
+        "logical_patterns": {
+            "DNI/NIE": [],
+            "IBAN": [],
+            "Credit Card": [],
+            "UUID": []
+        }
+    },
+    "ttp_info": {
+        "file_name": "CrowdStrike.txt",
+        "total_ttps": 65,
+        "ttps": [
+            {
+                "context": "and independent Congressional reports.",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "We deployed",
+                "technique": "T1608",
+                "technique_name": "Stage Capabilities"
+            },
+            {
+                "context": "CrowdStrike’s conclusion that Russia",
+                "technique": "T1614",
+                "technique_name": "System Location Discovery"
+            },
+            {
+                "context": "community and also by independent Congressional reports.",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "remediation plans.",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "CrowdStrike had indicators of exfiltration (page 32 of the",
+                "technique": "T1020",
+                "technique_name": "Automated Exfiltration"
+            },
+            {
+                "context": "have indicators that it was exfiltrated.'",
+                "technique": "T1020",
+                "technique_name": "Automated Exfiltration"
+            },
+            {
+                "context": "characterize this.",
+                "technique": "T1069",
+                "technique_name": "Permission Groups Discovery"
+            },
+            {
+                "context": "exfiltrated from the DNC, but we have indicators that it was",
+                "technique": "T1020",
+                "technique_name": "Automated Exfiltration"
+            },
+            {
+                "context": "it true that part of the exfiltration happened after CrowdStrike",
+                "technique": "T1020",
+                "technique_name": "Automated Exfiltration"
+            },
+            {
+                "context": "This question about the specific timeline of the exfiltration is",
+                "technique": "T1020",
+                "technique_name": "Automated Exfiltration"
+            },
+            {
+                "context": "infrastructure.",
+                "technique": "T1584",
+                "technique_name": "Compromise Infrastructure"
+            },
+            {
+                "context": "We followed industry best practices to accomplish",
+                "technique": "T1597",
+                "technique_name": "Search Closed Sources"
+            },
+            {
+                "context": "networks, including significant amounts of data pertaining to",
+                "technique": "T1049",
+                "technique_name": "System Network Connections Discovery"
+            },
+            {
+                "context": "DCCC computer for files containing search terms that",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "included “Hillary,” “DNC,” “Cruz,” and “Trump.”",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "\"we saw sort of very loud activity… on one of our Window",
+                "technique": "T1010",
+                "technique_name": "Application Window Discovery"
+            },
+            {
+                "context": "that triggered an alarm for us…”",
+                "technique": "T1562",
+                "technique_name": "Impair Defenses"
+            },
+            {
+                "context": "discuss a suspected breach.",
+                "technique": "T1548",
+                "technique_name": "Abuse Elevation Control Mechanism"
+            },
+            {
+                "context": "on the country.” (p1)",
+                "technique": "T1614",
+                "technique_name": "System Location Discovery"
+            },
+            {
+                "context": "We conducted our investigation using a process",
+                "technique": "T1559",
+                "technique_name": "Inter-Process Communication"
+            },
+            {
+                "context": "the conspiracy theory that has been debunked.",
+                "technique": "T1564",
+                "technique_name": "Hide Artifacts"
+            },
+            {
+                "context": "Conspiracy:",
+                "technique": "T1491",
+                "technique_name": "Defacement"
+            },
+            {
+                "context": "Dmitri Alperovitch.",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "capturing evidence that would otherwise be lost at the next reboot,",
+                "technique": "T1529",
+                "technique_name": "System Shutdown/Reboot"
+            },
+            {
+                "context": "pegged as Russian spy after opsec fail”",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "hackers on tape”",
+                "technique": "T1025",
+                "technique_name": "Data from Removable Media"
+            },
+            {
+                "context": "New York Times, Jan. 6, 2017: “Intelligence Report on Russian",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "CrowdStrike stands fully by its analysis and findings identifying",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "machine, the code will deliver one of a number of sophisticated",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "They have extensive checks for the various security",
+                "technique": "T1518",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "context": "cause issues for the RAT, it promptly exits.",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "that may result in their detection, and which would cause them to",
+                "technique": "T1069",
+                "technique_name": "Permission Groups Discovery"
+            },
+            {
+                "context": "An HTTP protocol with encrypted",
+                "technique": "T1071",
+                "technique_name": "Application Layer Protocol"
+            },
+            {
+                "context": "government, and may indicate affiliation with Главное",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "Sofacy, X-Agent, X-Tunnel, WinIDS, Foozer and DownRage",
+                "technique": "T1518",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "context": "This group is known for its technique of",
+                "technique": "T1119",
+                "technique_name": "Automated Collection"
+            },
+            {
+                "context": "registering domains that closely resemble domains of legitimate",
+                "technique": "T1583",
+                "technique_name": "Acquire Infrastructure"
+            },
+            {
+                "context": "phishing sites on these domains that spoof the look and feel of the",
+                "technique": "T1583",
+                "technique_name": "Acquire Infrastructure"
+            },
+            {
+                "context": "have overlapping areas of responsibility, but also rarely share",
+                "technique": "T1069",
+                "technique_name": "Permission Groups Discovery"
+            },
+            {
+                "context": "intelligence and even occasionally steal sources from each other",
+                "technique": "T1069",
+                "technique_name": "Permission Groups Discovery"
+            },
+            {
+                "context": "engage in intrusions against the same victim, even when it may be a",
+                "technique": "T1531",
+                "technique_name": "Account Access Removal"
+            },
+            {
+                "context": "compiled with py2exe and another Powershell backdoor with",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "The Powershell backdoor is",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "EncodedCommand",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "This decodes to:",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "$prov.IV = $iv $decr = $prov.CreateDecryptor($prov.Key, $prov.IV)",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "::FromBase64String($wp) $exDec = decrAes $exEn $aK $aI $ex =",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "Invoke-Expression $ex return $true } catch{ return $false } } $aeK",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "This one-line powershell command, stored only in WMI database,",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "In theory, the additional modules can do virtually anything on the",
+                "technique": "T1129",
+                "technique_name": "Shared Modules"
+            },
+            {
+                "context": "was also used by the actors to facilitate credential acquisition for",
+                "technique": "T1003",
+                "technique_name": "OS Credential Dumping"
+            },
+            {
+                "context": "to do remote command execution, file transmission and",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "It was executed via rundll32 commands such as:",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "rundll32.exe \"C:\\Windows\\twain_64.dll\"",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "execute remote commands.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "RemCOM, an open-source replacement for PsExec available from",
+                "technique": "T1569",
+                "technique_name": "System Services"
+            },
+            {
+                "context": "GitHub.",
+                "technique": "T1102",
+                "technique_name": "Web Service"
+            },
+            {
+                "context": "timestamps of files.",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "pagemgr.exe ",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "pagemgr.exe ",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "Falcon Prevent - Next Generation AV",
+                "technique": "T1518",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "context": "CONNECT WITH US",
+                "technique": "T1204",
+                "technique_name": "User Execution"
+            },
+            {
+                "context": "e Named a",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "Attackers Are Targeting Cloud Service",
+                "technique": "T1526",
+                "technique_name": "Cloud Service Discovery"
+            }
+        ]
+    }
+}

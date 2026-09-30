@@ -1,0 +1,444 @@
+{
+    "file_name": "APT34 The Helix Kitten Cybercriminal Group Loves to Meow Middle Eastern and International Organizations.pdf",
+    "cti_info": {
+        "technical_patterns": {
+            "IPv4": [],
+            "IPv6": [],
+            "MAC": [],
+            "URL HTTP": [],
+            "URL HTTPS": [
+                "https://cyware.com/blog/apt34-the-helix-kitten-cybercriminal-grou",
+                "https://cyware.com/blog/apt34-the-helix-kitten-cybercriminal-gro"
+            ],
+            "Mail": [],
+            "Hash": [
+                "2943e69e6c34232dee3236ced38d41d37878",
+                "dd6d7af00ef4ca89a319a230cdd094275c3a1",
+                "27e03b98ae0f6f2650f378e9292384f1350f95",
+                "c9d5dc956841e000bfd8762e2f0b48b66c79b",
+                "07e791d18ea8f2f7ede2962522626b43f28cb",
+                "a6a0fbfee08367046d3d26fb4b4cf7779f7fb6",
+                "b1d621091740e62c84fc8c62bcdad07873c8b",
+                "Fe1b011fe089969d960d2dce2a61020725a02",
+                "3ca3a957c526eaeabcf17b0b2cd345c0"
+            ],
+            "Malicious Domain": [],
+            "Bitcoin Address": [],
+            "Ethereum Address": []
+        },
+        "windows_patterns": {
+            "File Path Windows": []
+        },
+        "unix_patterns": {
+            "File Path Unix": [
+                "/_layouts/15/mov",
+                "/owa/auth/chang",
+                "/owa/auth/login",
+                "/IPS",
+                "/_layouts/workpa",
+                "/js/jquery[.]aspx",
+                "/DI7Web/librar",
+                "/owa/auth/getidt",
+                "/owa/auth/signin",
+                "/owa/auth/ou",
+                "/08/24",
+                "/owa/auth/getidto",
+                "/english/r",
+                "/global[.]aspx",
+                "/GetTokenId[.]aspx",
+                "/aspx/RegStructures[.]aspx",
+                "/Wordpad",
+                "/ClientRes",
+                "/owa/auth/outl",
+                "/GFSTMSSSP",
+                "/owa/auth/owaa",
+                "/owa/auth/EventCl",
+                "/owa/auth/getidtokens[.]aspx",
+                "/owa/auth/Timeou",
+                "/owa/auth/error4",
+                "/owa/auth/signo",
+                "/blog/apt34-the-helix-kitten-cybercriminal-grou…oves-to-meow-middle-eastern-and-international-organizations-48ae",
+                "/petrol[.]aspx",
+                "/owa/auth/Redi",
+                "/owa/auth/outlook",
+                "/owa/auth/error1[.]as",
+                "/owa/auth/error",
+                "/content/rtl/QualityControl[.]aspx",
+                "/owa/auth/ti",
+                "/owa/auth/expire",
+                "/owa/auth/outloo",
+                "/owa/auth/signou",
+                "/owaauth[.]aspx",
+                "/owa/auth/signon[.]aspx",
+                "/aspx/viewper",
+                "/SEDCOWe",
+                "/owa/auth/logout",
+                "/owa/auth/Redir",
+                "/webform[.]aspx",
+                "/owa/auth/logo",
+                "/statistic[.]aspx",
+                "/owa/auth/expp",
+                "/owa/auth/outlookdn[.]aspx",
+                "/owa/aut",
+                "/ecp/auth/EventCl",
+                "/owa/auth/redi",
+                "/owa/auth/logon",
+                "/zfp/web",
+                "/blog/apt34-the-helix-kitten-cybercriminal-gro…oves-to-meow-middle-eastern-and-international-organizations-48ae",
+                "/owa/auth",
+                "/signin[.]aspx",
+                "/blog/apt34-the-helix-kitten-cybercriminal-grou…loves-to-meow-middle-eastern-and-international-organizations-48ae",
+                "/owa/auth/r",
+                "/owa/auth/error1",
+                "/_layouts/WrkStatLog",
+                "/gmgweb/MS",
+                "/owa/auth/error0",
+                "/si",
+                "/owa/auth/o",
+                "/owa/auth/owalogi",
+                "/owa",
+                "/tax[.]aspx",
+                "/owa/auth/E",
+                "/owa/auth/esp",
+                "/owa/auth/logon[.]aspx",
+                "/dptaktkonstatim[.]aspx",
+                "/_layouts/Creat",
+                "/SEDCOWebServ",
+                "/owa/auth/errorf",
+                "/ShowContents[.]aspx",
+                "/owa/auth/gettoke",
+                "/index[.]asp",
+                "/OWA/auth/R",
+                "/Enterpr",
+                "/_layouts/explained",
+                "/owa/auth/error3",
+                "/owa/auth/signout",
+                "/_layouts/W",
+                "/owa/auth/ge",
+                "/OWA/auth/signin[.]aspx"
+            ]
+        },
+        "logical_patterns": {
+            "DNI/NIE": [],
+            "IBAN": [],
+            "Credit Card": [],
+            "UUID": []
+        }
+    },
+    "ttp_info": {
+        "file_name": "APT34 The Helix Kitten Cybercriminal Group Loves to Meow Middle Eastern and International Organizations.txt",
+        "total_ttps": 62,
+        "ttps": [
+            {
+                "context": "Eastern Europe",
+                "technique": "T1614",
+                "technique_name": "System Location Discovery"
+            },
+            {
+                "context": "Vulnerabilities Exploited: CVE-2017-0199",
+                "technique": "T1203",
+                "technique_name": "Exploitation for Client Execution"
+            },
+            {
+                "context": "They have targeted a variety of industries,",
+                "technique": "T1518",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "context": "including ﬁnancial, government, energy,",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "Russia) hijacked the Infrastructure of this",
+                "technique": "T1584",
+                "technique_name": "Compromise Infrastructure"
+            },
+            {
+                "context": "North American organizations working",
+                "technique": "T1591",
+                "technique_name": "Gather Victim Org Information"
+            },
+            {
+                "context": "names as the Saudi Arabian",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "attacks?",
+                "technique": "T1498",
+                "technique_name": "Network Denial of Service"
+            },
+            {
+                "context": "This group is known to use various malware",
+                "technique": "T1119",
+                "technique_name": "Automated Collection"
+            },
+            {
+                "context": "and tools to collect strategic information",
+                "technique": "T1049",
+                "technique_name": "System Network Connections Discovery"
+            },
+            {
+                "context": "exploits, and social engineering to gain",
+                "technique": "T1049",
+                "technique_name": "System Network Connections Discovery"
+            },
+            {
+                "context": "They use phishing",
+                "technique": "T1518",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "context": "infect the target system with VisualBasic and",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "PowerShell (.ps1) scripts.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "]com, oxford[.",
+                "technique": "T1583",
+                "technique_name": "Acquire Infrastructure"
+            },
+            {
+                "context": "In Oct. 2017, the group developed the",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "\"Agent Injector\" (Trojan with the speciﬁc",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "SmartFile, Google Drive, and internet",
+                "technique": "T1102",
+                "technique_name": "Web Service"
+            },
+            {
+                "context": "server API (ISAPI) ﬁlters for",
+                "technique": "T1106",
+                "technique_name": "Native API"
+            },
+            {
+                "context": "Trojan (uses DNS tunneling) as its ﬁnal",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "light on the fact that the group tests",
+                "technique": "T1069",
+                "technique_name": "Permission Groups Discovery"
+            },
+            {
+                "context": "are being used in their attacks.",
+                "technique": "T1518",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "context": "supported HTTP and DNS",
+                "technique": "T1071",
+                "technique_name": "Application Layer Protocol"
+            },
+            {
+                "context": "Microsoft Exchange servers.",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "This group is known to use multiple custom",
+                "technique": "T1119",
+                "technique_name": "Automated Collection"
+            },
+            {
+                "context": "information, lateral movement, and getting",
+                "technique": "T1482",
+                "technique_name": "Domain Trust Discovery"
+            },
+            {
+                "context": "an initial foothold into the targeted network.",
+                "technique": "T1482",
+                "technique_name": "Domain Trust Discovery"
+            },
+            {
+                "context": "using C++.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "foothold in the targeted network.",
+                "technique": "T1482",
+                "technique_name": "Domain Trust Discovery"
+            },
+            {
+                "context": "Pickpocket - It is a browser credential-",
+                "technique": "T1555",
+                "technique_name": "Credentials from Password Stores"
+            },
+            {
+                "context": "Quadagent -  A PowerShell backdoor",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "HighShell - A web shell-based TwoFace",
+                "technique": "T1505",
+                "technique_name": "Server Software Component"
+            },
+            {
+                "context": "related to the updated BondUpdater",
+                "technique": "T1554",
+                "technique_name": "Compromise Client Software Binary"
+            },
+            {
+                "context": "Webmask - A series of scripts",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Microsoft O\"ce Remote Code",
+                "technique": "T1021",
+                "technique_name": "Remote Services"
+            },
+            {
+                "context": "Microsoft O#ce.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "based security policy (e.g., whitelisting,",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "attacks.",
+                "technique": "T1498",
+                "technique_name": "Network Denial of Service"
+            },
+            {
+                "context": "Shells",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "]4/owa/auth/signout",
+                "technique": "T1550",
+                "technique_name": "Use Alternate Authentication Material"
+            },
+            {
+                "context": "hxxps://59[.]124[.]43[.]229/owa/auth/error0[.",
+                "technique": "T1102",
+                "technique_name": "Web Service"
+            },
+            {
+                "context": "]169/owa/auth/signin",
+                "technique": "T1550",
+                "technique_name": "Use Alternate Authentication Material"
+            },
+            {
+                "context": "hxxps://114[.]255[.]190[.]1/owa/auth/error1[.",
+                "technique": "T1102",
+                "technique_name": "Web Service"
+            },
+            {
+                "context": "]165/owa/auth/signout",
+                "technique": "T1550",
+                "technique_name": "Use Alternate Authentication Material"
+            },
+            {
+                "context": "hxxps://46[.]235[.]95[.]125/owa/auth/signin[.",
+                "technique": "T1550",
+                "technique_name": "Use Alternate Authentication Material"
+            },
+            {
+                "context": "hxxps://91[.]195[.]89[.]155/owa/auth/signin[.",
+                "technique": "T1550",
+                "technique_name": "Use Alternate Authentication Material"
+            },
+            {
+                "context": "hxxps://213[.]131[.]83[.]73/owa/auth/error4[.",
+                "technique": "T1102",
+                "technique_name": "Web Service"
+            },
+            {
+                "context": "]ae/english/r",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "hospital[.]com/owa/auth/getidtokens[.",
+                "technique": "T1550",
+                "technique_name": "Use Alternate Authentication Material"
+            },
+            {
+                "context": "utlookservice[.",
+                "technique": "T1102",
+                "technique_name": "Web Service"
+            },
+            {
+                "context": "albania[.]al/owa/auth/outlookdn[.",
+                "technique": "T1550",
+                "technique_name": "Use Alternate Authentication Material"
+            },
+            {
+                "context": "]com/owa/auth/",
+                "technique": "T1550",
+                "technique_name": "Use Alternate Authentication Material"
+            },
+            {
+                "context": "]com/owa/auth/",
+                "technique": "T1550",
+                "technique_name": "Use Alternate Authentication Material"
+            },
+            {
+                "context": "R/webform[.",
+                "technique": "T1102",
+                "technique_name": "Web Service"
+            },
+            {
+                "context": "edirectcache[.",
+                "technique": "T1102",
+                "technique_name": "Web Service"
+            },
+            {
+                "context": "jtg[.]jo/OWA/auth/signin[.",
+                "technique": "T1550",
+                "technique_name": "Use Alternate Authentication Material"
+            },
+            {
+                "context": "]ae/owa/auth/logo",
+                "technique": "T1550",
+                "technique_name": "Use Alternate Authentication Material"
+            },
+            {
+                "context": "]com/OWA/auth/R",
+                "technique": "T1550",
+                "technique_name": "Use Alternate Authentication Material"
+            },
+            {
+                "context": "ourceHandler[.",
+                "technique": "T1102",
+                "technique_name": "Web Service"
+            },
+            {
+                "context": "]ae/owa/auth/expire",
+                "technique": "T1550",
+                "technique_name": "Use Alternate Authentication Material"
+            },
+            {
+                "context": "]jo/owa/auth/signin",
+                "technique": "T1550",
+                "technique_name": "Use Alternate Authentication Material"
+            },
+            {
+                "context": "]com/owa/auth/redi",
+                "technique": "T1550",
+                "technique_name": "Use Alternate Authentication Material"
+            }
+        ]
+    }
+}

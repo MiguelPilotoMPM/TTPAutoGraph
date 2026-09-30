@@ -1,0 +1,75 @@
+{
+    "file_name": "SixRussianGRUOfficers.pdf",
+    "cti_info": {
+        "technical_patterns": {
+            "IPv4": [],
+            "IPv6": [],
+            "MAC": [],
+            "URL HTTP": [],
+            "URL HTTPS": [],
+            "Mail": [],
+            "Hash": [],
+            "Malicious Domain": [],
+            "Bitcoin Address": [],
+            "Ethereum Address": []
+        },
+        "windows_patterns": {
+            "File Path Windows": []
+        },
+        "unix_patterns": {
+            "File Path Unix": []
+        },
+        "logical_patterns": {
+            "DNI/NIE": [],
+            "IBAN": [],
+            "Credit Card": [],
+            "UUID": []
+        }
+    },
+    "ttp_info": {
+        "file_name": "SixRussianGRUOfficers.txt",
+        "total_ttps": 8,
+        "ttps": [
+            {
+                "context": "Russia, through unauthorized access  to victim computers (hacking).",
+                "technique": "T1586",
+                "technique_name": "Compromise Accounts"
+            },
+            {
+                "context": "illustrates how pervasive and destructive Russia’s cyber activities truly are,” said FBI Deputy Director David Bowdich.",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "indictment also highlights the FBI’s capabilities.",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "perpetrators, and then impose risks and consequences on them.",
+                "technique": "T1069",
+                "technique_name": "Permission Groups Discovery"
+            },
+            {
+                "context": "members of the GRU is unmatched,” said FBI Pittsburgh Special Agent in Charge Michael A. Christman.",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "imprisonment for aggravated identity theft to four years in prison.",
+                "technique": "T1531",
+                "technique_name": "Account Access Removal"
+            },
+            {
+                "context": "gain unauthorized access into the computers of U.S. persons and entities involved in the administration of the 2016 U.S. elections.",
+                "technique": "T1553",
+                "technique_name": "Subvert Trust Controls"
+            },
+            {
+                "context": "Components",
+                "technique": "T1129",
+                "technique_name": "Shared Modules"
+            }
+        ]
+    }
+}

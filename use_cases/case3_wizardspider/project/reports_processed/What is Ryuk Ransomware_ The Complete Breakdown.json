@@ -1,0 +1,879 @@
+{
+    "file_name": "What is Ryuk Ransomware_ The Complete Breakdown.pdf",
+    "cti_info": {
+        "technical_patterns": {
+            "IPv4": [],
+            "IPv6": [],
+            "MAC": [],
+            "URL HTTP": [],
+            "URL HTTPS": [
+                "https://www.crowdstrike.com/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware"
+            ],
+            "Mail": [],
+            "Hash": [
+                "ac648d11f695cf98993fa519803fa26cd43ec32a7a8713bfa34eb618659aff77",
+                "501e925e5de6c824b5eeccb3ccc5111cf6e312258c0877634935df06b9d0f8b9",
+                "78c6042067216a5d47f4a338dd951848b122bbcbcd3e61290b2f709543448d90",
+                "795db7bdad1befdd3ad942be79715f6b0c5083d859901b81657b590c9628790f",
+                "5e2c9ec5a108af92f177cabe23451d20e592ae54bb84265d1f972fcbd4f6a409",
+                "fe909d18cf0fde089594689f9a69fbc6d57b69291a09f3b9df1e9b1fb724222b"
+            ],
+            "Malicious Domain": [],
+            "Bitcoin Address": [
+                "1L9fYHJJxeLMD2yyhh1cMFU2EWF5ihgAmJ",
+                "162DVnddxsbXeVgdCy66RxEPADPETBGVBR",
+                "1KURvApbe1yC7qYxkkkvtdZ7hrNjdp18sQ",
+                "12UbZzhJrdDvdyv9NdCox1Zj1FAQ5onwx3",
+                "14aJo5L9PTZhv8XX6qRPncbTXecb8Qohqb",
+                "15FC73BdkpDMUWmxo7e7gtLRtM8gQgXyb4",
+                "12N7W9ycLhuck9Q2wT8E6BaN6XzZ4DMLau",
+                "18eu6KrFgzv8yTMVvKJkRM3YBAyHLonk5G",
+                "19AE1YN6Jo8ognKdJQ3xeQQL1mSZyX16op",
+                "1FtQnqvjxEK5GJD9PthHM4MtdmkAeTeoRt",
+                "1NuMXQMUxCngJ7MNQ276KdaXQgGjpjFPhK",
+                "1NQ42zc51stA4WAVkUK8uqFAjo1DbWv4Kz",
+                "1C8n86EEttnDjNKM9Tjm7QNVgwGBncQhDs",
+                "1ET85GTps8eFbgF1MvVhFVZQeNp2a6LeGw",
+                "12vsQry1XrPjPCaH8gWzDJeYT7dhTmpcjL",
+                "1Cyh35KqhhDewmXy63yp9ZMqBnAWe4oJRr",
+                "1Jq3WwsaPA7LXwRNYsfySsd8aojdmkFnW",
+                "15LsUgfnuGc1PsHJPcfLQJEnHm2FnGAgYC",
+                "1KUbXkjDZL6HC3Er34HwJiQUAE9H81Wcsr",
+                "1CN2iQbBikFK9jM34Nb3WLx5DCenQLnbXp",
+                "15RLWdVnY5n1n7mTvU1zjg67wt86dhYqNj",
+                "1GXgngwDMSJZ1Vahmf6iexKVePPXsxGS6H",
+                "1EoyVz2tbGXWL1sLZuCnSX72eR7Ju6qohH",
+                "14hVKm7Ft2rxDBFTNkkRC3kGstMGp2A4hk",
+                "17v2cu8RDXhAxufQ1YKiauBq6GGAZzfnFw",
+                "1FRNVupsCyTjUvF36GxHZrvLaPtY6hgkTm",
+                "129L4gRSYgVJTRCgbPDtvYPabnk2QnY9sq",
+                "17zTcgKhF8XkWvkD4Y1N8634Qw37KwYkZT",
+                "14dpmsn9rmdcS4dKD4GeqY2dYY6pwu4nVV",
+                "1CbP3cgi1Bcjuz6g2Fwvk4tVhqohqAVpDQ",
+                "1NMgARKzfaDExDSEsNijeT3QWbvTF7FXxS",
+                "1K6MBjz79QqfLBN7XBnwxCJb8DYUmmDWAt",
+                "1LKULheYnNtJXgQNWMo24MeLrBBCouECH7",
+                "1ChnbV4Rt7nsb5acw5YfYyvBFDj1RXcVQu",
+                "1Kx9TT76PHwk8sw7Ur6PsMWyEtaogX7wWY",
+                "1E4fQqzCvS8wgqy5T7n1DW8JMNMaUbeFAS",
+                "1CW4kTqeoedinSmZiPYH7kvn4qP3mDJQVa",
+                "13rTF3AYsf8xEdafUMT5W1E5Ab2aqPhkPi"
+            ],
+            "Ethereum Address": []
+        },
+        "windows_patterns": {
+            "File Path Windows": [
+                "C:\\Users\\P",
+                "C:\\Users\\A"
+            ]
+        },
+        "unix_patterns": {
+            "File Path Unix": [
+                "/spreader",
+                "/Services",
+                "/services",
+                "/07/24",
+                "/Service",
+                "/service",
+                "/blog/big-game-hunting-with-ryuk-another-lucrative-targeted-ransomware"
+            ]
+        },
+        "logical_patterns": {
+            "DNI/NIE": [],
+            "IBAN": [],
+            "Credit Card": [],
+            "UUID": []
+        }
+    },
+    "ttp_info": {
+        "file_name": "What is Ryuk Ransomware_ The Complete Breakdown.txt",
+        "total_ttps": 157,
+        "ttps": [
+            {
+                "context": "WIZARD SPIDER is a sophisticated eCrime group that has been operating the",
+                "technique": "T1119",
+                "technique_name": "Automated Collection"
+            },
+            {
+                "context": "The actor name GRIM SPIDER was introduced into CrowdStrike’s nomenclature in",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "group of the WIZARD SPIDER criminal enterprise.",
+                "technique": "T1069",
+                "technique_name": "Permission Groups Discovery"
+            },
+            {
+                "context": "The GRIM SPIDER actor name has been",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "been under steady development since its release.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "The body of the template is",
+                "technique": "T1221",
+                "technique_name": "Template Injection"
+            },
+            {
+                "context": "The ransom email used by Ryuk appears to be unique for each compiled executable.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Our Using threat intelligence, our team has observed several different email",
+                "technique": "T1114",
+                "technique_name": "Email Collection"
+            },
+            {
+                "context": "29, 2018, WIZARD SPIDER changed how they communicated with their victims.",
+                "technique": "T1119",
+                "technique_name": "Automated Collection"
+            },
+            {
+                "context": "2015\\Projects\\ConsoleApplication54new crypted try to",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "this writing), WIZARD SPIDER has made 705.80 BTC, which has a current value of",
+                "technique": "T1029",
+                "technique_name": "Scheduled Transfer"
+            },
+            {
+                "context": "With the recent decline in BTC to USD value, it is likely GRIM",
+                "technique": "T1029",
+                "technique_name": "Scheduled Transfer"
+            },
+            {
+                "context": "SPIDER has netted more.",
+                "technique": "T1583",
+                "technique_name": "Acquire Infrastructure"
+            },
+            {
+                "context": "Falcon Intelligence has been monitoring the",
+                "technique": "T1049",
+                "technique_name": "System Network Connections Discovery"
+            },
+            {
+                "context": "has been observed tunneling PowerShell Empire traffic to perform reconnaissance",
+                "technique": "T1572",
+                "technique_name": "Protocol Tunneling"
+            },
+            {
+                "context": "Lateral movement throughout the network is enabled using Remote Desktop",
+                "technique": "T1021",
+                "technique_name": "Remote Services"
+            },
+            {
+                "context": "PowerShell Empire is downloaded and installed as a service.",
+                "technique": "T1569",
+                "technique_name": "System Services"
+            },
+            {
+                "context": "access to a domain controller.",
+                "technique": "T1548",
+                "technique_name": "Abuse Elevation Control Mechanism"
+            },
+            {
+                "context": "Only one month after its release, a decryptor was written for Hermes, followed",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "recover files is with the private encryption key, which is obtained by paying the",
+                "technique": "T1486",
+                "technique_name": "Data Encrypted for Impact"
+            },
+            {
+                "context": "purchase another build for an additional $50.",
+                "technique": "T1612",
+                "technique_name": "Build Image on Host"
+            },
+            {
+                "context": "Early versions of Hermes were reportedly installed via internet-accessible RDP",
+                "technique": "T1021",
+                "technique_name": "Remote Services"
+            },
+            {
+                "context": "In October 2017, Hermes was deployed as a",
+                "technique": "T1608",
+                "technique_name": "Stage Capabilities"
+            },
+            {
+                "context": "These checks include querying the Process Environment Block (PEB) to see if the",
+                "technique": "T1057",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "context": "attacker-controlled public RSA key is used to encrypt the AES key (previously used",
+                "technique": "T1573",
+                "technique_name": "Encrypted Channel"
+            },
+            {
+                "context": "Then, for each file encrypted, an AES key is",
+                "technique": "T1486",
+                "technique_name": "Data Encrypted for Impact"
+            },
+            {
+                "context": "generated, which is used to encrypt the file.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Finally, the AES key for each file is",
+                "technique": "T1486",
+                "technique_name": "Data Encrypted for Impact"
+            },
+            {
+                "context": "encrypted with the victim’s RSA public key, then stored at the end of the file.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "hosts can be decrypted with the same decryption key.",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "system will never have access to the unencrypted RSA key pair parameters without",
+                "technique": "T1573",
+                "technique_name": "Encrypted Channel"
+            },
+            {
+                "context": "ransomware, which generates a victim-specific sample with a hard-coded public key.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "The folder path is created by calling",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "GetWindowsDirectoryW and then inserting a null byte at the fourth character of",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "operating system is Windows XP or earlier, the string Documents and",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "For Windows XP, an example folder path would be C:\\Documents and",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "The extension",
+                "technique": "T1176",
+                "technique_name": "Browser Extensions"
+            },
+            {
+                "context": ".exe is then appended.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "The dropper checks whether the host is 32-bit or 64-bit by",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "corresponding to the host’s architecture.",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "The newly written executable is then run by",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "calling ShellExecuteW.",
+                "technique": "T1106",
+                "technique_name": "Native API"
+            },
+            {
+                "context": "Ryuk component that contains the core logic for encrypting files on the host.",
+                "technique": "T1486",
+                "technique_name": "Data Encrypted for Impact"
+            },
+            {
+                "context": "Ryuk is under constant development.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Intelligence identified new functionality added to Ryuk that included an anti-analysis",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "File Encryption",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "encrypted (whitelisted), but Ryuk only whitelists three extensions: It will not encrypt",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "files with the extensions exe, dll, or hrmlog.",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "The last extension appears to be a",
+                "technique": "T1176",
+                "technique_name": "Browser Extensions"
+            },
+            {
+                "context": "versions of Ryuk included the whitelisting of ini and lnk files, but these have been",
+                "technique": "T1562",
+                "technique_name": "Impair Defenses"
+            },
+            {
+                "context": "removed in recent builds.",
+                "technique": "T1612",
+                "technique_name": "Build Image on Host"
+            },
+            {
+                "context": "encrypted.",
+                "technique": "T1573",
+                "technique_name": "Encrypted Channel"
+            },
+            {
+                "context": "ensure stability on the host.",
+                "technique": "T1612",
+                "technique_name": "Build Image on Host"
+            },
+            {
+                "context": "Due to the absence of proper",
+                "technique": "T1001",
+                "technique_name": "Data Obfuscation"
+            },
+            {
+                "context": "As mentioned in the Hermes to Ryuk section, Ryuk uses a combination of symmetric",
+                "technique": "T1573",
+                "technique_name": "Encrypted Channel"
+            },
+            {
+                "context": "(AES) and asymmetric (RSA) encryption to encrypt files.",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "A thread is created for the encryption of each file and each file is encrypted with its",
+                "technique": "T1486",
+                "technique_name": "Data Encrypted for Impact"
+            },
+            {
+                "context": "After the file has been encrypted, a file extension of .RYK is",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "appended to the file.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "For each mounted drive, Ryuk calls GetDriveTypeW",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "to determine the drive’s type.",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "To retrieve IP addresses that have ARP entries, Ryuk calls",
+                "technique": "T1016",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "context": "GetIpNetTable.",
+                "technique": "T1016",
+                "technique_name": "System Network Configuration Discovery"
+            },
+            {
+                "context": "It iterates through all entries and then tries to enumerate files and",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "remain persistent on the host, Ryuk created a registry entry under the Run key using",
+                "technique": "T1547",
+                "technique_name": "Boot or Logon Autostart Execution"
+            },
+            {
+                "context": "Windows cmd.exe shell.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": " HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+                "technique": "T1547",
+                "technique_name": "Boot or Logon Autostart Execution"
+            },
+            {
+                "context": "Process Injection",
+                "technique": "T1055",
+                "technique_name": "Process Injection"
+            },
+            {
+                "context": "into a remote process.",
+                "technique": "T1055",
+                "technique_name": "Process Injection"
+            },
+            {
+                "context": "Before injecting into a remote process, Ryuk attempts to",
+                "technique": "T1055",
+                "technique_name": "Process Injection"
+            },
+            {
+                "context": "adjust its token privileges to have the SeDebugPrivilege.",
+                "technique": "T1134",
+                "technique_name": "Access Token Manipulation"
+            },
+            {
+                "context": "adjustment of the token privileges fails.",
+                "technique": "T1134",
+                "technique_name": "Access Token Manipulation"
+            },
+            {
+                "context": "Before injecting into a remote process, Ryuk",
+                "technique": "T1055",
+                "technique_name": "Process Injection"
+            },
+            {
+                "context": "also calls CreateToolhelp32Snapshot to enumerate all running processes.",
+                "technique": "T1057",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "context": "process is found that is not named csrss.exe, explorer.exe, lsaas.exe, or",
+                "technique": "T1057",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "context": "By ensuring that the process is not running under NT AUTHORITY,",
+                "technique": "T1057",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "context": "WriteProcessMemory and CreateRemoteThread to inject itself into the remote",
+                "technique": "T1021",
+                "technique_name": "Remote Services"
+            },
+            {
+                "context": "process.",
+                "technique": "T1559",
+                "technique_name": "Inter-Process Communication"
+            },
+            {
+                "context": "Ryuk did contain these capabilities, but they have been removed and are contained",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "The batch file kill.bat contains commands for stopping services, disabling",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "of each command.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "net stop McAfeeDLPAgentService /y",
+                "technique": "T1489",
+                "technique_name": "Service Stop"
+            },
+            {
+                "context": "net stop BMR Boot Service /y",
+                "technique": "T1489",
+                "technique_name": "Service Stop"
+            },
+            {
+                "context": "Process/Services Termination kill.bat Commands",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "CrowdStrike has observed another batch file, named windows.bat, which makes",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "It should be noted that file names",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "The contents of the batch file are",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "vssadmin resize shadowstorage /for=c: /on=c: /maxsize=401MB",
+                "technique": "T1490",
+                "technique_name": "Inhibit System Recovery"
+            },
+            {
+                "context": "vssadmin resize shadowstorage /for=c: /on=c: /maxsize=unbounded",
+                "technique": "T1490",
+                "technique_name": "Inhibit System Recovery"
+            },
+            {
+                "context": "vssadmin resize shadowstorage /for=d: /on=d: /maxsize=401MB",
+                "technique": "T1490",
+                "technique_name": "Inhibit System Recovery"
+            },
+            {
+                "context": "vssadmin resize shadowstorage /for=d: /on=d: /maxsize=unbounded",
+                "technique": "T1490",
+                "technique_name": "Inhibit System Recovery"
+            },
+            {
+                "context": "vssadmin resize shadowstorage /for=e: /on=e: /maxsize=401MB",
+                "technique": "T1490",
+                "technique_name": "Inhibit System Recovery"
+            },
+            {
+                "context": "vssadmin resize shadowstorage /for=e: /on=e: /maxsize=unbounded",
+                "technique": "T1490",
+                "technique_name": "Inhibit System Recovery"
+            },
+            {
+                "context": "vssadmin resize shadowstorage /for=f: /on=f: /maxsize=401MB",
+                "technique": "T1490",
+                "technique_name": "Inhibit System Recovery"
+            },
+            {
+                "context": "vssadmin resize shadowstorage /for=f: /on=f: /maxsize=unbounded",
+                "technique": "T1490",
+                "technique_name": "Inhibit System Recovery"
+            },
+            {
+                "context": "vssadmin resize shadowstorage /for=g: /on=g: /maxsize=401MB",
+                "technique": "T1490",
+                "technique_name": "Inhibit System Recovery"
+            },
+            {
+                "context": "vssadmin resize shadowstorage /for=g: /on=g: /maxsize=unbounded",
+                "technique": "T1490",
+                "technique_name": "Inhibit System Recovery"
+            },
+            {
+                "context": "vssadmin resize shadowstorage /for=h: /on=h: /maxsize=401MB",
+                "technique": "T1490",
+                "technique_name": "Inhibit System Recovery"
+            },
+            {
+                "context": "vssadmin resize shadowstorage /for=h: /on=h: /maxsize=unbounded",
+                "technique": "T1490",
+                "technique_name": "Inhibit System Recovery"
+            },
+            {
+                "context": "Anti-Recovery window.bat Commands",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "command in Figure 2 above, vssadmin Delete Shadows /all /quiet, is",
+                "technique": "T1490",
+                "technique_name": "Inhibit System Recovery"
+            },
+            {
+                "context": "One such error states: “Snapshots",
+                "technique": "T1113",
+                "technique_name": "Screen Capture"
+            },
+            {
+                "context": "resize shadowstorage command is a “hack” that relies on vssadmin to delete",
+                "technique": "T1490",
+                "technique_name": "Inhibit System Recovery"
+            },
+            {
+                "context": "deleted regardless of their context.",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "The shadow copies are then deleted by calling the command vssadmin",
+                "technique": "T1490",
+                "technique_name": "Inhibit System Recovery"
+            },
+            {
+                "context": "The command arguments are for del delete files in all sub-directories (/s) in quiet",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "command does not securely delete a file (i.e., overwrite a file before deletion), some",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "%0 deletes the executing .bat file.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "These commands have not been observed being used by other",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "understanding of enterprise backup software.",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "Compile",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Time",
+                "technique": "T1124",
+                "technique_name": "System Time Discovery"
+            },
+            {
+                "context": "Compiler Version",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "msmpeng.exe",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "Visual C++ 10.0 ",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "C++ ",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "splwow32.exe",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "Visual C++ 10.0 ",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "C++ ",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Visual C++ 10.0 ",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "C++ ",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "bitsran.exe",
+                "technique": "T1218",
+                "technique_name": "System Binary Proxy Execution"
+            },
+            {
+                "context": "Visual C++ 10.0 ",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "C++ ",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Visual C++ 9.0 ",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "to note that the compiler and linker for Hermes is different from the other",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Hermes, in contrast, was compiled with",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "If the time stamps are correct, the two executables (bitsran.exe and",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "RSW7B37.tmp) were compiled within four hours and three minutes of each other.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Due to the short time frame of Hermes being bundled within an executable that was",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "hard-coded with credentials of the FEIB network, Falcon Intelligence assesses that",
+                "technique": "T1078",
+                "technique_name": "Valid Accounts"
+            },
+            {
+                "context": "Unlike other variants of Hermes,",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "RSW7B37.tmp does not append the exported and encrypted AES key to the end of",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Figure 5 is a file encrypted by Hermes with the exported AES key appended",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "to the end of the file as a footer.",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "Figure 6 is the end of a file encrypted by the Hermes variant RSW7B37.tmp used in",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "The footer only contains the marker HERMES but not the exported",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "key used for encryption was recovered, the files could not be decrypted.",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "exploit[.]in.",
+                "technique": "T1102",
+                "technique_name": "Web Service"
+            },
+            {
+                "context": "check the host to ensure that it is not running on a Russian, Ukrainian, or Belarusian",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "To check the host language, it queries the registry key",
+                "technique": "T1082",
+                "technique_name": "System Information Discovery"
+            },
+            {
+                "context": "0422 (Ukrainian) or 0423 (Belarusian), it call ExitProcess to stop executing.",
+                "technique": "T1106",
+                "technique_name": "Native API"
+            },
+            {
+                "context": "attention and criminal prosecution.",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "The file in question was a",
+                "technique": "T1083",
+                "technique_name": "File and Directory Discovery"
+            },
+            {
+                "context": "variant of kill.bat that contained commands previously only observed executed",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "by Ryuk calling ShellExecute.",
+                "technique": "T1106",
+                "technique_name": "Native API"
+            },
+            {
+                "context": "The files could have been uploaded by a victim in",
+                "technique": "T1005",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "context": "binaries and included in kill.bat was very short.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "threat actors were testing whether kill.bat would be detected by antivirus",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "CrowdStrike Services recovered artifacts with filenames in Russian.",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "One file was",
+                "technique": "T1005",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "context": "$188,974.93",
+                "technique": "T1029",
+                "technique_name": "Scheduled Transfer"
+            },
+            {
+                "context": "$82,917.49",
+                "technique": "T1029",
+                "technique_name": "Scheduled Transfer"
+            },
+            {
+                "context": "Time ",
+                "technique": "T1124",
+                "technique_name": "System Time Discovery"
+            },
+            {
+                "context": "(UTC)",
+                "technique": "T1124",
+                "technique_name": "System Time Discovery"
+            },
+            {
+                "context": "Time",
+                "technique": "T1124",
+                "technique_name": "System Time Discovery"
+            },
+            {
+                "context": "Test Falcon Prevent™ next-gen antivirus for yourself with a free 15-day trial",
+                "technique": "T1518",
+                "technique_name": "Software Discovery"
+            }
+        ]
+    }
+}

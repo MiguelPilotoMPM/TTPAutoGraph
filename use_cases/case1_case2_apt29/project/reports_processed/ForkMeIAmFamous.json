@@ -1,0 +1,246 @@
+{
+    "file_name": "ForkMeIAmFamous.pdf",
+    "cti_info": {
+        "technical_patterns": {
+            "IPv4": [],
+            "IPv6": [],
+            "MAC": [],
+            "URL HTTP": [
+                "http://www.symantec.com/security_response/writeup.jsp",
+                "http://www.symantec.com/connect/item",
+                "http://www.symantec.com/connect/blogs/forkmeiamfamous-seaduke-latest-weapon-duke",
+                "http://securelist.com/blog/69731/the-cozyduke-apt",
+                "http://zaufanatrzeciastrona.pl/post/przytulny-mis-w",
+                "http://en-us.reddit.com/submit",
+                "http://www.symantec.com/connect/articles/help",
+                "http://malware.prevenity.com/2015/03/euroapt.html",
+                "http://www.symantec.com/about/pro"
+            ],
+            "URL HTTPS": [
+                "https://www.symantec.com/connect/blogs",
+                "https://www.symantec.com/connect/user/vikram-kumar-sav",
+                "https://www.symantec.com/connect/user/shadowleaf",
+                "https://www.symantec.com/connect/forward",
+                "https://www.symantec.com/connect/user/mithun-sanghavi",
+                "https://www.symantec.com/connect/user/symantec-security-respon",
+                "https://www.symantec.com/connect/user/pk-1",
+                "https://www.symantec.com/connect/user/rgmdonaldson",
+                "https://www.symantec.com/connect/user/register",
+                "https://www.symantec.com/connect/user/login",
+                "https://www.symantec.com/connect/blogs/symantec-connect-rewards-program-terms-and",
+                "https://www.symantec.com/connect/user/riai",
+                "https://www.symantec.com/connect/user/vikram-kumar-sav-sep",
+                "https://www.symantec.com/connect/contact",
+                "https://www.symantec.com/connect/symantec-blogs/symantec-security",
+                "https://web.archive.org/web/20181008161626/https",
+                "https://web.archive.org/web/20181008161626mp_/http",
+                "https://www.symantec.com/connect/user/rafeeq",
+                "https://www.symantec.com/connect/points",
+                "https://web.archive.org/web/20181008161627/http",
+                "https://www.symantec.com/connect",
+                "https://www.symantec.com/connect/user/aravind-ghosh",
+                "https://www.symantec.com/connect/product/endpoint-protection-vdi",
+                "https://www.symantec.com/connect/user/africo",
+                "https://www.symantec.com/connect/messages/new/4100651",
+                "https://web.archive.org/web/20181008161626mp_/https",
+                "https://www.symantec.com/connect/search",
+                "https://www.symantec.com/connect/ja/blogs/forkmeiamfamous-duke-seaduke",
+                "https://www.symantec.com/connect/user/craigev",
+                "https://www.symantec.com/connect/user/symantec"
+            ],
+            "Mail": [],
+            "Hash": [],
+            "Malicious Domain": [],
+            "Bitcoin Address": [],
+            "Ethereum Address": []
+        },
+        "windows_patterns": {
+            "File Path Windows": [
+                "C:\\Projects\\n"
+            ]
+        },
+        "unix_patterns": {
+            "File Path Unix": [
+                "/wiki/Seppuku",
+                "/company/symantec",
+                "/connect/user/rafeeq",
+                "/post/przytulny-mis-w",
+                "/connect/bl",
+                "/connect/ja/blogs/forkmeiamfamous-duke-seaduke",
+                "/connect/item",
+                "/web/20181008161626mp_/https",
+                "/HTTPS",
+                "/connect/points",
+                "/documents/996508/1030745/CozyDuke",
+                "/threatintel",
+                "/connect/user/africo",
+                "/connect/search?!lters=im_vid_111:84571",
+                "/connect",
+                "/connect/user/register",
+                "/connect/messages/new/4100651",
+                "/Symantec",
+                "/connect/blogs",
+                "/connect/symantec-blogs/symantec-security",
+                "/connect/user/login",
+                "/connect/user/pk-1",
+                "/web/20181008161627/http",
+                "/submit",
+                "/web/20181008161626mp_/http",
+                "/connect/blogs/forkmeiamfamous-seaduke-latest-weapon-duke",
+                "/connect/search?!lters=im_vid_31:691",
+                "/connect/user/symantec-security-respon",
+                "/about/pro!le/policies/privacy.jsp",
+                "/connect/search?!lters=im_vid_51:2261",
+                "/blog/2261/feed/all/en/all",
+                "/connect/search?!lters=im_vid_111:93741",
+                "/connect/user/vikram-kumar-sav-sep",
+                "/connect/articles/help",
+                "/connect/user/vikram-kumar-sav",
+                "/connect/forward?path=node/3453861",
+                "/connect/user/riai",
+                "/connect/contact",
+                "/20181008161626mp_/https",
+                "/blog/incidents/64107/miniduke",
+                "/connect/product/endpoint-protection-vdi",
+                "/connect/user/aravind-ghosh",
+                "/connect/blogs/symantec-connect-rewards-program-terms-and",
+                "/blog/69731/the-cozyduke-apt",
+                "/connect/search?!lters=im_vid_111:93731",
+                "/connect/user/craigev",
+                "/security_response/writeup.jsp?docid=2013-030119",
+                "/system",
+                "/connect/user/rgmdonaldson",
+                "/connect/user/shadowleaf",
+                "/r/G7KVZWQ",
+                "/web/20181008161626/https",
+                "/connect/user/symantec",
+                "/security_response/writeup.jsp",
+                "/connect/user/mithun-sanghavi",
+                "/2015/03/euroapt.html",
+                "/symantec"
+            ]
+        },
+        "logical_patterns": {
+            "DNI/NIE": [],
+            "IBAN": [],
+            "Credit Card": [],
+            "UUID": []
+        }
+    },
+    "ttp_info": {
+        "file_name": "ForkMeIAmFamous.txt",
+        "total_ttps": 22,
+        "ttps": [
+            {
+                "context": "“Forkmeiamfamous”: Seaduke, latest weapon in the Duke armory",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "(https://web.archive.org/web/20181008161626mp_/https://twitter.com/threatintel)",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "The malware hides",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "compromising governmental and diplomatic organizations since at least 2010.",
+                "technique": "T1550",
+                "technique_name": "Use Alternate Authentication Material"
+            },
+            {
+                "context": "The group began its current campaign as early as March 2014, when Trojan.Cozer",
+                "technique": "T1119",
+                "technique_name": "Automated Collection"
+            },
+            {
+                "context": "Its capabilities include:",
+                "technique": "T1518",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "context": "Sophisticated operators with !ne-tuned computer network exploitation (CNE) skills",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "“Nemesis Gemina” appears to be the internal name for the framework used by the",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "The following debug string was present in the sample used in these attacks:",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "This project name has been seen in Backdoor.Tinybaron",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "Seaduke was developed in Python, the overall framework bears a striking resemblance to Cozyduke in",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "for a more speci!c attack?",
+                "technique": "T1557",
+                "technique_name": "Adversary-in-the-Middle"
+            },
+            {
+                "context": "Was part of their cover blown, necessitating the use of an alternative",
+                "technique": "T1564",
+                "technique_name": "Hide Artifacts"
+            },
+            {
+                "context": "attack.",
+                "technique": "T1498",
+                "technique_name": "Network Denial of Service"
+            },
+            {
+                "context": "information to be executed on the local machine.",
+                "technique": "T1005",
+                "technique_name": "Data from Local System"
+            },
+            {
+                "context": "server over HTTP/HTTPS beneath layers of encoding (Base64) and encryption (RC4, AES).",
+                "technique": "T1071",
+                "technique_name": "Application Layer Protocol"
+            },
+            {
+                "context": "Seaduke has many inbuilt commands which are available to the attackers.",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "The self-delete function is interestingly called “seppuku",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "Impersonation using Kerberos pass-the-ticket attacks (Mimikatz PowerShell) ",
+                "technique": "T1550",
+                "technique_name": "Use Alternate Authentication Material"
+            },
+            {
+                "context": "Some tools may have",
+                "technique": "T1057",
+                "technique_name": "Process Discovery"
+            },
+            {
+                "context": "Tags: Products (/web/20181008161626mp_/https://www.symantec.com/connect/search?",
+                "technique": "T1518",
+                "technique_name": "Software Discovery"
+            },
+            {
+                "context": "Subscriptions (0)",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            }
+        ]
+    }
+}

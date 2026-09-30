@@ -1,0 +1,115 @@
+{
+    "file_name": "NotPetya.pdf",
+    "cti_info": {
+        "technical_patterns": {
+            "IPv4": [],
+            "IPv6": [],
+            "MAC": [],
+            "URL HTTP": [
+                "http://www.securityweek.com/latest-wannacry-theory"
+            ],
+            "URL HTTPS": [
+                "https://www.crowdstrike.com/blog/petrwrap"
+            ],
+            "Mail": [],
+            "Hash": [],
+            "Malicious Domain": [],
+            "Bitcoin Address": [],
+            "Ethereum Address": []
+        },
+        "windows_patterns": {
+            "File Path Windows": []
+        },
+        "unix_patterns": {
+            "File Path Unix": [
+                "/latest-wannacry-theory",
+                "/Petya/NotPetya",
+                "/blog/petrwrap",
+                "/ExPetr",
+                "/Mischa/GoldenEye"
+            ]
+        },
+        "logical_patterns": {
+            "DNI/NIE": [],
+            "IBAN": [],
+            "Credit Card": [],
+            "UUID": []
+        }
+    },
+    "ttp_info": {
+        "file_name": "NotPetya.txt",
+        "total_ttps": 14,
+        "ttps": [
+            {
+                "context": "After an analysis of the encryption routine of the malware",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "the threat actor cannot decrypt victims’ disk, even if a",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "data in an encoded “BASE58” format:",
+                "technique": "T1132",
+                "technique_name": "Data Encoding"
+            },
+            {
+                "context": "Yes, at least our KES 10, managed to block it.",
+                "technique": "T1562",
+                "technique_name": "Impair Defenses"
+            },
+            {
+                "context": "Wouldn’t it be possible that the author stores the key and",
+                "technique": "T1600",
+                "technique_name": "Weaken Encryption"
+            },
+            {
+                "context": "attacker to decrypt the data.",
+                "technique": "T1600",
+                "technique_name": "Weaken Encryption"
+            },
+            {
+                "context": "about the encryption key : is it generated elsewhere ?",
+                "technique": "T1600",
+                "technique_name": "Weaken Encryption"
+            },
+            {
+                "context": "can actually be decrypted?",
+                "technique": "T1140",
+                "technique_name": "Deobfuscate/Decode Files or Information"
+            },
+            {
+                "context": "also have the same exact !le BEFORE encryption.",
+                "technique": "T1573",
+                "technique_name": "Encrypted Channel"
+            },
+            {
+                "context": "Analysis of Cyber",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "04 SEP 2024, 5:00PM",
+                "technique": "T1053",
+                "technique_name": "Scheduled Task/Job"
+            },
+            {
+                "context": "Buyer’s Dilemma: Hype",
+                "technique": "T1036",
+                "technique_name": "Masquerading"
+            },
+            {
+                "context": "BellaCiao variant written in C++",
+                "technique": "T1059",
+                "technique_name": "Command and Scripting Interpreter"
+            },
+            {
+                "context": "Cookies",
+                "technique": "T1547",
+                "technique_name": "Boot or Logon Autostart Execution"
+            }
+        ]
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "file_name": "UkrainianPowerAuthorityAttacks.pdf",
+    "cti_info": {
+        "technical_patterns": {
+            "IPv4": [],
+            "IPv6": [],
+            "MAC": [],
+            "URL HTTP": [],
+            "URL HTTPS": [],
+            "Mail": [],
+            "Hash": [],
+            "Malicious Domain": [],
+            "Bitcoin Address": [],
+            "Ethereum Address": []
+        },
+        "windows_patterns": {
+            "File Path Windows": []
+        },
+        "unix_patterns": {
+            "File Path Unix": []
+        },
+        "logical_patterns": {
+            "DNI/NIE": [],
+            "IBAN": [],
+            "Credit Card": [],
+            "UUID": []
+        }
+    },
+    "ttp_info": {
+        "file_name": "UkrainianPowerAuthorityAttacks.txt",
+        "total_ttps": 7,
+        "ttps": [
+            {
+                "context": "we publicly repo%ed on some of their activities in October 2014,",
+                "technique": "T1213",
+                "technique_name": "Data from Information Repositories"
+            },
+            {
+                "context": "Pa%ners released a follow-up blog were we assessed that activity",
+                "technique": "T1587",
+                "technique_name": "Develop Capabilities"
+            },
+            {
+                "context": "be carried out in the long term.",
+                "technique": "T1557",
+                "technique_name": "Adversary-in-the-Middle"
+            },
+            {
+                "context": "them disappeared entirely.",
+                "technique": "T1070",
+                "technique_name": "Indicator Removal on Host"
+            },
+            {
+                "context": "However, the unique malware variant,",
+                "technique": "T1027",
+                "technique_name": "Obfuscated Files or Information"
+            },
+            {
+                "context": "minute read",
+                "technique": "T1029",
+                "technique_name": "Scheduled Transfer"
+            },
+            {
+                "context": "time of war, fu%her presaged a desire to disrupt infrastructure.",
+                "technique": "T1584",
+                "technique_name": "Compromise Infrastructure"
+            }
+        ]
+    }
+}
